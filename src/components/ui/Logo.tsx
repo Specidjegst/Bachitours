@@ -1,31 +1,105 @@
-export function Logo({ className = "" }: { className?: string }) {
+type LogoProps = {
+  className?: string;
+  variant?: "compact" | "horizontal" | "stacked";
+  textColor?: string;
+};
+
+export function Logo({
+  className = "",
+  variant = "horizontal",
+  textColor = "#0A4D6E",
+}: LogoProps) {
+  if (variant === "stacked") {
+    return (
+      <span className={`inline-flex flex-col items-center gap-2 ${className}`}>
+        <LogoMark className="h-14 w-auto" />
+        <span className="font-display text-2xl font-bold tracking-[0.08em]" style={{ color: textColor }}>
+          BACHITOURS
+        </span>
+        <span
+          className="text-[10px] font-medium tracking-[0.2em]"
+          style={{ color: "#38BFC9" }}
+        >
+          ROVINJ · POREČ · VRSAR · LIM-FJORD
+        </span>
+      </span>
+    );
+  }
+  if (variant === "compact") {
+    return <LogoMark className={`h-9 w-auto ${className}`} />;
+  }
   return (
-    <span className={`inline-flex items-center gap-2 ${className}`}>
-      <svg
-        width="32"
-        height="32"
-        viewBox="0 0 32 32"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        aria-hidden
-      >
-        <circle cx="16" cy="16" r="16" fill="#0A4D6E" />
-        <path
-          d="M5 19c2-1.5 3.5-1.5 5.5 0s3.5 1.5 5.5 0 3.5-1.5 5.5 0 3.5 1.5 5.5 0"
-          stroke="#38BFC9"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-        <path
-          d="M5 23c2-1.5 3.5-1.5 5.5 0s3.5 1.5 5.5 0 3.5-1.5 5.5 0 3.5 1.5 5.5 0"
-          stroke="#F4A340"
-          strokeWidth="2"
-          strokeLinecap="round"
-        />
-      </svg>
-      <span className="font-display text-xl font-bold tracking-tight text-deep">
-        Bachitours
+    <span className={`inline-flex items-center gap-2.5 ${className}`}>
+      <LogoMark className="h-9 w-auto shrink-0" />
+      <span className="flex flex-col leading-none">
+        <span
+          className="font-display text-xl font-bold tracking-[0.04em]"
+          style={{ color: textColor }}
+        >
+          BACHITOURS
+        </span>
+        <span
+          className="mt-0.5 text-[9px] font-medium tracking-[0.18em]"
+          style={{ color: "#38BFC9" }}
+        >
+          POREČ · ROVINJ · LIM-FJORD
+        </span>
       </span>
     </span>
+  );
+}
+
+function LogoMark({ className = "" }: { className?: string }) {
+  return (
+    <svg
+      viewBox="0 0 200 160"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      fill="none"
+      aria-hidden
+    >
+      <defs>
+        <linearGradient id="lm-wave" x1="0" y1="100" x2="200" y2="140" gradientUnits="userSpaceOnUse">
+          <stop offset="0%" stopColor="#38BFC9" />
+          <stop offset="100%" stopColor="#1E88B0" />
+        </linearGradient>
+      </defs>
+      <path
+        d="M 30 100 Q 100 0 170 100"
+        stroke="#F4A340"
+        strokeWidth="3"
+        strokeLinecap="round"
+      />
+      <g fill="#F4A340" opacity="0.85">
+        <rect x="35" y="78" width="6" height="22" />
+        <rect x="42" y="72" width="8" height="28" />
+        <rect x="51" y="68" width="5" height="32" />
+        <polygon points="55,68 58,62 61,68" />
+        <rect x="58" y="66" width="3" height="2" />
+        <rect x="61" y="74" width="9" height="26" />
+        <rect x="71" y="80" width="7" height="20" />
+      </g>
+      <path
+        d="M 130 60 C 138 50, 150 50, 155 58 C 158 64, 156 72, 152 76 L 158 78 L 154 82 C 150 86, 144 88, 138 86 L 132 92 L 134 84 C 128 80, 126 70, 130 60 Z"
+        fill="#0A4D6E"
+      />
+      <circle cx="138" cy="64" r="1.2" fill="#FBF7EE" />
+      <path d="M 60 105 L 145 105 L 138 122 L 70 122 Z" fill="#0A4D6E" />
+      <path d="M 85 90 L 130 90 L 135 105 L 80 105 Z" fill="#0A4D6E" />
+      <rect x="92" y="94" width="35" height="8" rx="1" fill="#38BFC9" opacity="0.7" />
+      <path
+        d="M 10 130 Q 35 122 60 130 T 110 130 T 160 130 T 195 130 L 195 145 L 10 145 Z"
+        fill="url(#lm-wave)"
+        opacity="0.9"
+      />
+      <path
+        d="M 10 138 Q 40 132 70 138 T 130 138 T 195 138 L 195 150 L 10 150 Z"
+        fill="#38BFC9"
+        opacity="0.55"
+      />
+      <circle cx="160" cy="92" r="2" fill="#38BFC9" />
+      <circle cx="166" cy="98" r="1.5" fill="#38BFC9" />
+      <circle cx="158" cy="100" r="1" fill="#38BFC9" />
+    </svg>
   );
 }

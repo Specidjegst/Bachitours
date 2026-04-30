@@ -17,7 +17,7 @@ export function Footer() {
     <footer className="border-t border-line bg-deep text-cream">
       <div className="container-x grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
-          <Logo className="[&_span:last-child]:text-cream" />
+          <Logo textColor="#FBF7EE" />
           <p className="mt-4 max-w-sm text-sm text-cream/80">{t("tagline")}</p>
           <div className="mt-6 space-y-2 text-sm">
             <a
