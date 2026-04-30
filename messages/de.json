@@ -154,6 +154,10 @@
       "general": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut oder schreiben Sie uns auf WhatsApp."
     }
   },
+  "whatsappPrefill": {
+    "general": "Hallo Bachitours, ich interessiere mich für eine Bootstour ab Poreč. Können Sie mir mehr erzählen?",
+    "tour": "Hallo Bachitours, ich interessiere mich für die Tour \"{tour}\". Können Sie mir mehr erzählen?"
+  },
   "thanks": {
     "title": "Danke für Ihre Reservierung!",
     "text": "Wir kontaktieren Sie in Kürze per WhatsApp zur Bestätigung und Zahlung. Ihre Tickets erhalten Sie nach der Zahlung per E-Mail.",

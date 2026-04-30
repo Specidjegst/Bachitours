@@ -6,7 +6,8 @@ import { operatorWaUrl } from "@/lib/whatsapp";
 
 export function Hero() {
   const t = useTranslations("hero");
-  const waUrl = operatorWaUrl(t("ctaSecondary"));
+  const tWa = useTranslations("whatsappPrefill");
+  const waUrl = operatorWaUrl(tWa("general"));
 
   return (
     <section className="relative overflow-hidden">

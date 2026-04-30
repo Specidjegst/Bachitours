@@ -6,7 +6,8 @@ const operatorEmail = process.env.OPERATOR_EMAIL || "info@bachitours.com";
 
 export function ContactCta() {
   const t = useTranslations("contactCta");
-  const waUrl = operatorWaUrl(t("title"));
+  const tWa = useTranslations("whatsappPrefill");
+  const waUrl = operatorWaUrl(tWa("general"));
   return (
     <section className="section">
       <div className="container-x">

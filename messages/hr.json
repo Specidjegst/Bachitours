@@ -154,6 +154,10 @@
       "general": "Nešto je pošlo po krivu. Pokušajte ponovno ili nam pišite na WhatsApp."
     }
   },
+  "whatsappPrefill": {
+    "general": "Bok Bachitours, zanima me izlet brodom iz Poreča. Možete li mi reći više?",
+    "tour": "Bok Bachitours, zanima me izlet \"{tour}\". Možete li mi reći više?"
+  },
   "thanks": {
     "title": "Hvala na rezervaciji!",
     "text": "Uskoro ćemo vam se javiti putem WhatsAppa za potvrdu i plaćanje. Karte šaljemo e-mailom nakon uplate.",

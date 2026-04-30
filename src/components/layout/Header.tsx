@@ -8,8 +8,8 @@ import { operatorWaUrl } from "@/lib/whatsapp";
 export function Header() {
   const t = useTranslations("nav");
   const tCommon = useTranslations("common");
-  const tHero = useTranslations("hero");
-  const waUrl = operatorWaUrl(tHero("ctaSecondary"));
+  const tWa = useTranslations("whatsappPrefill");
+  const waUrl = operatorWaUrl(tWa("general"));
 
   return (
     <header className="sticky top-0 z-40 border-b border-line/60 bg-cream/80 backdrop-blur-md">

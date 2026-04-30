@@ -54,8 +54,9 @@ export default async function TourDetail({
   const content = tour.i18n[locale as Locale];
   const t = await getTranslations({ locale, namespace: "tourDetail" });
   const tCommon = await getTranslations({ locale, namespace: "common" });
+  const tWa = await getTranslations({ locale, namespace: "whatsappPrefill" });
   const similar = tours.filter((x) => x.id !== tour.id).slice(0, 3);
-  const waText = `Hello Bachitours, I'm interested in "${content.title}". Can you tell me more?`;
+  const waText = tWa("tour", { tour: content.title });
 
   const jsonLd = {
     "@context": "https://schema.org",

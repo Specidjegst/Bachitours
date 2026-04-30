@@ -10,6 +10,7 @@ export function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
   const tContact = useTranslations("contact");
+  const tWa = useTranslations("whatsappPrefill");
 
   const year = new Date().getFullYear();
 
@@ -21,7 +22,7 @@ export function Footer() {
           <p className="mt-4 max-w-sm text-sm text-cream/80">{t("tagline")}</p>
           <div className="mt-6 space-y-2 text-sm">
             <a
-              href={operatorWaUrl("Hello Bachitours, I have a question")}
+              href={operatorWaUrl(tWa("general"))}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-cream/90 hover:text-accent"
