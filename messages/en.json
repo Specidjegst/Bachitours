@@ -1,0 +1,207 @@
+{
+  "site": {
+    "name": "Bachitours",
+    "tagline": "Boat tours from Poreč"
+  },
+  "nav": {
+    "home": "Home",
+    "tours": "Boat Tours",
+    "about": "About",
+    "faq": "FAQ",
+    "contact": "Contact",
+    "book": "Book"
+  },
+  "common": {
+    "bookNow": "Book now",
+    "viewTour": "View tour",
+    "viewAllTours": "View all tours",
+    "whatsapp": "Ask via WhatsApp",
+    "whatsappShort": "WhatsApp",
+    "from": "from",
+    "perPerson": "per person",
+    "private": "Private tour",
+    "duration": "Duration",
+    "meetingPoint": "Meeting point",
+    "languages": "Languages",
+    "maxGuests": "Max. guests",
+    "included": "Included",
+    "notIncluded": "Not included",
+    "highlights": "Highlights",
+    "schedule": "Schedule",
+    "important": "Important notes",
+    "cancellation": "Cancellation",
+    "loading": "Loading…",
+    "back": "Back",
+    "submit": "Submit",
+    "next": "Next",
+    "previous": "Back",
+    "send": "Send",
+    "close": "Close"
+  },
+  "hero": {
+    "title": "Unforgettable boat tours from Poreč",
+    "subtitle": "Discover dolphins, Rovinj, the Lim fjord and Croatia's most beautiful coastline.",
+    "ctaPrimary": "View tours",
+    "ctaSecondary": "Ask via WhatsApp",
+    "trust": "★ 4.9 · 1,200+ happy guests · Reply within 1 hour"
+  },
+  "trustBar": {
+    "local": "Local family business in Poreč",
+    "support": "Personal WhatsApp support in 4 languages",
+    "tickets": "E-tickets by email after payment"
+  },
+  "popularTours": {
+    "title": "Most popular tours",
+    "subtitle": "Four experiences, one sea full of stories."
+  },
+  "why": {
+    "title": "Why book with us?",
+    "items": {
+      "local": { "title": "Local & authentic", "text": "We're at home in Poreč and know every bay personally." },
+      "service": { "title": "Personal service", "text": "No anonymous platform – you talk directly with us." },
+      "support": { "title": "WhatsApp support", "text": "Ask in English, German, Croatian or French." },
+      "family": { "title": "Family-friendly", "text": "Safe boats, patient crew, life jackets in all sizes." },
+      "secure": { "title": "Risk-free booking", "text": "Reserve first, pay later – no risk." },
+      "tickets": { "title": "Tickets by email", "text": "After payment you get your tickets digitally, paperless." }
+    }
+  },
+  "how": {
+    "title": "How it works",
+    "steps": {
+      "1": { "title": "Choose tour", "text": "Browse our tours from Poreč." },
+      "2": { "title": "Submit reservation", "text": "Add date, number of guests and your language." },
+      "3": { "title": "WhatsApp confirmation", "text": "We get back to you with all details and payment." },
+      "4": { "title": "Set sail!", "text": "Your skipper meets you at the agreed point." }
+    }
+  },
+  "reviews": {
+    "title": "What our guests say",
+    "items": [
+      { "text": "We saw dolphins – the kids still talk about it. Very personal, very honest.", "author": "Hofer family", "city": "Vienna" },
+      { "text": "Great tour to Rovinj. Lunch on board was a highlight!", "author": "Sandra & Thomas", "city": "Munich" },
+      { "text": "Bachi was a fantastic skipper. Relaxed and informative.", "author": "Marc D.", "city": "Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": [
+      { "q": "How does the reservation work?", "a": "Send us the reservation form. We check availability, confirm your booking via WhatsApp and arrange all details directly with you." },
+      { "q": "How do I pay?", "a": "Cash at the meeting point – or we collect the payment at your accommodation in Poreč. After payment you receive your tickets by email." },
+      { "q": "What about bad weather?", "a": "Free rebooking to another date or a 100% refund." },
+      { "q": "Are the tours kid-friendly?", "a": "Yes. Children 0–5 free, children 6–16 pay 50%. Life jackets in all sizes are on board." },
+      { "q": "Cancellation policy?", "a": "Free cancellation up to 24 hours before departure." },
+      { "q": "What languages?", "a": "Depending on the tour: English, German, Croatian or French – please request your language in advance via WhatsApp." }
+    ]
+  },
+  "contactCta": {
+    "title": "Still have questions?",
+    "text": "Message us on WhatsApp – we usually reply within an hour.",
+    "whatsapp": "Open WhatsApp",
+    "email": "Send email"
+  },
+  "tours": {
+    "title": "Boat tours from Poreč",
+    "subtitle": "Compare our tours and choose your experience.",
+    "noResults": "No tours found."
+  },
+  "tourDetail": {
+    "overview": "Overview",
+    "highlights": "Highlights",
+    "included": "What's included",
+    "notIncluded": "Not included",
+    "schedule": "Schedule",
+    "meetingPoint": "Meeting point",
+    "important": "Important notes",
+    "cancellation": "Cancellation",
+    "weatherPolicy": "If the weather doesn't allow sailing (skipper's decision) we reschedule for free or refund 100%.",
+    "cancellationPolicy": "Free cancellation up to 24 hours before departure.",
+    "paymentInfo": "We confirm your reservation via WhatsApp first. Pay in cash at the meeting point or we collect the payment at your accommodation in Poreč. Tickets follow by email after payment.",
+    "similar": "Similar tours"
+  },
+  "booking": {
+    "title": "Reservation",
+    "subtitle": "Reserve your tour in 2 minutes – payment after WhatsApp confirmation.",
+    "step": "Step",
+    "of": "of",
+    "stepLabels": {
+      "1": "Tour & date",
+      "2": "Contact",
+      "3": "Confirm"
+    },
+    "tour": "Tour",
+    "date": "Preferred date",
+    "time": "Time (if applicable)",
+    "adults": "Adults",
+    "kids": "Children (6–16, 50%)",
+    "infants": "Infants (0–5, free)",
+    "guestsNote": "Infants 0–5 travel free. Please add all guests so we have enough life jackets on board.",
+    "estimatedPrice": "Estimated price",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone / WhatsApp (with country code)",
+    "language": "Your language",
+    "message": "Message / special requests (optional)",
+    "consentTerms": "I have read and accept the terms and cancellation policy.",
+    "consentPrivacy": "I have read the privacy policy and consent to the processing of my data.",
+    "submit": "Send reservation",
+    "submitting": "Sending…",
+    "errors": {
+      "required": "Required",
+      "email": "Please enter a valid email",
+      "phone": "Please enter a valid phone number",
+      "consent": "Please accept to continue",
+      "general": "Something went wrong. Please try again or message us on WhatsApp."
+    }
+  },
+  "thanks": {
+    "title": "Thank you for your reservation!",
+    "text": "We'll contact you shortly via WhatsApp to confirm and arrange payment. Your tickets will be sent by email after payment.",
+    "reference": "Booking reference",
+    "openWhatsapp": "Open WhatsApp now",
+    "backHome": "Back to home",
+    "whatsappPrefill": "Hi Bachitours, I just submitted reservation {ref} ({tour}, {date}, {guests} guests). Please confirm. Thanks!"
+  },
+  "about": {
+    "title": "About us",
+    "lead": "We're a small family business from Poreč. For years we've been showing guests from all over the world the most beautiful coastline of Istria.",
+    "body": "Bachitours is personal, honest and local. We know the bays, the best times for spotting dolphins and the small restaurants only locals know. When you book with us, you talk directly with the crew – no anonymous platform, no hidden fees."
+  },
+  "contact": {
+    "title": "Contact",
+    "lead": "Message us on WhatsApp or by email – we reply in 4 languages.",
+    "phoneLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "addressLabel": "Location",
+    "address": "Marina Poreč, 52440 Poreč, Croatia"
+  },
+  "terms": {
+    "title": "Terms and conditions",
+    "lead": "The following terms apply to all tours booked with Bachitours."
+  },
+  "cancellation": {
+    "title": "Cancellation policy",
+    "lead": "Free cancellation up to 24 hours before tour start. In case of bad weather you receive a 100% refund or free rebooking."
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "lead": "We handle your data confidentially and never share it with third parties."
+  },
+  "imprint": {
+    "title": "Imprint",
+    "lead": "Information as required by law."
+  },
+  "footer": {
+    "tagline": "Boat tours from Poreč – personal, local, honest.",
+    "company": "Company",
+    "legal": "Legal",
+    "languages": "Languages",
+    "rights": "All rights reserved."
+  },
+  "languageNames": {
+    "de": "Deutsch",
+    "en": "English",
+    "hr": "Hrvatski",
+    "fr": "Français"
+  }
+}

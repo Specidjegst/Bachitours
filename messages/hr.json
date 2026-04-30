@@ -1,0 +1,207 @@
+{
+  "site": {
+    "name": "Bachitours",
+    "tagline": "Izleti brodom iz Poreča"
+  },
+  "nav": {
+    "home": "Početna",
+    "tours": "Izleti brodom",
+    "about": "O nama",
+    "faq": "Česta pitanja",
+    "contact": "Kontakt",
+    "book": "Rezervacija"
+  },
+  "common": {
+    "bookNow": "Rezerviraj",
+    "viewTour": "Pogledaj izlet",
+    "viewAllTours": "Svi izleti",
+    "whatsapp": "Pitajte putem WhatsAppa",
+    "whatsappShort": "WhatsApp",
+    "from": "od",
+    "perPerson": "po osobi",
+    "private": "Privatni izlet",
+    "duration": "Trajanje",
+    "meetingPoint": "Mjesto polaska",
+    "languages": "Jezici",
+    "maxGuests": "Maks. osoba",
+    "included": "Uključeno",
+    "notIncluded": "Nije uključeno",
+    "highlights": "Najvažnije",
+    "schedule": "Raspored",
+    "important": "Važne napomene",
+    "cancellation": "Otkazivanje",
+    "loading": "Učitavanje …",
+    "back": "Natrag",
+    "submit": "Pošalji",
+    "next": "Dalje",
+    "previous": "Natrag",
+    "send": "Pošalji",
+    "close": "Zatvori"
+  },
+  "hero": {
+    "title": "Nezaboravni izleti brodom iz Poreča",
+    "subtitle": "Otkrijte dupine, Rovinj, Limski kanal i najljepšu obalu Hrvatske.",
+    "ctaPrimary": "Pogledaj izlete",
+    "ctaSecondary": "Pitajte putem WhatsAppa",
+    "trust": "★ 4,9 · 1 200+ zadovoljnih gostiju · Odgovor unutar 1 sat"
+  },
+  "trustBar": {
+    "local": "Lokalni obiteljski biznis u Poreču",
+    "support": "Osobna WhatsApp podrška na 4 jezika",
+    "tickets": "E-karte e-mailom nakon uplate"
+  },
+  "popularTours": {
+    "title": "Najpopularniji izleti",
+    "subtitle": "Četiri doživljaja, jedno more puno priča."
+  },
+  "why": {
+    "title": "Zašto rezervirati kod nas?",
+    "items": {
+      "local": { "title": "Lokalno i autentično", "text": "Mi smo iz Poreča i poznajemo svaku uvalu osobno." },
+      "service": { "title": "Osobna usluga", "text": "Bez anonimne platforme – razgovarate izravno s nama." },
+      "support": { "title": "WhatsApp podrška", "text": "Pitajte na hrvatskom, engleskom, njemačkom ili francuskom." },
+      "family": { "title": "Pogodno za obitelji", "text": "Sigurni brodovi, strpljiva posada, prsluci svih veličina." },
+      "secure": { "title": "Sigurna rezervacija", "text": "Prvo rezervacija, zatim plaćanje – bez rizika." },
+      "tickets": { "title": "Karte e-mailom", "text": "Nakon uplate dobivate karte digitalno, bez papira." }
+    }
+  },
+  "how": {
+    "title": "Kako funkcionira",
+    "steps": {
+      "1": { "title": "Odaberite izlet", "text": "Pregledajte naše izlete iz Poreča." },
+      "2": { "title": "Pošaljite rezervaciju", "text": "Unesite datum, broj osoba i jezik." },
+      "3": { "title": "WhatsApp potvrda", "text": "Javljamo se sa svim detaljima i opcijom plaćanja." },
+      "4": { "title": "Isplovljavanje!", "text": "Vaš skiper čeka vas točno na dogovorenom mjestu." }
+    }
+  },
+  "reviews": {
+    "title": "Što kažu naši gosti",
+    "items": [
+      { "text": "Vidjeli smo dupine – djeca i danas pričaju o tome. Vrlo osobno i pošteno.", "author": "Obitelj Hofer", "city": "Beč" },
+      { "text": "Sjajan izlet u Rovinj. Ručak na brodu bio je vrhunac!", "author": "Sandra i Thomas", "city": "München" },
+      { "text": "Bachi je odličan skiper. Opušten i informativan.", "author": "Marc D.", "city": "Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Česta pitanja",
+    "items": [
+      { "q": "Kako rezervirati?", "a": "Pošaljite nam obrazac za rezervaciju. Provjeravamo slobodne termine i potvrđujemo putem WhatsAppa." },
+      { "q": "Kako se plaća?", "a": "Gotovinom na polasku – ili dolazimo po uplatu na vašu adresu u Poreču. Nakon uplate karte šaljemo e-mailom." },
+      { "q": "Što ako je loše vrijeme?", "a": "Besplatna promjena termina ili 100% povrat novca." },
+      { "q": "Jesu li izleti prikladni za djecu?", "a": "Da. Djeca 0–5 godina gratis, djeca 6–16 godina plaćaju 50%. Prsluci za spašavanje svih veličina na brodu." },
+      { "q": "Otkazivanje?", "a": "Besplatno otkazivanje do 24 sata prije polaska." },
+      { "q": "Jezici?", "a": "Ovisno o izletu HR/EN/DE/FR – molimo zatražite jezik unaprijed preko WhatsAppa." }
+    ]
+  },
+  "contactCta": {
+    "title": "Imate pitanja?",
+    "text": "Pišite nam na WhatsApp – obično odgovaramo u roku od sat vremena.",
+    "whatsapp": "Otvori WhatsApp",
+    "email": "Pošalji e-mail"
+  },
+  "tours": {
+    "title": "Izleti brodom iz Poreča",
+    "subtitle": "Usporedite naše izlete i odaberite svoj doživljaj.",
+    "noResults": "Nema rezultata."
+  },
+  "tourDetail": {
+    "overview": "Pregled",
+    "highlights": "Najvažnije",
+    "included": "Uključeno",
+    "notIncluded": "Nije uključeno",
+    "schedule": "Raspored",
+    "meetingPoint": "Mjesto polaska",
+    "important": "Važne napomene",
+    "cancellation": "Otkazivanje",
+    "weatherPolicy": "Ako vrijeme ne dopušta plovidbu (odluka skipera), izlet besplatno premještamo ili vraćamo 100% iznosa.",
+    "cancellationPolicy": "Besplatno otkazivanje do 24 sata prije polaska.",
+    "paymentInfo": "Vašu rezervaciju prvo potvrđujemo putem WhatsAppa. Plaća se gotovinom na polasku ili dolazimo po uplatu na vašu adresu u Poreču. Karte šaljemo e-mailom nakon uplate.",
+    "similar": "Slični izleti"
+  },
+  "booking": {
+    "title": "Rezervacija",
+    "subtitle": "Rezervirajte u 2 minute – plaćate tek nakon WhatsApp potvrde.",
+    "step": "Korak",
+    "of": "od",
+    "stepLabels": {
+      "1": "Izlet i datum",
+      "2": "Kontakt",
+      "3": "Potvrda"
+    },
+    "tour": "Izlet",
+    "date": "Željeni datum",
+    "time": "Vrijeme (ako primjenjivo)",
+    "adults": "Odrasli",
+    "kids": "Djeca (6–16, 50%)",
+    "infants": "Djeca (0–5, gratis)",
+    "guestsNote": "Djeca 0–5 godina gratis. Molimo unesite sve osobe radi prsluka za spašavanje.",
+    "estimatedPrice": "Procijenjena cijena",
+    "firstName": "Ime",
+    "lastName": "Prezime",
+    "email": "E-mail",
+    "phone": "Telefon / WhatsApp (s pozivnim brojem)",
+    "language": "Vaš jezik",
+    "message": "Poruka / posebni zahtjevi (neobavezno)",
+    "consentTerms": "Pročitao/la sam i prihvaćam uvjete i pravila otkazivanja.",
+    "consentPrivacy": "Pročitao/la sam pravila privatnosti i prihvaćam obradu podataka.",
+    "submit": "Pošalji rezervaciju",
+    "submitting": "Slanje …",
+    "errors": {
+      "required": "Obavezno",
+      "email": "Unesite važeću e-mail adresu",
+      "phone": "Unesite važeći broj telefona",
+      "consent": "Molimo prihvatite za nastavak",
+      "general": "Nešto je pošlo po krivu. Pokušajte ponovno ili nam pišite na WhatsApp."
+    }
+  },
+  "thanks": {
+    "title": "Hvala na rezervaciji!",
+    "text": "Uskoro ćemo vam se javiti putem WhatsAppa za potvrdu i plaćanje. Karte šaljemo e-mailom nakon uplate.",
+    "reference": "Broj rezervacije",
+    "openWhatsapp": "Otvori WhatsApp",
+    "backHome": "Na početnu",
+    "whatsappPrefill": "Bok Bachitours, upravo sam poslao/la rezervaciju {ref} ({tour}, {date}, {guests} osoba). Molim potvrdu. Hvala!"
+  },
+  "about": {
+    "title": "O nama",
+    "lead": "Mi smo mali obiteljski biznis iz Poreča. Već godinama vodimo goste iz cijelog svijeta na najljepše dijelove obale Istre.",
+    "body": "Bachitours je osobno, pošteno i lokalno. Poznajemo uvale, najbolje doba dana za dupine i male restorane koje znaju samo lokalci. Kad rezervirate kod nas, razgovarate izravno s posadom – bez anonimne platforme, bez skrivenih troškova."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Pišite nam na WhatsApp ili e-mail – odgovaramo na 4 jezika.",
+    "phoneLabel": "WhatsApp",
+    "emailLabel": "E-mail",
+    "addressLabel": "Lokacija",
+    "address": "Marina Poreč, 52440 Poreč, Hrvatska"
+  },
+  "terms": {
+    "title": "Opći uvjeti",
+    "lead": "Sljedeći uvjeti vrijede za sve izlete rezervirane kod Bachitoursa."
+  },
+  "cancellation": {
+    "title": "Otkazivanje",
+    "lead": "Besplatno otkazivanje do 24 sata prije polaska. U slučaju lošeg vremena: 100% povrat ili besplatna promjena termina."
+  },
+  "privacy": {
+    "title": "Pravila privatnosti",
+    "lead": "Vaše podatke obrađujemo povjerljivo i ne dijelimo ih s trećim stranama."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "lead": "Podaci sukladno zakonu."
+  },
+  "footer": {
+    "tagline": "Izleti brodom iz Poreča – osobno, lokalno, pošteno.",
+    "company": "Tvrtka",
+    "legal": "Pravno",
+    "languages": "Jezici",
+    "rights": "Sva prava pridržana."
+  },
+  "languageNames": {
+    "de": "Deutsch",
+    "en": "English",
+    "hr": "Hrvatski",
+    "fr": "Français"
+  }
+}

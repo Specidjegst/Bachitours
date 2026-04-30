@@ -1,0 +1,207 @@
+{
+  "site": {
+    "name": "Bachitours",
+    "tagline": "Bootsausflüge ab Poreč"
+  },
+  "nav": {
+    "home": "Start",
+    "tours": "Bootstouren",
+    "about": "Über uns",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "book": "Reservieren"
+  },
+  "common": {
+    "bookNow": "Jetzt reservieren",
+    "viewTour": "Tour ansehen",
+    "viewAllTours": "Alle Touren ansehen",
+    "whatsapp": "Per WhatsApp anfragen",
+    "whatsappShort": "WhatsApp",
+    "from": "ab",
+    "perPerson": "pro Person",
+    "private": "Privattour",
+    "duration": "Dauer",
+    "meetingPoint": "Treffpunkt",
+    "languages": "Sprachen",
+    "maxGuests": "Max. Personen",
+    "included": "Inklusive",
+    "notIncluded": "Nicht inklusive",
+    "highlights": "Highlights",
+    "schedule": "Ablauf",
+    "important": "Wichtige Hinweise",
+    "cancellation": "Stornierung",
+    "loading": "Lädt …",
+    "back": "Zurück",
+    "submit": "Absenden",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "send": "Senden",
+    "close": "Schließen"
+  },
+  "hero": {
+    "title": "Unvergessliche Bootsausflüge ab Poreč",
+    "subtitle": "Entdecken Sie Delfine, Rovinj, Limfjord und die schönsten Küsten Kroatiens.",
+    "ctaPrimary": "Touren ansehen",
+    "ctaSecondary": "Per WhatsApp anfragen",
+    "trust": "★ 4,9 · 1 200+ zufriedene Gäste · Antwort innerhalb 1 Stunde"
+  },
+  "trustBar": {
+    "local": "Lokaler Familienbetrieb in Poreč",
+    "support": "Persönlicher WhatsApp-Support in 4 Sprachen",
+    "tickets": "E-Tickets nach Zahlung per E-Mail"
+  },
+  "popularTours": {
+    "title": "Beliebteste Touren",
+    "subtitle": "Vier Erlebnisse, ein Meer voller Geschichten."
+  },
+  "why": {
+    "title": "Warum bei uns buchen?",
+    "items": {
+      "local": { "title": "Lokal & authentisch", "text": "Wir sind in Poreč zu Hause und kennen jede Bucht persönlich." },
+      "service": { "title": "Persönlicher Service", "text": "Keine anonyme Plattform – Sie sprechen direkt mit uns." },
+      "support": { "title": "WhatsApp-Support", "text": "Fragen Sie auf Deutsch, Englisch, Kroatisch oder Französisch." },
+      "family": { "title": "Familienfreundlich", "text": "Sichere Boote, geduldige Crew, Schwimmwesten in allen Größen." },
+      "secure": { "title": "Sichere Reservierung", "text": "Erst Reservierung, dann Zahlung – ohne Risiko." },
+      "tickets": { "title": "Tickets per E-Mail", "text": "Nach Zahlung erhalten Sie Ihre Tickets digital, papierlos." }
+    }
+  },
+  "how": {
+    "title": "So funktioniert es",
+    "steps": {
+      "1": { "title": "Tour wählen", "text": "Stöbern Sie durch unsere Touren ab Poreč." },
+      "2": { "title": "Reservierung absenden", "text": "Datum, Personenzahl und Wunschsprache angeben." },
+      "3": { "title": "WhatsApp-Bestätigung", "text": "Wir melden uns mit allen Details und der Zahlungsoption." },
+      "4": { "title": "Ablegen!", "text": "Ihr Skipper erwartet Sie pünktlich am Treffpunkt." }
+    }
+  },
+  "reviews": {
+    "title": "Was unsere Gäste sagen",
+    "items": [
+      { "text": "Wir haben Delfine gesehen – die Kinder reden noch heute davon. Sehr persönlich, sehr ehrlich.", "author": "Familie Hofer", "city": "Wien" },
+      { "text": "Tolle Tour nach Rovinj. Das Mittagessen an Bord war ein Highlight!", "author": "Sandra & Thomas", "city": "München" },
+      { "text": "Bachi war ein super Skipper. Sehr entspannt, sehr informativ.", "author": "Marc D.", "city": "Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Häufige Fragen",
+    "items": [
+      { "q": "Wie funktioniert die Reservierung?", "a": "Sie senden uns das Reservierungsformular. Wir prüfen die Verfügbarkeit, bestätigen Ihre Buchung per WhatsApp und besprechen alle Details direkt mit Ihnen." },
+      { "q": "Wie bezahle ich?", "a": "Die Zahlung erfolgt bar vor Ort am Treffpunkt – oder wir kommen direkt zu Ihrer Unterkunft und holen die Zahlung persönlich ab. Nach Zahlungseingang erhalten Sie Ihre Tickets per E-Mail." },
+      { "q": "Was passiert bei schlechtem Wetter?", "a": "Sie können kostenlos auf einen anderen Termin umbuchen oder erhalten eine 100 %ige Rückerstattung." },
+      { "q": "Sind die Touren für Kinder geeignet?", "a": "Ja. Kinder von 0 bis 5 Jahren reisen gratis, Kinder von 6 bis 16 Jahren zahlen 50 %. Schwimmwesten in allen Größen sind an Bord." },
+      { "q": "Bis wann kann ich stornieren?", "a": "Kostenfreie Stornierung bis 24 Stunden vor Tourbeginn." },
+      { "q": "In welchen Sprachen wird die Tour begleitet?", "a": "Je nach Tour Deutsch, Englisch, Kroatisch oder Französisch – bitte fragen Sie Ihre Wunschsprache vorab per WhatsApp an, wir bestätigen die Verfügbarkeit." }
+    ]
+  },
+  "contactCta": {
+    "title": "Noch Fragen?",
+    "text": "Schreiben Sie uns auf WhatsApp – wir antworten meistens innerhalb einer Stunde.",
+    "whatsapp": "WhatsApp öffnen",
+    "email": "E-Mail senden"
+  },
+  "tours": {
+    "title": "Bootstouren ab Poreč",
+    "subtitle": "Vergleichen Sie unsere Touren und wählen Sie Ihr Erlebnis.",
+    "noResults": "Keine Touren gefunden."
+  },
+  "tourDetail": {
+    "overview": "Überblick",
+    "highlights": "Highlights",
+    "included": "Inklusive Leistungen",
+    "notIncluded": "Nicht inklusive",
+    "schedule": "Ablauf",
+    "meetingPoint": "Treffpunkt",
+    "important": "Wichtige Hinweise",
+    "cancellation": "Stornierungsbedingungen",
+    "weatherPolicy": "Bei nicht fahrbarem Wetter (Entscheidung des Skippers) verschieben wir Ihre Tour kostenfrei oder erstatten 100 % des bezahlten Betrags.",
+    "cancellationPolicy": "Kostenfreie Stornierung bis 24 Stunden vor Tourbeginn.",
+    "paymentInfo": "Wir bestätigen Ihre Reservierung zuerst per WhatsApp. Bezahlt wird bar am Treffpunkt oder wir holen die Zahlung an Ihrer Unterkunft in Poreč ab. Nach Zahlungseingang erhalten Sie Ihre Tickets per E-Mail.",
+    "similar": "Ähnliche Touren"
+  },
+  "booking": {
+    "title": "Reservierung",
+    "subtitle": "Reservieren Sie Ihre Tour in 2 Minuten – Bezahlung erst nach unserer WhatsApp-Bestätigung.",
+    "step": "Schritt",
+    "of": "von",
+    "stepLabels": {
+      "1": "Tour & Datum",
+      "2": "Kontakt",
+      "3": "Bestätigung"
+    },
+    "tour": "Tour",
+    "date": "Wunschdatum",
+    "time": "Uhrzeit (falls verfügbar)",
+    "adults": "Erwachsene",
+    "kids": "Kinder (6–16, 50 %)",
+    "infants": "Kleinkinder (0–5, gratis)",
+    "guestsNote": "Kleinkinder 0–5 fahren gratis. Bitte alle Personen eintragen, damit wir genug Schwimmwesten an Bord haben.",
+    "estimatedPrice": "Geschätzter Preis",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E-Mail",
+    "phone": "Telefon / WhatsApp (mit Ländervorwahl)",
+    "language": "Ihre Sprache",
+    "message": "Nachricht / Sonderwünsche (optional)",
+    "consentTerms": "Ich habe die AGB und Stornierungsbedingungen gelesen und akzeptiere sie.",
+    "consentPrivacy": "Ich habe die Datenschutzerklärung gelesen und stimme der Verarbeitung meiner Daten zu.",
+    "submit": "Reservierung absenden",
+    "submitting": "Wird gesendet …",
+    "errors": {
+      "required": "Bitte ausfüllen",
+      "email": "Bitte gültige E-Mail-Adresse eingeben",
+      "phone": "Bitte gültige Telefonnummer eingeben",
+      "consent": "Bitte zustimmen, um fortzufahren",
+      "general": "Etwas ist schiefgegangen. Bitte versuchen Sie es erneut oder schreiben Sie uns auf WhatsApp."
+    }
+  },
+  "thanks": {
+    "title": "Danke für Ihre Reservierung!",
+    "text": "Wir kontaktieren Sie in Kürze per WhatsApp zur Bestätigung und Zahlung. Ihre Tickets erhalten Sie nach der Zahlung per E-Mail.",
+    "reference": "Buchungs-Referenz",
+    "openWhatsapp": "WhatsApp jetzt öffnen",
+    "backHome": "Zur Startseite",
+    "whatsappPrefill": "Hallo Bachitours, ich habe gerade meine Reservierung {ref} ({tour}, {date}, {guests} Personen) abgeschickt. Bitte bestätigen Sie mir den Termin. Danke!"
+  },
+  "about": {
+    "title": "Über uns",
+    "lead": "Wir sind ein kleiner Familienbetrieb aus Poreč. Seit Jahren bringen wir Gäste aus aller Welt an die schönsten Küsten Istriens.",
+    "body": "Bachitours ist persönlich, ehrlich und lokal. Wir kennen die Buchten, die Tageszeiten für Delfine und die kleinen Restaurants, die nur Einheimische kennen. Wenn Sie bei uns buchen, sprechen Sie direkt mit der Crew – keine anonyme Plattform, keine versteckten Gebühren."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Schreiben Sie uns auf WhatsApp oder per E-Mail – wir antworten in 4 Sprachen.",
+    "phoneLabel": "WhatsApp",
+    "emailLabel": "E-Mail",
+    "addressLabel": "Standort",
+    "address": "Marina Poreč, 52440 Poreč, Kroatien"
+  },
+  "terms": {
+    "title": "Allgemeine Geschäftsbedingungen",
+    "lead": "Es gelten die folgenden Bedingungen für alle bei Bachitours gebuchten Touren."
+  },
+  "cancellation": {
+    "title": "Stornierungsbedingungen",
+    "lead": "Kostenfreie Stornierung bis 24 Stunden vor Tourbeginn. Bei schlechtem Wetter erfolgt eine 100 % Rückerstattung oder kostenfreie Umbuchung."
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "lead": "Wir behandeln Ihre Daten vertraulich und geben sie nicht an Dritte weiter."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "lead": "Angaben gemäß gesetzlicher Vorgaben."
+  },
+  "footer": {
+    "tagline": "Bootsausflüge ab Poreč – persönlich, lokal, ehrlich.",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "languages": "Sprachen",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "languageNames": {
+    "de": "Deutsch",
+    "en": "English",
+    "hr": "Hrvatski",
+    "fr": "Français"
+  }
+}

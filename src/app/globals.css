@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --c-deep: #0A4D6E;
+  --c-primary: #1E88B0;
+  --c-accent: #38BFC9;
+  --c-sand: #F4E7D1;
+  --c-cream: #FBF7EE;
+  --c-ink: #0E1F2C;
+  --c-muted: #5C6B78;
+  --c-sun: #F4A340;
+  --c-success: #2EA66A;
+  --c-line: #E5DFD2;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-cream text-ink font-sans antialiased;
+    font-feature-settings: "ss01", "cv11";
+  }
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tight;
+  }
+  ::selection {
+    background: var(--c-accent);
+    color: white;
+  }
+}
+
+@layer components {
+  .container-x {
+    @apply mx-auto w-full max-w-container px-5 sm:px-6 lg:px-8;
+  }
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-medium transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-sun text-white shadow-card hover:-translate-y-0.5 hover:shadow-cardHover;
+  }
+  .btn-secondary {
+    @apply btn bg-deep text-white hover:bg-primary;
+  }
+  .btn-ghost {
+    @apply btn border-2 border-deep text-deep hover:bg-deep hover:text-white;
+  }
+  .btn-whatsapp {
+    @apply btn bg-success text-white hover:brightness-105;
+  }
+  .card {
+    @apply rounded-xl2 bg-white shadow-card transition-all duration-300 hover:-translate-y-1 hover:shadow-cardHover;
+  }
+  .input {
+    @apply block w-full rounded-xl border border-line bg-white px-4 py-3 text-ink placeholder:text-muted focus:border-primary focus:outline-none focus:ring-2 focus:ring-primary/20;
+  }
+  .label {
+    @apply mb-1.5 block text-sm font-medium text-ink;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-full bg-cream px-3 py-1 text-xs font-medium text-deep;
+  }
+  .section {
+    @apply py-16 md:py-24;
+  }
+  .h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+  }
+  .h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  .h3 {
+    @apply text-2xl md:text-3xl font-semibold leading-snug;
+  }
+  .lead {
+    @apply text-lg md:text-xl text-muted leading-relaxed;
+  }
+}
