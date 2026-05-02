@@ -24,9 +24,9 @@ export default async function ToursPage({
 
   return (
     <div className="bg-cream">
-      <div className="container-x py-14 md:py-20">
+      <div className="container-x py-10 sm:py-14 md:py-20">
         <h1 className="h1 mb-3 text-deep">{t("title")}</h1>
-        <p className="lead mb-10 max-w-2xl">{t("subtitle")}</p>
+        <p className="lead mb-8 max-w-2xl sm:mb-10">{t("subtitle")}</p>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {tours.map((tour) => (
             <TourCard key={tour.id} tour={tour} />

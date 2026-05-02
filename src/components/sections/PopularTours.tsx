@@ -12,14 +12,14 @@ export function PopularTours() {
   return (
     <section className="section">
       <div className="container-x">
-        <div className="mb-10 flex items-end justify-between gap-6">
+        <div className="mb-8 flex flex-col gap-4 md:mb-10 md:flex-row md:items-end md:justify-between">
           <div>
             <h2 className="h2 text-deep">{t("title")}</h2>
             <p className="lead mt-2">{t("subtitle")}</p>
           </div>
           <Link
             href="/tours"
-            className="hidden items-center gap-1 text-sm font-semibold text-primary hover:underline md:inline-flex"
+            className="hidden items-center gap-1 text-sm font-semibold text-primary hover:underline md:inline-flex md:shrink-0"
           >
             {tCommon("viewAllTours")} <ArrowRight size={16} />
           </Link>

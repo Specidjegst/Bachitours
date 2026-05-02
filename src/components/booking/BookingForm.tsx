@@ -110,7 +110,7 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
       </div>
 
       {step === 1 && (
-        <div className="space-y-5 rounded-xl2 bg-white p-6 shadow-card">
+        <div className="space-y-5 rounded-xl2 bg-white p-4 shadow-card sm:p-6">
           <div>
             <label className="label">{t("tour")}</label>
             <select className="input" {...register("tourId")}>
@@ -150,7 +150,7 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
       )}
 
       {step === 2 && (
-        <div className="space-y-5 rounded-xl2 bg-white p-6 shadow-card">
+        <div className="space-y-5 rounded-xl2 bg-white p-4 shadow-card sm:p-6">
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label className="label">{t("firstName")}</label>
@@ -194,7 +194,7 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
       )}
 
       {step === 3 && (
-        <div className="space-y-5 rounded-xl2 bg-white p-6 shadow-card">
+        <div className="space-y-5 rounded-xl2 bg-white p-4 shadow-card sm:p-6">
           <div>
             <label className="label">{t("message")}</label>
             <textarea className="input" rows={4} {...register("message")} />

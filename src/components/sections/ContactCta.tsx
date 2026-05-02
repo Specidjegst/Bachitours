@@ -11,7 +11,7 @@ export function ContactCta() {
   return (
     <section className="section">
       <div className="container-x">
-        <div className="rounded-xl2 bg-deep p-10 text-center text-white md:p-14">
+        <div className="rounded-xl2 bg-deep p-6 text-center text-white sm:p-10 md:p-14">
           <h2 className="h2 text-cream">{t("title")}</h2>
           <p className="lead mt-3 text-cream/90">{t("text")}</p>
           <div className="mt-7 flex flex-wrap justify-center gap-3">

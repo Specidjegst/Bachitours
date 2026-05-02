@@ -84,7 +84,7 @@ export default async function TourDetail({
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <div className="bg-cream">
-        <div className="container-x py-10 md:py-14">
+        <div className="container-x py-8 sm:py-10 md:py-14">
           <nav className="mb-4 text-sm text-muted">
             <Link href="/" className="hover:text-primary">{tCommon("back")}</Link>
             <span className="mx-2">›</span>

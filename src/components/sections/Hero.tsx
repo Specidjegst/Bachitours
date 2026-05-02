@@ -22,10 +22,10 @@ export function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-tr from-deep/85 via-deep/40 to-transparent" />
       </div>
-      <div className="container-x flex min-h-[80vh] flex-col justify-center py-20 text-white md:min-h-[90vh]">
+      <div className="container-x flex min-h-[70vh] flex-col justify-center py-16 text-white sm:py-20 md:min-h-[90vh]">
         <h1 className="h1 max-w-3xl drop-shadow-lg">{t("title")}</h1>
         <p className="lead mt-4 max-w-2xl text-white/95">{t("subtitle")}</p>
-        <div className="mt-8 flex flex-wrap gap-3">
+        <div className="mt-6 flex flex-wrap gap-3 sm:mt-8">
           <Link href="/tours" className="btn-primary">
             {t("ctaPrimary")} <ArrowRight size={18} />
           </Link>
