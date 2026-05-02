@@ -286,7 +286,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limfjord-vrsar-mittagessen",
         shortDescription: "Drei Highlights Istriens an einem Tag inkl. Mittagessen.",
         description: "Die ultimative Tagestour: malerischer Limfjord, das künstlerische Vrsar und das berühmte Rovinj – mit Mittagessen an Bord, Schwimmpause und Zeit für Fotos.",
-        highlights: ["Limfjord von der Wasserseite", "Vrsar – Hafen und Hügelstadt", "Rovinj – Altstadt zu Fuß", "Essen & Getränke an Bord inklusive", "Ab 20 Pers.: Eintritte (40€/Pers.) inklusive"],
+        highlights: ["Limfjord von der Wasserseite", "Vrsar – Hafen und Hügelstadt", "Rovinj – Altstadt zu Fuß", "Essen & Getränke an Bord inklusive", "Ab 20 Pers.: nur 40€/Person (statt 50€)"],
         included: ["Skipper", "Mittagessen", "Getränke", "Schwimmwesten"],
         notIncluded: ["Eintritte", "Trinkgeld"],
         schedule: [
@@ -306,7 +306,7 @@ export const tours: Tour[] = [
         slug: "rovinj-lim-fjord-vrsar-lunch",
         shortDescription: "Three Istrian highlights in one day incl. lunch.",
         description: "The ultimate day tour: scenic Lim fjord, artistic Vrsar and famous Rovinj – with lunch on board, swim stop and time for photos.",
-        highlights: ["Lim fjord from the water", "Vrsar – harbor and hilltop", "Rovinj – walking the old town", "Food & drinks on board included", "Groups 20+: entrance fees (€40/p.p.) included"],
+        highlights: ["Lim fjord from the water", "Vrsar – harbor and hilltop", "Rovinj – walking the old town", "Food & drinks on board included", "Groups 20+: only €40/p.p. (instead of €50)"],
         included: ["Skipper", "Lunch", "Drinks", "Life jackets"],
         notIncluded: ["Entrance fees", "Tips"],
         schedule: [
@@ -326,7 +326,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limski-kanal-vrsar-rucak",
         shortDescription: "Tri istarska vrhunca u jednom danu uz ručak.",
         description: "Konačni cjelodnevni izlet: slikoviti Limski kanal, umjetnički Vrsar i poznati Rovinj – s ručkom na brodu, kupanjem i vremenom za fotografiranje.",
-        highlights: ["Limski kanal s vode", "Vrsar – luka i brežuljak", "Rovinj – stari grad", "Hrana i piće na brodu uključeno", "Grupe 20+: ulaznice (40€/os.) uključene"],
+        highlights: ["Limski kanal s vode", "Vrsar – luka i brežuljak", "Rovinj – stari grad", "Hrana i piće na brodu uključeno", "Grupe 20+: samo 40€/os. (umjesto 50€)"],
         included: ["Skiper", "Ručak", "Pića", "Prsluci"],
         notIncluded: ["Ulaznice", "Napojnice"],
         schedule: [
@@ -346,7 +346,7 @@ export const tours: Tour[] = [
         slug: "rovinj-fjord-lim-vrsar-dejeuner",
         shortDescription: "Trois points forts d'Istrie en un jour, déjeuner inclus.",
         description: "L'excursion ultime : pittoresque fjord de Lim, Vrsar artistique et célèbre Rovinj – avec déjeuner à bord, pause baignade et temps pour les photos.",
-        highlights: ["Fjord de Lim depuis la mer", "Vrsar – port et colline", "Rovinj – vieille ville à pied", "Repas & boissons à bord inclus", "Groupes 20+: entrées (40€/p.p.) incluses"],
+        highlights: ["Fjord de Lim depuis la mer", "Vrsar – port et colline", "Rovinj – vieille ville à pied", "Repas & boissons à bord inclus", "Groupes 20+: seulement 40€/p.p. (au lieu de 50€)"],
         included: ["Skipper", "Déjeuner", "Boissons", "Gilets de sauvetage"],
         notIncluded: ["Entrées", "Pourboires"],
         schedule: [
