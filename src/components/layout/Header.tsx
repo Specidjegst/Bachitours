@@ -29,9 +29,14 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-40 border-b border-line/60 bg-cream/80 backdrop-blur-md">
-      <div className="container-x flex h-16 items-center justify-between gap-3 md:h-20 md:gap-4">
+      <div className="container-x flex h-16 items-center justify-between gap-2 md:h-20 md:gap-4">
         <Link href="/" className="shrink-0" aria-label="Bachitours">
-          <Logo />
+          <span className="sm:hidden">
+            <Logo variant="compact" />
+          </span>
+          <span className="hidden sm:inline-flex">
+            <Logo />
+          </span>
         </Link>
         <nav className="hidden items-center gap-7 md:flex">
           <Link href="/tours" className="text-sm font-medium text-ink hover:text-primary">
