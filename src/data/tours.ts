@@ -183,7 +183,7 @@ export const tours: Tour[] = [
   },
   {
     id: "dolphin-yacht",
-    durationHours: 3,
+    durationHours: 2,
     maxGuests: 8,
     isPrivate: false,
     languages: ["de", "en", "hr", "fr"],
@@ -207,10 +207,10 @@ export const tours: Tour[] = [
         schedule: [
           { time: "17:00", text: "Treffen Marina Poreč" },
           { time: "17:15", text: "Abfahrt Richtung Delfin-Gebiet" },
-          { time: "18:30", text: "Beobachtung & Fotostopp" },
-          { time: "20:00", text: "Rückkehr in goldener Stunde" }
+          { time: "18:00", text: "Beobachtung & Fotostopp" },
+          { time: "19:00", text: "Rückkehr Marina Poreč" }
         ],
-        importantNotes: ["Wetterabhängig", "Sonnencreme empfohlen", "Kameras erlaubt"],
+        importantNotes: ["Wetterabhängig", "Sonnencreme empfohlen", "Kameras erlaubt", "Auch verfügbar 19:00–21:00"],
         meetingPointLabel: "Marina Poreč, Pier 5"
       },
       en: {
@@ -224,10 +224,10 @@ export const tours: Tour[] = [
         schedule: [
           { time: "17:00", text: "Meet at Marina Poreč" },
           { time: "17:15", text: "Departure to dolphin area" },
-          { time: "18:30", text: "Watching & photo stop" },
-          { time: "20:00", text: "Return at golden hour" }
+          { time: "18:00", text: "Watching & photo stop" },
+          { time: "19:00", text: "Return to Marina Poreč" }
         ],
-        importantNotes: ["Weather-dependent", "Sunscreen recommended", "Cameras welcome"],
+        importantNotes: ["Weather-dependent", "Sunscreen recommended", "Cameras welcome", "Also available 19:00–21:00"],
         meetingPointLabel: "Marina Poreč, Pier 5"
       },
       hr: {
@@ -241,10 +241,10 @@ export const tours: Tour[] = [
         schedule: [
           { time: "17:00", text: "Sastanak u Marini Poreč" },
           { time: "17:15", text: "Polazak" },
-          { time: "18:30", text: "Promatranje i fotografiranje" },
-          { time: "20:00", text: "Povratak u zlatnom satu" }
+          { time: "18:00", text: "Promatranje i fotografiranje" },
+          { time: "19:00", text: "Povratak u Marinu Poreč" }
         ],
-        importantNotes: ["Ovisno o vremenu", "Preporučujemo kremu", "Kamere dobrodošle"],
+        importantNotes: ["Ovisno o vremenu", "Preporučujemo kremu", "Kamere dobrodošle", "Dostupno i 19:00–21:00"],
         meetingPointLabel: "Marina Poreč, gat 5"
       },
       fr: {
@@ -258,10 +258,10 @@ export const tours: Tour[] = [
         schedule: [
           { time: "17:00", text: "Rendez-vous Marina Poreč" },
           { time: "17:15", text: "Départ" },
-          { time: "18:30", text: "Observation et photos" },
-          { time: "20:00", text: "Retour à l'heure dorée" }
+          { time: "18:00", text: "Observation et photos" },
+          { time: "19:00", text: "Retour à la Marina Poreč" }
         ],
-        importantNotes: ["Selon la météo", "Crème solaire conseillée", "Appareils photo bienvenus"],
+        importantNotes: ["Selon la météo", "Crème solaire conseillée", "Appareils photo bienvenus", "Également disponible 19h00–21h00"],
         meetingPointLabel: "Marina Poreč, quai 5"
       }
     }
@@ -272,7 +272,7 @@ export const tours: Tour[] = [
     maxGuests: 12,
     isPrivate: false,
     languages: ["de", "en", "hr", "fr"],
-    pricing: { adult: PRICE, childDiscountPct: 50, infantFree: true, currency: "EUR" },
+    pricing: { adult: 50, childDiscountPct: 50, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
       { src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80", alt: "Limfjord" },
@@ -286,7 +286,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limfjord-vrsar-mittagessen",
         shortDescription: "Drei Highlights Istriens an einem Tag inkl. Mittagessen.",
         description: "Die ultimative Tagestour: malerischer Limfjord, das künstlerische Vrsar und das berühmte Rovinj – mit Mittagessen an Bord, Schwimmpause und Zeit für Fotos.",
-        highlights: ["Limfjord von der Wasserseite", "Vrsar – Hafen und Hügelstadt", "Rovinj – Altstadt zu Fuß", "Mittagessen an Bord"],
+        highlights: ["Limfjord von der Wasserseite", "Vrsar – Hafen und Hügelstadt", "Rovinj – Altstadt zu Fuß", "Essen & Getränke an Bord inklusive", "Ab 20 Pers.: Eintritte (40€/Pers.) inklusive"],
         included: ["Skipper", "Mittagessen", "Getränke", "Schwimmwesten"],
         notIncluded: ["Eintritte", "Trinkgeld"],
         schedule: [
@@ -306,7 +306,7 @@ export const tours: Tour[] = [
         slug: "rovinj-lim-fjord-vrsar-lunch",
         shortDescription: "Three Istrian highlights in one day incl. lunch.",
         description: "The ultimate day tour: scenic Lim fjord, artistic Vrsar and famous Rovinj – with lunch on board, swim stop and time for photos.",
-        highlights: ["Lim fjord from the water", "Vrsar – harbor and hilltop", "Rovinj – walking the old town", "Lunch on board"],
+        highlights: ["Lim fjord from the water", "Vrsar – harbor and hilltop", "Rovinj – walking the old town", "Food & drinks on board included", "Groups 20+: entrance fees (€40/p.p.) included"],
         included: ["Skipper", "Lunch", "Drinks", "Life jackets"],
         notIncluded: ["Entrance fees", "Tips"],
         schedule: [
@@ -326,7 +326,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limski-kanal-vrsar-rucak",
         shortDescription: "Tri istarska vrhunca u jednom danu uz ručak.",
         description: "Konačni cjelodnevni izlet: slikoviti Limski kanal, umjetnički Vrsar i poznati Rovinj – s ručkom na brodu, kupanjem i vremenom za fotografiranje.",
-        highlights: ["Limski kanal s vode", "Vrsar – luka i brežuljak", "Rovinj – stari grad", "Ručak na brodu"],
+        highlights: ["Limski kanal s vode", "Vrsar – luka i brežuljak", "Rovinj – stari grad", "Hrana i piće na brodu uključeno", "Grupe 20+: ulaznice (40€/os.) uključene"],
         included: ["Skiper", "Ručak", "Pića", "Prsluci"],
         notIncluded: ["Ulaznice", "Napojnice"],
         schedule: [
@@ -346,7 +346,7 @@ export const tours: Tour[] = [
         slug: "rovinj-fjord-lim-vrsar-dejeuner",
         shortDescription: "Trois points forts d'Istrie en un jour, déjeuner inclus.",
         description: "L'excursion ultime : pittoresque fjord de Lim, Vrsar artistique et célèbre Rovinj – avec déjeuner à bord, pause baignade et temps pour les photos.",
-        highlights: ["Fjord de Lim depuis la mer", "Vrsar – port et colline", "Rovinj – vieille ville à pied", "Déjeuner à bord"],
+        highlights: ["Fjord de Lim depuis la mer", "Vrsar – port et colline", "Rovinj – vieille ville à pied", "Repas & boissons à bord inclus", "Groupes 20+: entrées (40€/p.p.) incluses"],
         included: ["Skipper", "Déjeuner", "Boissons", "Gilets de sauvetage"],
         notIncluded: ["Entrées", "Pourboires"],
         schedule: [
