@@ -48,32 +48,32 @@ export function Header() {
           </Link>
         </nav>
         <div className="flex items-center gap-2">
-          <a
-            href={waUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center gap-1.5 rounded-full bg-success px-4 py-2 text-sm font-medium text-white hover:brightness-105"
-          >
-            <MessageCircle size={16} />
-            {tCommon("whatsappShort")}
-          </a>
+          <div className="hidden md:block">
+            <a
+              href={waUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full bg-success px-4 py-2 text-sm font-medium text-white hover:brightness-105"
+            >
+              <MessageCircle size={16} />
+              {tCommon("whatsappShort")}
+            </a>
+          </div>
           <Link
             href="/booking"
             className="inline-flex items-center justify-center rounded-full bg-sun px-3 py-2 text-xs font-semibold text-white shadow-card transition-all hover:-translate-y-0.5 hover:shadow-cardHover sm:px-4 sm:text-sm"
           >
             {t("book")}
           </Link>
-          <div className="hidden md:block">
-            <LanguageSwitcher />
-          </div>
+          <LanguageSwitcher />
           <button
             type="button"
             onClick={() => setMobileOpen((v) => !v)}
-            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line bg-white text-deep md:hidden"
+            className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-line bg-white text-deep md:hidden"
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileOpen}
           >
-            {mobileOpen ? <X size={20} /> : <Menu size={20} />}
+            {mobileOpen ? <X size={18} /> : <Menu size={18} />}
           </button>
         </div>
       </div>
@@ -114,9 +114,6 @@ export function Header() {
               >
                 <MessageCircle size={18} /> {tCommon("whatsappShort")}
               </a>
-              <div className="mt-3 flex justify-center">
-                <LanguageSwitcher />
-              </div>
             </nav>
           </div>
         </div>
