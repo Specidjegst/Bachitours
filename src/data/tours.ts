@@ -5,7 +5,7 @@ const PRICE = 35;
 export const tours: Tour[] = [
   {
     id: "dolphin-private",
-    durationHours: 3,
+    durationHours: 2,
     maxGuests: 10,
     isPrivate: true,
     languages: ["de", "en", "hr", "fr"],
@@ -24,15 +24,15 @@ export const tours: Tour[] = [
         shortDescription: "Privat auf dem Boot Delfine und Kormorane vor Poreč erleben.",
         description: "Eine private Tour exklusiv für Sie und Ihre Liebsten. In Begleitung unseres Skippers fahren wir zu den Lieblingsplätzen der Adria-Delfine. Nebenbei beobachten wir die seltenen Kormoran-Kolonien an der felsigen Küste vor Poreč.",
         highlights: ["Privatboot nur für Ihre Gruppe", "Beste Zeit für Delfin-Beobachtung", "Erfahrener lokaler Skipper", "Ruhige, kleine Buchten"],
-        included: ["Privater Skipper", "Wasser & Erfrischungen", "Schwimmwesten", "Kraftstoff"],
+        included: ["Privater Skipper"],
         notIncluded: ["Mittagessen", "Hotelabholung"],
         schedule: [
-          { time: "09:00", text: "Treffen am Pier in der Marina Poreč" },
-          { time: "09:15", text: "Abfahrt Richtung Delfin-Gebiet" },
-          { time: "10:30", text: "Delfin- und Kormoran-Beobachtung" },
-          { time: "12:00", text: "Rückkehr in die Marina Poreč" }
+          { time: "17:00", text: "Treffen am Pier in der Marina Poreč" },
+          { time: "17:15", text: "Abfahrt Richtung Delfin-Gebiet" },
+          { time: "18:00", text: "Delfin- und Kormoran-Beobachtung" },
+          { time: "19:00", text: "Rückkehr in die Marina Poreč" }
         ],
-        importantNotes: ["Wetterabhängig, Skipper entscheidet", "Sonnencreme & Hut empfohlen", "Festes Schuhwerk hilfreich"],
+        importantNotes: ["Wetterabhängig, Skipper entscheidet", "Sonnencreme & Hut empfohlen", "Festes Schuhwerk hilfreich", "Auch verfügbar 19:00–21:00"],
         meetingPointLabel: "Marina Poreč, Pier 3"
       },
       en: {
@@ -41,15 +41,15 @@ export const tours: Tour[] = [
         shortDescription: "Private boat tour to spot dolphins and cormorants off Poreč.",
         description: "A private tour exclusively for you and your loved ones. Together with our skipper we head out to the favorite spots of Adriatic dolphins, while watching the rare cormorant colonies along the rocky coast.",
         highlights: ["Private boat for your group", "Best time for dolphin watching", "Experienced local skipper", "Quiet small bays"],
-        included: ["Private skipper", "Water & refreshments", "Life jackets", "Fuel"],
+        included: ["Private skipper"],
         notIncluded: ["Lunch", "Hotel pickup"],
         schedule: [
-          { time: "09:00", text: "Meet at the pier in Marina Poreč" },
-          { time: "09:15", text: "Departure to dolphin area" },
-          { time: "10:30", text: "Dolphin & cormorant watching" },
-          { time: "12:00", text: "Return to Marina Poreč" }
+          { time: "17:00", text: "Meet at the pier in Marina Poreč" },
+          { time: "17:15", text: "Departure to dolphin area" },
+          { time: "18:00", text: "Dolphin & cormorant watching" },
+          { time: "19:00", text: "Return to Marina Poreč" }
         ],
-        importantNotes: ["Weather-dependent, skipper decides", "Sunscreen & hat recommended", "Sturdy shoes helpful"],
+        importantNotes: ["Weather-dependent, skipper decides", "Sunscreen & hat recommended", "Sturdy shoes helpful", "Also available 19:00–21:00"],
         meetingPointLabel: "Marina Poreč, Pier 3"
       },
       hr: {
@@ -58,15 +58,15 @@ export const tours: Tour[] = [
         shortDescription: "Privatni izlet brodom uz dupine i vrance ispred Poreča.",
         description: "Privatni izlet samo za vas i vaše najbliže. Sa skiperom plovimo do omiljenih mjesta jadranskih dupina i promatramo rijetke kolonije vranaca uz stjenovitu obalu.",
         highlights: ["Privatni brod samo za vašu grupu", "Najbolje vrijeme za dupine", "Iskusan lokalni skiper", "Mirne male uvale"],
-        included: ["Privatni skiper", "Voda i osvježenje", "Prsluci", "Gorivo"],
+        included: ["Privatni skiper"],
         notIncluded: ["Ručak", "Preuzimanje iz hotela"],
         schedule: [
-          { time: "09:00", text: "Susret na pristaništu u Marini Poreč" },
-          { time: "09:15", text: "Polazak prema području dupina" },
-          { time: "10:30", text: "Promatranje dupina i vranaca" },
-          { time: "12:00", text: "Povratak u Marinu Poreč" }
+          { time: "17:00", text: "Susret na pristaništu u Marini Poreč" },
+          { time: "17:15", text: "Polazak prema području dupina" },
+          { time: "18:00", text: "Promatranje dupina i vranaca" },
+          { time: "19:00", text: "Povratak u Marinu Poreč" }
         ],
-        importantNotes: ["Ovisno o vremenu, skiper odlučuje", "Preporučujemo kremu i šešir", "Dobro je obuti čvrste cipele"],
+        importantNotes: ["Ovisno o vremenu, skiper odlučuje", "Preporučujemo kremu i šešir", "Dobro je obuti čvrste cipele", "Dostupno i 19:00–21:00"],
         meetingPointLabel: "Marina Poreč, gat 3"
       },
       fr: {
@@ -75,15 +75,15 @@ export const tours: Tour[] = [
         shortDescription: "Tour privé en bateau pour observer dauphins et cormorans au large de Poreč.",
         description: "Une excursion privée exclusivement pour vous. Avec notre skipper, nous nous rendons aux endroits préférés des dauphins de l'Adriatique tout en observant les rares colonies de cormorans le long de la côte rocheuse.",
         highlights: ["Bateau privé pour votre groupe", "Meilleur moment pour les dauphins", "Skipper local expérimenté", "Petites criques tranquilles"],
-        included: ["Skipper privé", "Eau et rafraîchissements", "Gilets de sauvetage", "Carburant"],
+        included: ["Skipper privé"],
         notIncluded: ["Déjeuner", "Prise en charge à l'hôtel"],
         schedule: [
-          { time: "09:00", text: "Rendez-vous au quai de la Marina Poreč" },
-          { time: "09:15", text: "Départ vers la zone des dauphins" },
-          { time: "10:30", text: "Observation des dauphins et cormorans" },
-          { time: "12:00", text: "Retour à la Marina Poreč" }
+          { time: "17:00", text: "Rendez-vous au quai de la Marina Poreč" },
+          { time: "17:15", text: "Départ vers la zone des dauphins" },
+          { time: "18:00", text: "Observation des dauphins et cormorans" },
+          { time: "19:00", text: "Retour à la Marina Poreč" }
         ],
-        importantNotes: ["Selon la météo, décision du skipper", "Crème solaire et chapeau recommandés", "Chaussures fermées conseillées"],
+        importantNotes: ["Selon la météo, décision du skipper", "Crème solaire et chapeau recommandés", "Chaussures fermées conseillées", "Également disponible 19h00–21h00"],
         meetingPointLabel: "Marina Poreč, quai 3"
       }
     }
@@ -109,7 +109,7 @@ export const tours: Tour[] = [
         shortDescription: "Tagesfahrt nach Rovinj mit Mittagessen und Getränken an Bord.",
         description: "Genießen Sie einen entspannten Tag auf der Adria. Wir fahren von Poreč nach Rovinj, der wohl schönsten Stadt Istriens, mit Pause für ein leckeres Mittagessen und Getränken an Bord.",
         highlights: ["Mittagessen an Bord inklusive", "Freie Zeit in Rovinj", "Schwimmen in türkisem Wasser", "Bar an Bord"],
-        included: ["Skipper", "Mittagessen", "Getränke (Wasser, Wein, Bier)", "Schwimmwesten"],
+        included: ["Skipper", "Mittagessen"],
         notIncluded: ["Eintrittsgelder in Rovinj", "Trinkgeld"],
         schedule: [
           { time: "10:00", text: "Treffen Marina Poreč" },
@@ -128,7 +128,7 @@ export const tours: Tour[] = [
         shortDescription: "Day trip to Rovinj with lunch and drinks on board.",
         description: "Enjoy a relaxed day on the Adriatic. We sail from Poreč to Rovinj, arguably Istria's most beautiful town, with stops for swimming and a delicious lunch on board.",
         highlights: ["Lunch on board included", "Free time in Rovinj", "Swimming in turquoise water", "Bar on board"],
-        included: ["Skipper", "Lunch", "Drinks (water, wine, beer)", "Life jackets"],
+        included: ["Skipper", "Lunch"],
         notIncluded: ["Entrance fees in Rovinj", "Tips"],
         schedule: [
           { time: "10:00", text: "Meet at Marina Poreč" },
@@ -147,7 +147,7 @@ export const tours: Tour[] = [
         shortDescription: "Cjelodnevni izlet u Rovinj s ručkom i pićem na brodu.",
         description: "Uživajte u opuštenom danu na Jadranu. Plovimo iz Poreča u Rovinj uz pauze za kupanje i ukusan ručak na brodu.",
         highlights: ["Ručak na brodu uključen", "Slobodno vrijeme u Rovinju", "Kupanje u tirkiznoj vodi", "Bar na brodu"],
-        included: ["Skiper", "Ručak", "Pića (voda, vino, pivo)", "Prsluci"],
+        included: ["Skiper", "Ručak"],
         notIncluded: ["Ulaznice u Rovinju", "Napojnice"],
         schedule: [
           { time: "10:00", text: "Sastanak u Marini Poreč" },
@@ -166,7 +166,7 @@ export const tours: Tour[] = [
         shortDescription: "Excursion d'une journée à Rovinj avec déjeuner et boissons à bord.",
         description: "Profitez d'une journée détendue sur l'Adriatique. Nous naviguons de Poreč à Rovinj, sans doute la plus belle ville d'Istrie, avec des pauses baignade et un délicieux déjeuner à bord.",
         highlights: ["Déjeuner à bord inclus", "Temps libre à Rovinj", "Baignade en eau turquoise", "Bar à bord"],
-        included: ["Skipper", "Déjeuner", "Boissons (eau, vin, bière)", "Gilets de sauvetage"],
+        included: ["Skipper", "Déjeuner"],
         notIncluded: ["Entrées à Rovinj", "Pourboires"],
         schedule: [
           { time: "10:00", text: "Rendez-vous à la Marina Poreč" },
@@ -202,7 +202,7 @@ export const tours: Tour[] = [
         shortDescription: "Komfortable Yacht-Safari zu den Delfinen vor Poreč.",
         description: "Erleben Sie eine entspannte Yacht-Tour zur besten Zeit für Delfin-Beobachtung. Mit Sonnendeck, Liegeflächen und Bordbar – ideal auch für Paare und kleine Familien.",
         highlights: ["Komfortable Yacht mit Sonnendeck", "Beste Tageszeit für Delfine", "Kleine Gruppe (max. 8)", "Erfrischungen an Bord"],
-        included: ["Skipper", "Wasser & Erfrischungen", "Schwimmwesten", "Sonnendeck"],
+        included: ["Skipper", "Sonnendeck"],
         notIncluded: ["Mittagessen", "Hotelabholung"],
         schedule: [
           { time: "17:00", text: "Treffen Marina Poreč" },
@@ -219,7 +219,7 @@ export const tours: Tour[] = [
         shortDescription: "Comfortable yacht safari to the dolphins off Poreč.",
         description: "Enjoy a relaxed yacht tour at the best time for dolphin watching. With sun deck, lounging areas and an on-board bar – ideal for couples and small families.",
         highlights: ["Comfortable yacht with sun deck", "Best time for dolphins", "Small group (max 8)", "Refreshments on board"],
-        included: ["Skipper", "Water & refreshments", "Life jackets", "Sun deck"],
+        included: ["Skipper", "Sun deck"],
         notIncluded: ["Lunch", "Hotel pickup"],
         schedule: [
           { time: "17:00", text: "Meet at Marina Poreč" },
@@ -236,7 +236,7 @@ export const tours: Tour[] = [
         shortDescription: "Komforna jahta safari do dupina ispred Poreča.",
         description: "Uživajte u opuštenom izletu jahtom u najbolje vrijeme za promatranje dupina. Sa sunčanom palubom, ležajevima i barom – idealno za parove i obitelji.",
         highlights: ["Komforna jahta sa sunčanom palubom", "Najbolje vrijeme za dupine", "Mala grupa (maks. 8)", "Osvježenje na brodu"],
-        included: ["Skiper", "Voda i osvježenje", "Prsluci", "Sunčana paluba"],
+        included: ["Skiper", "Sunčana paluba"],
         notIncluded: ["Ručak", "Preuzimanje iz hotela"],
         schedule: [
           { time: "17:00", text: "Sastanak u Marini Poreč" },
@@ -253,7 +253,7 @@ export const tours: Tour[] = [
         shortDescription: "Safari confortable en yacht pour observer les dauphins au large de Poreč.",
         description: "Profitez d'une excursion détendue en yacht au meilleur moment pour observer les dauphins. Pont solarium, espaces lounge et bar à bord – idéal pour couples et petites familles.",
         highlights: ["Yacht avec pont solarium", "Meilleur moment pour les dauphins", "Petit groupe (max 8)", "Rafraîchissements à bord"],
-        included: ["Skipper", "Eau et rafraîchissements", "Gilets de sauvetage", "Pont solarium"],
+        included: ["Skipper", "Pont solarium"],
         notIncluded: ["Déjeuner", "Prise en charge hôtel"],
         schedule: [
           { time: "17:00", text: "Rendez-vous Marina Poreč" },
@@ -287,7 +287,7 @@ export const tours: Tour[] = [
         shortDescription: "Drei Highlights Istriens an einem Tag inkl. Mittagessen.",
         description: "Die ultimative Tagestour: malerischer Limfjord, das künstlerische Vrsar und das berühmte Rovinj – mit Mittagessen an Bord, Schwimmpause und Zeit für Fotos.",
         highlights: ["Limfjord von der Wasserseite", "Vrsar – Hafen und Hügelstadt", "Rovinj – Altstadt zu Fuß", "Essen & Getränke an Bord inklusive", "Ab 20 Pers.: nur 40€/Person (statt 50€)"],
-        included: ["Skipper", "Mittagessen", "Getränke", "Schwimmwesten"],
+        included: ["Skipper", "Mittagessen"],
         notIncluded: ["Eintritte", "Trinkgeld"],
         schedule: [
           { time: "09:00", text: "Treffen Marina Poreč" },
@@ -307,7 +307,7 @@ export const tours: Tour[] = [
         shortDescription: "Three Istrian highlights in one day incl. lunch.",
         description: "The ultimate day tour: scenic Lim fjord, artistic Vrsar and famous Rovinj – with lunch on board, swim stop and time for photos.",
         highlights: ["Lim fjord from the water", "Vrsar – harbor and hilltop", "Rovinj – walking the old town", "Food & drinks on board included", "Groups 20+: only €40/p.p. (instead of €50)"],
-        included: ["Skipper", "Lunch", "Drinks", "Life jackets"],
+        included: ["Skipper", "Lunch"],
         notIncluded: ["Entrance fees", "Tips"],
         schedule: [
           { time: "09:00", text: "Meet at Marina Poreč" },
@@ -327,7 +327,7 @@ export const tours: Tour[] = [
         shortDescription: "Tri istarska vrhunca u jednom danu uz ručak.",
         description: "Konačni cjelodnevni izlet: slikoviti Limski kanal, umjetnički Vrsar i poznati Rovinj – s ručkom na brodu, kupanjem i vremenom za fotografiranje.",
         highlights: ["Limski kanal s vode", "Vrsar – luka i brežuljak", "Rovinj – stari grad", "Hrana i piće na brodu uključeno", "Grupe 20+: samo 40€/os. (umjesto 50€)"],
-        included: ["Skiper", "Ručak", "Pića", "Prsluci"],
+        included: ["Skiper", "Ručak"],
         notIncluded: ["Ulaznice", "Napojnice"],
         schedule: [
           { time: "09:00", text: "Sastanak u Marini Poreč" },
@@ -347,7 +347,7 @@ export const tours: Tour[] = [
         shortDescription: "Trois points forts d'Istrie en un jour, déjeuner inclus.",
         description: "L'excursion ultime : pittoresque fjord de Lim, Vrsar artistique et célèbre Rovinj – avec déjeuner à bord, pause baignade et temps pour les photos.",
         highlights: ["Fjord de Lim depuis la mer", "Vrsar – port et colline", "Rovinj – vieille ville à pied", "Repas & boissons à bord inclus", "Groupes 20+: seulement 40€/p.p. (au lieu de 50€)"],
-        included: ["Skipper", "Déjeuner", "Boissons", "Gilets de sauvetage"],
+        included: ["Skipper", "Déjeuner"],
         notIncluded: ["Entrées", "Pourboires"],
         schedule: [
           { time: "09:00", text: "Rendez-vous Marina Poreč" },
