@@ -88,7 +88,7 @@
       { "q": "Wie funktioniert die Reservierung?", "a": "Sie senden uns das Reservierungsformular. Wir prüfen die Verfügbarkeit, bestätigen Ihre Buchung per WhatsApp und besprechen alle Details direkt mit Ihnen." },
       { "q": "Wie bezahle ich?", "a": "Die Zahlung erfolgt bar vor Ort am Treffpunkt – oder wir kommen direkt zu Ihrer Unterkunft und holen die Zahlung persönlich ab. Nach Zahlungseingang erhalten Sie Ihre Tickets per E-Mail." },
       { "q": "Was passiert bei schlechtem Wetter?", "a": "Sie können kostenlos auf einen anderen Termin umbuchen oder erhalten eine 100 %ige Rückerstattung." },
-      { "q": "Sind die Touren für Kinder geeignet?", "a": "Ja. Kinder von 0 bis 5 Jahren reisen gratis, Kinder von 6 bis 16 Jahren zahlen 50 %. Schwimmwesten in allen Größen sind an Bord." },
+      { "q": "Sind die Touren für Kinder geeignet?", "a": "Ja. Kinder von 0 bis 5 Jahren reisen gratis, Kinder von 6 bis 13 Jahren zahlen 50 %." },
       { "q": "Bis wann kann ich stornieren?", "a": "Kostenfreie Stornierung bis 24 Stunden vor Tourbeginn." },
       { "q": "In welchen Sprachen wird die Tour begleitet?", "a": "Je nach Tour Deutsch, Englisch, Kroatisch oder Französisch – bitte fragen Sie Ihre Wunschsprache vorab per WhatsApp an, wir bestätigen die Verfügbarkeit." }
     ]
@@ -132,9 +132,9 @@
     "date": "Wunschdatum",
     "time": "Uhrzeit (falls verfügbar)",
     "adults": "Erwachsene",
-    "kids": "Kinder (6–16, 50 %)",
+    "kids": "Kinder (6–13, 50 %)",
     "infants": "Kleinkinder (0–5, gratis)",
-    "guestsNote": "Kleinkinder 0–5 fahren gratis. Bitte alle Personen eintragen, damit wir genug Schwimmwesten an Bord haben.",
+    "guestsNote": "Kleinkinder 0–5 fahren gratis. Bitte alle Personen eintragen, damit wir die Plätze richtig planen können.",
     "estimatedPrice": "Geschätzter Preis",
     "firstName": "Vorname",
     "lastName": "Nachname",

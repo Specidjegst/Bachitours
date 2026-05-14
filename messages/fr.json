@@ -88,7 +88,7 @@
       { "q": "Comment réserver ?", "a": "Envoyez le formulaire. Nous vérifions la disponibilité et confirmons par WhatsApp." },
       { "q": "Comment payer ?", "a": "En espèces au point de rendez-vous – ou nous venons chercher le paiement à votre hébergement à Poreč. Vous recevez ensuite vos billets par e-mail." },
       { "q": "Et en cas de mauvais temps ?", "a": "Report gratuit à une autre date ou remboursement à 100%." },
-      { "q": "Adapté aux enfants ?", "a": "Oui. Enfants 0–5 ans gratuits, enfants 6–16 ans 50%. Gilets de sauvetage à bord, toutes tailles." },
+      { "q": "Adapté aux enfants ?", "a": "Oui. Enfants 0–5 ans gratuits, enfants 6–13 ans 50%." },
       { "q": "Annulation ?", "a": "Annulation gratuite jusqu'à 24 h avant le départ." },
       { "q": "Langues ?", "a": "Selon l'excursion : FR/EN/HR/DE – merci de demander votre langue à l'avance par WhatsApp." }
     ]
@@ -132,9 +132,9 @@
     "date": "Date souhaitée",
     "time": "Heure (le cas échéant)",
     "adults": "Adultes",
-    "kids": "Enfants (6–16, 50%)",
+    "kids": "Enfants (6–13, 50%)",
     "infants": "Bébés (0–5, gratuit)",
-    "guestsNote": "Enfants 0–5 ans gratuits. Merci d'inscrire toutes les personnes pour disposer d'assez de gilets.",
+    "guestsNote": "Enfants 0–5 ans gratuits. Merci d'inscrire toutes les personnes pour bien organiser les places.",
     "estimatedPrice": "Prix estimé",
     "firstName": "Prénom",
     "lastName": "Nom",

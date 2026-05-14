@@ -88,7 +88,7 @@
       { "q": "How does the reservation work?", "a": "Send us the reservation form. We check availability, confirm your booking via WhatsApp and arrange all details directly with you." },
       { "q": "How do I pay?", "a": "Cash at the meeting point – or we collect the payment at your accommodation in Poreč. After payment you receive your tickets by email." },
       { "q": "What about bad weather?", "a": "Free rebooking to another date or a 100% refund." },
-      { "q": "Are the tours kid-friendly?", "a": "Yes. Children 0–5 free, children 6–16 pay 50%. Life jackets in all sizes are on board." },
+      { "q": "Are the tours kid-friendly?", "a": "Yes. Children 0–5 free, children 6–13 pay 50%." },
       { "q": "Cancellation policy?", "a": "Free cancellation up to 24 hours before departure." },
       { "q": "What languages?", "a": "Depending on the tour: English, German, Croatian or French – please request your language in advance via WhatsApp." }
     ]
@@ -132,9 +132,9 @@
     "date": "Preferred date",
     "time": "Time (if applicable)",
     "adults": "Adults",
-    "kids": "Children (6–16, 50%)",
+    "kids": "Children (6–13, 50%)",
     "infants": "Infants (0–5, free)",
-    "guestsNote": "Infants 0–5 travel free. Please add all guests so we have enough life jackets on board.",
+    "guestsNote": "Infants 0–5 travel free. Please add all guests so we can plan the seats correctly.",
     "estimatedPrice": "Estimated price",
     "firstName": "First name",
     "lastName": "Last name",

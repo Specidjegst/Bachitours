@@ -92,7 +92,7 @@ NEW RESERVATION ${ref}
 
 Tour: ${tourTitle}
 Date: ${values.date}${values.time ? " " + values.time : ""}
-Guests: ${values.adults} adults · ${values.kids} kids (6-16) · ${values.infants} infants (0-5)
+Guests: ${values.adults} adults · ${values.kids} kids (6-13) · ${values.infants} infants (0-5)
 Estimated total: ${totalStr}
 
 Customer: ${values.firstName} ${values.lastName}

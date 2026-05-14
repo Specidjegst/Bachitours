@@ -88,7 +88,7 @@
       { "q": "Kako rezervirati?", "a": "Pošaljite nam obrazac za rezervaciju. Provjeravamo slobodne termine i potvrđujemo putem WhatsAppa." },
       { "q": "Kako se plaća?", "a": "Gotovinom na polasku – ili dolazimo po uplatu na vašu adresu u Poreču. Nakon uplate karte šaljemo e-mailom." },
       { "q": "Što ako je loše vrijeme?", "a": "Besplatna promjena termina ili 100% povrat novca." },
-      { "q": "Jesu li izleti prikladni za djecu?", "a": "Da. Djeca 0–5 godina gratis, djeca 6–16 godina plaćaju 50%. Prsluci za spašavanje svih veličina na brodu." },
+      { "q": "Jesu li izleti prikladni za djecu?", "a": "Da. Djeca 0–5 godina gratis, djeca 6–13 godina plaćaju 50%." },
       { "q": "Otkazivanje?", "a": "Besplatno otkazivanje do 24 sata prije polaska." },
       { "q": "Jezici?", "a": "Ovisno o izletu HR/EN/DE/FR – molimo zatražite jezik unaprijed preko WhatsAppa." }
     ]
@@ -132,9 +132,9 @@
     "date": "Željeni datum",
     "time": "Vrijeme (ako primjenjivo)",
     "adults": "Odrasli",
-    "kids": "Djeca (6–16, 50%)",
+    "kids": "Djeca (6–13, 50%)",
     "infants": "Djeca (0–5, gratis)",
-    "guestsNote": "Djeca 0–5 godina gratis. Molimo unesite sve osobe radi prsluka za spašavanje.",
+    "guestsNote": "Djeca 0–5 godina gratis. Molimo unesite sve osobe radi pravilne organizacije mjesta.",
     "estimatedPrice": "Procijenjena cijena",
     "firstName": "Ime",
     "lastName": "Prezime",
