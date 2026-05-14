@@ -38,7 +38,7 @@ export function Footer() {
             </a>
             <br />
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=Brulo+3%2C+52440+Pore%C4%8D%2C+Croatia"
+              href="https://maps.app.goo.gl/UuYF8w2s2DkyThLi6"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-cream/90 hover:text-accent"

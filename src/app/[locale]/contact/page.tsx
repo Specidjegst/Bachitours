@@ -30,7 +30,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
           </div>
         </a>
         <a
-          href="https://www.google.com/maps/dir/?api=1&destination=Brulo+3%2C+52440+Pore%C4%8D%2C+Croatia"
+          href="https://maps.app.goo.gl/UuYF8w2s2DkyThLi6"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-3 rounded-xl2 bg-white p-5 shadow-card hover:shadow-cardHover"
