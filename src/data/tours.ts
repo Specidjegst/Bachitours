@@ -1,6 +1,6 @@
 import type { Tour } from "@/lib/types";
 
-const PRICE = 35;
+const PRICE = 30;
 
 export const tours: Tour[] = [
   {
@@ -449,9 +449,7 @@ export const tours: Tour[] = [
         highlights: ["Privatboot nur für deine Gruppe", "Halber oder ganzer Tag", "Mit eigenem Bootsführerschein oder Skipper", "Preis individuell nach Boot & Personenzahl", "Persönliche Offerte per WhatsApp"],
         included: ["Boot", "Kraftstoffpaket auf Anfrage"],
         notIncluded: ["Eintritte", "Verpflegung", "Skipper optional gegen Aufpreis"],
-        schedule: [
-          { time: "flexibel", text: "Start- und Endzeit nach Absprache" }
-        ],
+        schedule: [],
         importantNotes: ["Bootsführerschein oder gebuchter Skipper erforderlich", "Wetterabhängig", "Verbindlicher Preis erst nach Offerte"],
         meetingPointLabel: "Marina Poreč"
       },
@@ -463,9 +461,7 @@ export const tours: Tour[] = [
         highlights: ["Private boat just for your group", "Half day or full day", "Self-skipper (license) or with our skipper", "Custom price by boat & group size", "Personal quote via WhatsApp"],
         included: ["Boat", "Fuel package on request"],
         notIncluded: ["Entrance fees", "Food & drinks", "Skipper optional, extra fee"],
-        schedule: [
-          { time: "flexible", text: "Start and end time by arrangement" }
-        ],
+        schedule: [],
         importantNotes: ["Boat license or booked skipper required", "Weather-dependent", "Final price after quote"],
         meetingPointLabel: "Marina Poreč"
       },
@@ -477,9 +473,7 @@ export const tours: Tour[] = [
         highlights: ["Privatni brod samo za vašu grupu", "Pola ili cijeli dan", "Vlastiti skiper (s dozvolom) ili naš skiper", "Cijena prema brodu i broju osoba", "Osobna ponuda putem WhatsAppa"],
         included: ["Brod", "Paket goriva na upit"],
         notIncluded: ["Ulaznice", "Hrana i piće", "Skiper opcionalno uz doplatu"],
-        schedule: [
-          { time: "fleksibilno", text: "Vrijeme polaska i povratka po dogovoru" }
-        ],
+        schedule: [],
         importantNotes: ["Potrebna dozvola za upravljanje ili rezerviran skiper", "Ovisno o vremenu", "Konačna cijena nakon ponude"],
         meetingPointLabel: "Marina Poreč"
       },
@@ -491,9 +485,7 @@ export const tours: Tour[] = [
         highlights: ["Bateau privé pour votre groupe", "Demi-journée ou journée complète", "Pilotage perso (permis) ou avec skipper", "Prix selon bateau & groupe", "Devis personnalisé par WhatsApp"],
         included: ["Bateau", "Forfait carburant sur demande"],
         notIncluded: ["Entrées", "Restauration", "Skipper en option, supplément"],
-        schedule: [
-          { time: "flexible", text: "Horaires de départ et retour selon convenance" }
-        ],
+        schedule: [],
         importantNotes: ["Permis bateau ou skipper réservé requis", "Selon la météo", "Prix définitif après devis"],
         meetingPointLabel: "Marina Poreč"
       },
@@ -505,9 +497,7 @@ export const tours: Tour[] = [
         highlights: ["Barca privata solo per il tuo gruppo", "Mezza giornata o giornata intera", "Auto-skipper (con patente) o con il nostro skipper", "Prezzo personalizzato per barca e gruppo", "Preventivo personale via WhatsApp"],
         included: ["Barca", "Pacchetto carburante su richiesta"],
         notIncluded: ["Biglietti d'ingresso", "Cibo e bevande", "Skipper opzionale a costo extra"],
-        schedule: [
-          { time: "flessibile", text: "Orari di partenza e rientro su accordo" }
-        ],
+        schedule: [],
         importantNotes: ["Patente nautica o skipper prenotato richiesto", "Dipende dal meteo", "Prezzo definitivo dopo il preventivo"],
         meetingPointLabel: "Marina di Poreč"
       },
@@ -519,9 +509,7 @@ export const tours: Tour[] = [
         highlights: ["Частная лодка только для вашей группы", "Полдня или целый день", "Самостоятельное управление (нужны права) или с нашим шкипером", "Цена индивидуально по лодке и группе", "Личное предложение через WhatsApp"],
         included: ["Лодка", "Топливный пакет по запросу"],
         notIncluded: ["Входные билеты", "Еда и напитки", "Шкипер опционально за доплату"],
-        schedule: [
-          { time: "гибко", text: "Время отправления и возвращения по договорённости" }
-        ],
+        schedule: [],
         importantNotes: ["Требуются права судоводителя или забронированный шкипер", "Зависит от погоды", "Окончательная цена после предложения"],
         meetingPointLabel: "Марина Пореч"
       },
@@ -533,9 +521,7 @@ export const tours: Tour[] = [
         highlights: ["Prywatna łódź tylko dla Twojej grupy", "Pół dnia lub cały dzień", "Własny skipper (z patentem) lub nasz skipper", "Cena indywidualna według łodzi i grupy", "Osobista wycena przez WhatsApp"],
         included: ["Łódź", "Pakiet paliwowy na życzenie"],
         notIncluded: ["Bilety wstępu", "Jedzenie i napoje", "Skipper opcjonalnie za dopłatą"],
-        schedule: [
-          { time: "elastyczny", text: "Czasy odpłynięcia i powrotu według uzgodnień" }
-        ],
+        schedule: [],
         importantNotes: ["Wymagany patent żeglarski lub zarezerwowany skipper", "Zależnie od pogody", "Ostateczna cena po wycenie"],
         meetingPointLabel: "Marina Poreč"
       }

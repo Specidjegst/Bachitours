@@ -139,18 +139,20 @@ export default async function TourDetail({
                 </div>
               </section>
 
-              <section className="mt-10">
-                <h2 className="h3 mb-4 text-deep">{t("schedule")}</h2>
-                <ol className="space-y-3 border-l-2 border-line pl-5">
-                  {content.schedule.map((s, i) => (
-                    <li key={i} className="relative">
-                      <span className="absolute -left-[27px] top-1 h-3 w-3 rounded-full bg-accent ring-4 ring-cream"></span>
-                      <div className="text-sm font-semibold text-deep">{s.time}</div>
-                      <div className="text-sm text-ink">{s.text}</div>
-                    </li>
-                  ))}
-                </ol>
-              </section>
+              {content.schedule.length > 0 && (
+                <section className="mt-10">
+                  <h2 className="h3 mb-4 text-deep">{t("schedule")}</h2>
+                  <ol className="space-y-3 border-l-2 border-line pl-5">
+                    {content.schedule.map((s, i) => (
+                      <li key={i} className="relative">
+                        <span className="absolute -left-[27px] top-1 h-3 w-3 rounded-full bg-accent ring-4 ring-cream"></span>
+                        <div className="text-sm font-semibold text-deep">{s.time}</div>
+                        <div className="text-sm text-ink">{s.text}</div>
+                      </li>
+                    ))}
+                  </ol>
+                </section>
+              )}
 
               <section className="mt-10 grid gap-6 md:grid-cols-2">
                 <div className="rounded-xl2 border border-line bg-white p-5">
