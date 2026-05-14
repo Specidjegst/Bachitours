@@ -272,7 +272,7 @@ export const tours: Tour[] = [
     maxGuests: 8,
     isPrivate: true,
     languages: ["de", "en", "hr", "fr"],
-    pricing: { adult: 150, childDiscountPct: 0, infantFree: true, currency: "EUR" },
+    pricing: { adult: 0, childDiscountPct: 0, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
       { src: "https://i.imgur.com/rngySEF.jpg", alt: "Speedboot für private Tour" },

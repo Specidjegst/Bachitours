@@ -179,11 +179,19 @@ export default async function TourDetail({
 
             <aside className="lg:sticky lg:top-24 lg:self-start">
               <div className="rounded-xl2 bg-white p-6 shadow-card">
-                <div className="mb-3 text-sm text-muted">{tCommon("from")}</div>
-                <div className="mb-1 text-3xl font-bold text-deep">
-                  {formatPrice(tour.pricing.adult, locale)}
-                </div>
-                <div className="mb-5 text-sm text-muted">{tCommon("perPerson")}</div>
+                {tour.pricing.adult === 0 ? (
+                  <div className="mb-5 text-2xl font-bold text-deep">
+                    {formatPrice(0, locale)}
+                  </div>
+                ) : (
+                  <>
+                    <div className="mb-3 text-sm text-muted">{tCommon("from")}</div>
+                    <div className="mb-1 text-3xl font-bold text-deep">
+                      {formatPrice(tour.pricing.adult, locale)}
+                    </div>
+                    <div className="mb-5 text-sm text-muted">{tCommon("perPerson")}</div>
+                  </>
+                )}
                 <Link
                   href={{ pathname: "/booking", query: { tour: tour.id } }}
                   className="btn-primary w-full"

@@ -30,7 +30,9 @@ export function TourCard({ tour }: { tour: Tour }) {
           </span>
         )}
         <div className="absolute right-3 top-3 rounded-full bg-white/95 px-3 py-1 text-sm font-bold text-deep shadow-card">
-          {t("from")} {formatPrice(tour.pricing.adult, locale)}
+          {tour.pricing.adult === 0
+            ? formatPrice(0, locale)
+            : `${t("from")} ${formatPrice(tour.pricing.adult, locale)}`}
         </div>
       </div>
       <div className="p-5">

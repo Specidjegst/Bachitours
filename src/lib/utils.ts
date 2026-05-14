@@ -5,7 +5,17 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+const onRequestLabels: Record<string, string> = {
+  de: "Auf Anfrage",
+  en: "On request",
+  hr: "Na upit",
+  fr: "Sur demande",
+};
+
 export function formatPrice(amount: number, locale = "de") {
+  if (amount === 0) {
+    return onRequestLabels[locale] ?? onRequestLabels.en;
+  }
   return new Intl.NumberFormat(locale === "en" ? "en-GB" : locale, {
     style: "currency",
     currency: "EUR",
