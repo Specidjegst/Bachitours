@@ -12,9 +12,7 @@ export const tours: Tour[] = [
     pricing: { adult: PRICE, childDiscountPct: 50, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
-      { src: "https://i.imgur.com/Czfx5FO.jpg", alt: "Delfine springen aus dem Wasser" },
-      { src: "https://images.unsplash.com/photo-1518803194621-27188ba362c9?w=1600&q=80", alt: "Delfin im Meer" },
-      { src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80", alt: "Adriaküste vor Poreč" },
+      { src: "https://i.imgur.com/Czfx5FO.jpg", alt: "Delfine springen aus dem Wasser vor Poreč" },
     ],
     featured: true,
     i18n: {
@@ -98,8 +96,6 @@ export const tours: Tour[] = [
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
       { src: "https://i.imgur.com/4R2qlQA.jpg", alt: "Sonnenuntergang mit Delfinen vor Poreč" },
-      { src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80", alt: "Boot bei Sonnenuntergang" },
-      { src: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1600&q=80", alt: "Goldene Stunde Adria" },
     ],
     featured: true,
     i18n: {
