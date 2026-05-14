@@ -180,6 +180,9 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
               <option value="en">English</option>
               <option value="hr">Hrvatski</option>
               <option value="fr">Français</option>
+              <option value="it">Italiano</option>
+              <option value="ru">Русский</option>
+              <option value="pl">Polski</option>
             </select>
           </div>
           <div className="flex justify-between">

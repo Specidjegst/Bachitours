@@ -10,13 +10,23 @@ const onRequestLabels: Record<string, string> = {
   en: "On request",
   hr: "Na upit",
   fr: "Sur demande",
+  it: "Su richiesta",
+  ru: "По запросу",
+  pl: "Na zapytanie",
+};
+
+const intlLocale: Record<string, string> = {
+  en: "en-GB",
+  ru: "ru-RU",
+  pl: "pl-PL",
+  it: "it-IT",
 };
 
 export function formatPrice(amount: number, locale = "de") {
   if (amount === 0) {
     return onRequestLabels[locale] ?? onRequestLabels.en;
   }
-  return new Intl.NumberFormat(locale === "en" ? "en-GB" : locale, {
+  return new Intl.NumberFormat(intlLocale[locale] ?? locale, {
     style: "currency",
     currency: "EUR",
     maximumFractionDigits: 0,

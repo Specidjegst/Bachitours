@@ -1,0 +1,214 @@
+{
+  "site": {
+    "name": "Bachitours",
+    "tagline": "Wycieczki łodzią z Poreča"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "tours": "Wycieczki",
+    "about": "O nas",
+    "faq": "FAQ",
+    "contact": "Kontakt",
+    "book": "Rezerwacja"
+  },
+  "common": {
+    "bookNow": "Zarezerwuj teraz",
+    "viewTour": "Zobacz wycieczkę",
+    "viewAllTours": "Wszystkie wycieczki",
+    "whatsapp": "Zapytaj przez WhatsApp",
+    "whatsappShort": "WhatsApp",
+    "from": "od",
+    "perPerson": "za osobę",
+    "private": "Wycieczka prywatna",
+    "duration": "Czas trwania",
+    "meetingPoint": "Miejsce spotkania",
+    "languages": "Języki",
+    "maxGuests": "Maks. gości",
+    "included": "W cenie",
+    "notIncluded": "Bez opłaty",
+    "highlights": "Atrakcje",
+    "schedule": "Plan",
+    "important": "Ważne informacje",
+    "cancellation": "Anulowanie",
+    "loading": "Ładowanie…",
+    "back": "Wstecz",
+    "submit": "Wyślij",
+    "next": "Dalej",
+    "previous": "Wstecz",
+    "send": "Wyślij",
+    "close": "Zamknij"
+  },
+  "hero": {
+    "title": "Niezapomniane wycieczki łodzią z Poreča",
+    "subtitle": "Odkryj delfiny, Rovinj, fiord Lim i najpiękniejsze wybrzeże Chorwacji.",
+    "ctaPrimary": "Zobacz wycieczki",
+    "ctaSecondary": "Zapytaj przez WhatsApp",
+    "trust": "★ 4.9 · ponad 1200 zadowolonych gości · Odpowiedź w ciągu 1 godziny"
+  },
+  "trustBar": {
+    "local": "Lokalna firma rodzinna w Poreču",
+    "support": "Osobiste wsparcie WhatsApp w 4 językach",
+    "tickets": "E-bilety przez email po płatności"
+  },
+  "popularTours": {
+    "title": "Najpopularniejsze wycieczki",
+    "subtitle": "Cztery doświadczenia, jedno morze pełne historii."
+  },
+  "why": {
+    "title": "Dlaczego warto z nami?",
+    "items": {
+      "local": { "title": "Lokalni i autentyczni", "text": "Mieszkamy w Poreču i znamy osobiście każdą zatokę." },
+      "service": { "title": "Osobista obsługa", "text": "Żadnej anonimowej platformy – rozmawiasz bezpośrednio z nami." },
+      "support": { "title": "Wsparcie WhatsApp", "text": "Pytaj po polsku, niemiecku, angielsku, chorwacku lub francusku." },
+      "family": { "title": "Przyjazne rodzinom", "text": "Bezpieczne łodzie, cierpliwa załoga, kamizelki ratunkowe we wszystkich rozmiarach." },
+      "secure": { "title": "Rezerwacja bez ryzyka", "text": "Najpierw rezerwujesz, potem płacisz – bez ryzyka." },
+      "tickets": { "title": "Bilety na email", "text": "Po płatności otrzymujesz bilety cyfrowo, bez papieru." }
+    }
+  },
+  "how": {
+    "title": "Jak to działa",
+    "steps": {
+      "1": { "title": "Wybierz wycieczkę", "text": "Przejrzyj nasze wycieczki z Poreča." },
+      "2": { "title": "Wyślij rezerwację", "text": "Dodaj datę, liczbę gości i język." },
+      "3": { "title": "Potwierdzenie przez WhatsApp", "text": "Skontaktujemy się z Tobą z wszystkimi szczegółami i płatnością." },
+      "4": { "title": "Wypływamy!", "text": "Skipper czeka na Ciebie w umówionym miejscu." }
+    }
+  },
+  "reviews": {
+    "title": "Co mówią nasi goście",
+    "items": [
+      { "text": "Widzieliśmy delfiny – dzieci wciąż o tym mówią. Bardzo osobiście, bardzo szczerze.", "author": "Rodzina Hofer", "city": "Wiedeń" },
+      { "text": "Świetna wycieczka do Rovinj. Obiad na pokładzie był wisienką na torcie!", "author": "Sandra i Thomas", "city": "Monachium" },
+      { "text": "Bachi to fantastyczny skipper. Spokojny i wszystko wie.", "author": "Marc D.", "city": "Lyon" }
+    ]
+  },
+  "faq": {
+    "title": "Najczęstsze pytania",
+    "items": [
+      { "q": "Jak działa rezerwacja?", "a": "Wyślij formularz rezerwacji. Sprawdzamy dostępność, potwierdzamy rezerwację przez WhatsApp i omawiamy wszystkie szczegóły bezpośrednio z Tobą." },
+      { "q": "Jak zapłacić?", "a": "Gotówką w miejscu spotkania – lub przyjedziemy po płatność do Twojego zakwaterowania w Poreču. Po płatności otrzymujesz bilety przez email." },
+      { "q": "Co przy złej pogodzie?", "a": "Bezpłatna zmiana terminu lub 100% zwrot." },
+      { "q": "Czy wycieczki są odpowiednie dla dzieci?", "a": "Tak. Dzieci 0–5 gratis, dzieci 6–13 płacą 50%." },
+      { "q": "Polityka anulowania?", "a": "Bezpłatne anulowanie do 24 godzin przed wypłynięciem." },
+      { "q": "W jakich językach?", "a": "W zależności od wycieczki: polski, niemiecki, angielski, chorwacki lub francuski – prosimy o wcześniejsze zapytanie o język przez WhatsApp." }
+    ]
+  },
+  "contactCta": {
+    "title": "Masz jeszcze pytania?",
+    "text": "Napisz do nas na WhatsApp – zwykle odpowiadamy w ciągu godziny.",
+    "whatsapp": "Otwórz WhatsApp",
+    "email": "Wyślij email"
+  },
+  "tours": {
+    "title": "Wycieczki łodzią z Poreča",
+    "subtitle": "Porównaj nasze wycieczki i wybierz swoje doświadczenie.",
+    "noResults": "Nie znaleziono wycieczek."
+  },
+  "tourDetail": {
+    "overview": "Przegląd",
+    "highlights": "Atrakcje",
+    "included": "W cenie",
+    "notIncluded": "Bez opłaty",
+    "schedule": "Plan",
+    "meetingPoint": "Miejsce spotkania",
+    "important": "Ważne informacje",
+    "cancellation": "Anulowanie",
+    "weatherPolicy": "Jeśli pogoda nie pozwala na żeglowanie (decyzja skippera), przekładamy wycieczkę bezpłatnie lub zwracamy 100% kwoty.",
+    "cancellationPolicy": "Bezpłatne anulowanie do 24 godzin przed wypłynięciem.",
+    "paymentInfo": "Najpierw potwierdzamy rezerwację przez WhatsApp. Płatność gotówką w miejscu spotkania lub przyjedziemy po nią do Twojego zakwaterowania w Poreču. Bilety przychodzą emailem po płatności.",
+    "similar": "Podobne wycieczki"
+  },
+  "booking": {
+    "title": "Rezerwacja",
+    "subtitle": "Zarezerwuj w 2 minuty – płatność po potwierdzeniu WhatsApp.",
+    "step": "Krok",
+    "of": "z",
+    "stepLabels": {
+      "1": "Wycieczka i data",
+      "2": "Kontakt",
+      "3": "Potwierdzenie"
+    },
+    "tour": "Wycieczka",
+    "date": "Preferowana data",
+    "time": "Godzina (jeśli dotyczy)",
+    "adults": "Dorośli",
+    "kids": "Dzieci (6–13, 50%)",
+    "infants": "Niemowlęta (0–5, gratis)",
+    "guestsNote": "Dzieci 0–5 gratis. Prosimy podać wszystkie osoby, abyśmy mogli odpowiednio zaplanować miejsca.",
+    "estimatedPrice": "Szacowana cena",
+    "firstName": "Imię",
+    "lastName": "Nazwisko",
+    "email": "Email",
+    "phone": "Telefon / WhatsApp (z numerem kierunkowym)",
+    "language": "Twój język",
+    "message": "Wiadomość / specjalne życzenia (opcjonalnie)",
+    "consentTerms": "Przeczytałem(am) i akceptuję regulamin oraz politykę anulowania.",
+    "consentPrivacy": "Przeczytałem(am) politykę prywatności i wyrażam zgodę na przetwarzanie moich danych.",
+    "submit": "Wyślij rezerwację",
+    "submitting": "Wysyłanie…",
+    "errors": {
+      "required": "Wymagane",
+      "email": "Wpisz poprawny email",
+      "phone": "Wpisz poprawny numer telefonu",
+      "consent": "Zaakceptuj, aby kontynuować",
+      "general": "Coś poszło nie tak. Spróbuj ponownie lub napisz do nas na WhatsApp."
+    }
+  },
+  "whatsappPrefill": {
+    "general": "Cześć Bachitours, jestem zainteresowany/a wycieczką łodzią z Poreča. Możecie mi powiedzieć więcej?",
+    "tour": "Cześć Bachitours, jestem zainteresowany/a wycieczką \"{tour}\". Możecie mi powiedzieć więcej?"
+  },
+  "thanks": {
+    "title": "Dziękujemy za rezerwację!",
+    "text": "Wkrótce skontaktujemy się z Tobą przez WhatsApp w celu potwierdzenia i ustalenia płatności. Bilety zostaną wysłane emailem po płatności.",
+    "reference": "Numer rezerwacji",
+    "openWhatsapp": "Otwórz WhatsApp",
+    "backHome": "Powrót na stronę główną",
+    "whatsappPrefill": "Cześć Bachitours, właśnie wysłałem(am) rezerwację {ref} ({tour}, {date}, {guests} osób). Proszę o potwierdzenie. Dzięki!"
+  },
+  "about": {
+    "title": "O nas",
+    "lead": "Jesteśmy małą firmą rodzinną z Poreča. Od lat pokazujemy gościom z całego świata najpiękniejsze wybrzeże Istrii.",
+    "body": "Bachitours to osobiście, szczerze i lokalnie. Znamy zatoki, najlepsze pory na obserwację delfinów i małe restauracje, o których wiedzą tylko miejscowi. Rezerwując u nas, rozmawiasz bezpośrednio z załogą – żadnej anonimowej platformy, żadnych ukrytych opłat."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "lead": "Napisz do nas na WhatsApp lub email – odpowiadamy w 4 językach.",
+    "phoneLabel": "WhatsApp",
+    "emailLabel": "Email",
+    "addressLabel": "Lokalizacja",
+    "address": "Brulo 3, 52440 Poreč, Chorwacja"
+  },
+  "terms": {
+    "title": "Regulamin",
+    "lead": "Poniższy regulamin obowiązuje wszystkie wycieczki rezerwowane w Bachitours."
+  },
+  "cancellation": {
+    "title": "Polityka anulowania",
+    "lead": "Bezpłatne anulowanie do 24 godzin przed rozpoczęciem wycieczki. W razie złej pogody otrzymasz 100% zwrot lub bezpłatną zmianę terminu."
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "lead": "Twoje dane traktujemy poufnie i nigdy nie udostępniamy ich osobom trzecim."
+  },
+  "imprint": {
+    "title": "Impressum",
+    "lead": "Informacje wymagane przepisami."
+  },
+  "footer": {
+    "tagline": "Wycieczki łodzią z Poreča – osobiście, lokalnie, szczerze.",
+    "company": "Firma",
+    "legal": "Prawne",
+    "languages": "Języki",
+    "rights": "Wszelkie prawa zastrzeżone."
+  },
+  "languageNames": {
+    "de": "Deutsch",
+    "en": "English",
+    "hr": "Hrvatski",
+    "fr": "Français",
+    "it": "Italiano",
+    "ru": "Русский",
+    "pl": "Polski"
+  }
+}

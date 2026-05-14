@@ -11,11 +11,11 @@ export const bookingSchema = z.object({
   lastName: z.string().min(1).max(80),
   email: z.string().email(),
   phone: z.string().min(6).max(40),
-  language: z.enum(["de", "en", "hr", "fr"]),
+  language: z.enum(["de", "en", "hr", "fr", "it", "ru", "pl"]),
   message: z.string().max(2000).optional(),
   consentTerms: z.literal(true),
   consentPrivacy: z.literal(true),
-  locale: z.enum(["de", "en", "hr", "fr"]),
+  locale: z.enum(["de", "en", "hr", "fr", "it", "ru", "pl"]),
   honeypot: z.string().max(0).optional(),
 });
 

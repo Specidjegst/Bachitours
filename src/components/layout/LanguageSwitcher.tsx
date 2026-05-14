@@ -7,6 +7,16 @@ import { Globe } from "lucide-react";
 import { tours } from "@/data/tours";
 import type { Locale } from "@/i18n/routing";
 
+const languageLabels: Record<Locale, string> = {
+  de: "Deutsch",
+  en: "English",
+  hr: "Hrvatski",
+  fr: "Français",
+  it: "Italiano",
+  ru: "Русский",
+  pl: "Polski",
+};
+
 export function LanguageSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
@@ -63,7 +73,7 @@ export function LanguageSwitcher() {
                 onClick={() => setOpen(false)}
                 className={`block rounded-lg px-3 py-2 text-sm hover:bg-cream ${l === locale ? "font-semibold text-primary" : "text-ink"}`}
               >
-                {l === "de" ? "Deutsch" : l === "en" ? "English" : l === "hr" ? "Hrvatski" : "Français"}
+                {languageLabels[l]}
               </Link>
             </li>
           ))}

@@ -14,6 +14,9 @@ const customerSubjects: Record<Locale, (ref: string) => string> = {
   en: (r) => `Your reservation ${r} at Bachitours`,
   hr: (r) => `Vaša rezervacija ${r} kod Bachitoursa`,
   fr: (r) => `Votre réservation ${r} chez Bachitours`,
+  it: (r) => `La tua prenotazione ${r} presso Bachitours`,
+  ru: (r) => `Ваше бронирование ${r} в Bachitours`,
+  pl: (r) => `Twoja rezerwacja ${r} w Bachitours`,
 };
 
 const customerBodies: Record<Locale, (args: { name: string; tour: string; date: string; guests: string; total: string; ref: string }) => string> = {
@@ -75,6 +78,51 @@ Prix estimé : ${total}
 Pour toute question, écrivez-nous sur WhatsApp ou à info@bachitours.com.
 
 Cordialement depuis Poreč,
+Bachitours
+`,
+  it: ({ name, tour, date, guests, total, ref }) => `
+Ciao ${name},
+
+grazie per la prenotazione "${tour}" il ${date} per ${guests} persone.
+
+Ti contatteremo a breve via WhatsApp per confermare e organizzare il pagamento. I biglietti seguono via email dopo il pagamento.
+
+Numero di prenotazione: ${ref}
+Prezzo stimato: ${total}
+
+Per qualsiasi domanda, scrivici su WhatsApp o a info@bachitours.com.
+
+Saluti adriatici da Poreč,
+Bachitours
+`,
+  ru: ({ name, tour, date, guests, total, ref }) => `
+Здравствуйте, ${name}!
+
+Спасибо за бронирование "${tour}" на ${date} для ${guests} человек.
+
+Мы свяжемся с вами в WhatsApp для подтверждения и оплаты. Билеты придут по email после оплаты.
+
+Номер бронирования: ${ref}
+Примерная цена: ${total}
+
+По любым вопросам пишите нам в WhatsApp или на info@bachitours.com.
+
+С приветом из Пореча,
+Bachitours
+`,
+  pl: ({ name, tour, date, guests, total, ref }) => `
+Cześć ${name},
+
+dziękujemy za rezerwację "${tour}" w dniu ${date} dla ${guests} osób.
+
+Wkrótce skontaktujemy się przez WhatsApp w sprawie potwierdzenia i płatności. Bilety wyślemy emailem po płatności.
+
+Numer rezerwacji: ${ref}
+Szacowana cena: ${total}
+
+W razie pytań pisz do nas na WhatsApp lub na info@bachitours.com.
+
+Pozdrowienia z Poreča,
 Bachitours
 `,
 };

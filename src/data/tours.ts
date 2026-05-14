@@ -83,6 +83,57 @@ export const tours: Tour[] = [
         ],
         importantNotes: ["Selon la météo, décision du skipper", "Crème solaire et chapeau recommandés", "Chaussures fermées conseillées"],
         meetingPointLabel: "Marina Poreč, quai 3"
+      },
+      it: {
+        title: "Safari Delfini",
+        slug: "safari-delfini",
+        shortDescription: "Avvistamento delfini al largo di Poreč – piccolo gruppo, skipper locale, bevande a bordo.",
+        description: "Osserva i delfini dell'Adriatico nel loro habitat naturale. Andiamo nei luoghi preferiti dei delfini lungo la costa di Poreč. Lungo il percorso vedrai spesso anche colonie di cormorani sulla costa rocciosa.",
+        highlights: ["Avvistamento delfini al momento migliore", "Skipper locale esperto", "Bevande a bordo incluse", "Piccolo gruppo (max 10)"],
+        included: ["Skipper", "Bevande"],
+        notIncluded: ["Cena", "Trasferimento dall'hotel"],
+        schedule: [
+          { time: "17:00", text: "Incontro al molo della Marina di Poreč" },
+          { time: "17:15", text: "Partenza verso l'area dei delfini" },
+          { time: "18:00", text: "Avvistamento delfini e cormorani" },
+          { time: "19:00", text: "Rientro alla Marina di Poreč" }
+        ],
+        importantNotes: ["Dipende dal meteo, decide lo skipper", "Consigliati crema solare e cappello", "Scarpe chiuse utili"],
+        meetingPointLabel: "Marina di Poreč, Molo 3"
+      },
+      ru: {
+        title: "Сафари с дельфинами",
+        slug: "delfin-safari",
+        shortDescription: "Наблюдение за дельфинами у Пореча – маленькая группа, местный шкипер, напитки на борту.",
+        description: "Наблюдайте за дельфинами Адриатики в их естественной среде. Мы отправляемся в любимые места дельфинов вдоль побережья Пореча. По пути вы часто увидите также колонии бакланов на скалистом берегу.",
+        highlights: ["Наблюдение за дельфинами в лучшее время", "Опытный местный шкипер", "Напитки на борту включены", "Маленькая группа (макс. 10)"],
+        included: ["Шкипер", "Напитки"],
+        notIncluded: ["Ужин", "Трансфер из отеля"],
+        schedule: [
+          { time: "17:00", text: "Встреча на причале Марина Пореч" },
+          { time: "17:15", text: "Отправление к району дельфинов" },
+          { time: "18:00", text: "Наблюдение за дельфинами и бакланами" },
+          { time: "19:00", text: "Возвращение в Марину Пореч" }
+        ],
+        importantNotes: ["Зависит от погоды, решение шкипера", "Рекомендуется крем от солнца и шляпа", "Удобная обувь приветствуется"],
+        meetingPointLabel: "Марина Пореч, причал 3"
+      },
+      pl: {
+        title: "Safari z delfinami",
+        slug: "safari-z-delfinami",
+        shortDescription: "Obserwacja delfinów u wybrzeży Poreča – mała grupa, lokalny skipper, napoje na pokładzie.",
+        description: "Obserwuj adriatyckie delfiny w ich naturalnym środowisku. Płyniemy w ulubione miejsca delfinów wzdłuż wybrzeża Poreča. Po drodze często zobaczysz też kolonie kormoranów na skalistym wybrzeżu.",
+        highlights: ["Obserwacja delfinów w najlepszym czasie", "Doświadczony lokalny skipper", "Napoje na pokładzie w cenie", "Mała grupa (maks. 10)"],
+        included: ["Skipper", "Napoje"],
+        notIncluded: ["Kolacja", "Odbiór z hotelu"],
+        schedule: [
+          { time: "17:00", text: "Spotkanie na nabrzeżu Mariny Poreč" },
+          { time: "17:15", text: "Wypłynięcie w stronę obszaru delfinów" },
+          { time: "18:00", text: "Obserwacja delfinów i kormoranów" },
+          { time: "19:00", text: "Powrót do Mariny Poreč" }
+        ],
+        importantNotes: ["Zależnie od pogody, decyduje skipper", "Zalecany krem do opalania i kapelusz", "Wygodne buty mile widziane"],
+        meetingPointLabel: "Marina Poreč, Nabrzeże 3"
       }
     }
   },
@@ -166,6 +217,57 @@ export const tours: Tour[] = [
         ],
         importantNotes: ["Selon la météo, décision du skipper", "Prévoir une couche chaude pour le soir", "N'oubliez pas votre appareil photo"],
         meetingPointLabel: "Marina Poreč, quai 3"
+      },
+      it: {
+        title: "Sunset Delfini",
+        slug: "sunset-delfini",
+        shortDescription: "Delfini nella luce dorata della sera – l'ora magica al largo di Poreč.",
+        description: "Vivi i delfini nell'ora dorata al largo di Poreč. Mentre il sole tramonta nell'Adriatico, i delfini sono particolarmente attivi – un'atmosfera indimenticabile per foto e ricordi.",
+        highlights: ["Delfini nell'ora dorata", "Tramonto spettacolare", "Bevande a bordo incluse", "Piccolo gruppo (max 10)"],
+        included: ["Skipper", "Bevande"],
+        notIncluded: ["Cena", "Trasferimento dall'hotel"],
+        schedule: [
+          { time: "19:00", text: "Incontro al molo della Marina di Poreč" },
+          { time: "19:15", text: "Partenza verso l'area dei delfini" },
+          { time: "20:00", text: "Avvistamento delfini e tramonto" },
+          { time: "21:00", text: "Rientro alla Marina di Poreč" }
+        ],
+        importantNotes: ["Dipende dal meteo, decide lo skipper", "Consigliato uno strato caldo per la sera", "Non dimenticare la macchina fotografica"],
+        meetingPointLabel: "Marina di Poreč, Molo 3"
+      },
+      ru: {
+        title: "Сансет с дельфинами",
+        slug: "delfin-sunset",
+        shortDescription: "Дельфины в золотом вечернем свете – волшебный час у Пореча.",
+        description: "Откройте для себя дельфинов в золотой час у Пореча. Пока солнце садится в Адриатику, дельфины особенно активны – незабываемая атмосфера для фото и воспоминаний.",
+        highlights: ["Дельфины в золотой час", "Захватывающий закат", "Напитки на борту включены", "Маленькая группа (макс. 10)"],
+        included: ["Шкипер", "Напитки"],
+        notIncluded: ["Ужин", "Трансфер из отеля"],
+        schedule: [
+          { time: "19:00", text: "Встреча на причале Марина Пореч" },
+          { time: "19:15", text: "Отправление к району дельфинов" },
+          { time: "20:00", text: "Наблюдение за дельфинами и закат" },
+          { time: "21:00", text: "Возвращение в Марину Пореч" }
+        ],
+        importantNotes: ["Зависит от погоды, решение шкипера", "Рекомендуем взять тёплую одежду на вечер", "Не забудьте камеру"],
+        meetingPointLabel: "Марина Пореч, причал 3"
+      },
+      pl: {
+        title: "Sunset z delfinami",
+        slug: "sunset-z-delfinami",
+        shortDescription: "Delfiny w złotym wieczornym świetle – magiczna godzina u wybrzeży Poreča.",
+        description: "Doświadcz delfinów w złotej godzinie u wybrzeży Poreča. Gdy słońce zachodzi w Adriatyku, delfiny są szczególnie aktywne – niezapomniana atmosfera na zdjęcia i wspomnienia.",
+        highlights: ["Delfiny w złotej godzinie", "Spektakularny zachód słońca", "Napoje na pokładzie w cenie", "Mała grupa (maks. 10)"],
+        included: ["Skipper", "Napoje"],
+        notIncluded: ["Kolacja", "Odbiór z hotelu"],
+        schedule: [
+          { time: "19:00", text: "Spotkanie na nabrzeżu Mariny Poreč" },
+          { time: "19:15", text: "Wypłynięcie w stronę obszaru delfinów" },
+          { time: "20:00", text: "Obserwacja delfinów i zachód słońca" },
+          { time: "21:00", text: "Powrót do Mariny Poreč" }
+        ],
+        importantNotes: ["Zależnie od pogody, decyduje skipper", "Zalecamy ciepłą warstwę na wieczór", "Nie zapomnij aparatu"],
+        meetingPointLabel: "Marina Poreč, Nabrzeże 3"
       }
     }
   },
@@ -263,6 +365,66 @@ export const tours: Tour[] = [
         ],
         importantNotes: ["Selon la météo", "Merci de signaler à l'avance le choix de plat (végé/poisson/viande) et les allergies", "Prévoir maillot de bain"],
         meetingPointLabel: "Marina Poreč, quai 3"
+      },
+      it: {
+        title: "Rovinj Limfjord Vrsar",
+        slug: "rovinj-limfjord-vrsar",
+        shortDescription: "Giornata intera: centro storico di Rovinj, fiordo di Lim e Vrsar – pranzo e bevande a bordo inclusi.",
+        description: "Una rilassante giornata lungo i luoghi più belli dell'Istria. Partiamo alle 10 da Poreč, navigando un'ora fino a Rovinj per una pausa di 2 ore nel centro storico. Poi gustiamo il pranzo a bordo (vegetariano, pesce o carne) mentre attraversiamo il pittoresco fiordo di Lim verso Vrsar. A Vrsar avete 1 ora e mezza per fare il bagno o passeggiare nel villaggio.",
+        highlights: ["Tre punti salienti in un giorno", "2 ore libere a Rovinj", "Crociera panoramica nel fiordo di Lim", "Pranzo a bordo (vegetariano, pesce o carne)", "Bevande incluse", "Sosta di 1,5 ore a Vrsar per il bagno"],
+        included: ["Skipper", "Pranzo", "Bevande"],
+        notIncluded: ["Biglietti d'ingresso", "Mance"],
+        schedule: [
+          { time: "10:00", text: "Partenza Marina di Poreč" },
+          { time: "11:00", text: "Arrivo a Rovinj – 2 ore di tempo libero nel centro storico" },
+          { time: "13:00", text: "Partenza da Rovinj, pranzo a bordo (vegetariano, pesce o carne)" },
+          { time: "14:30", text: "Attraversamento del fiordo di Lim" },
+          { time: "15:30", text: "Arrivo a Vrsar – 1,5 ore per fare il bagno o esplorare" },
+          { time: "17:00", text: "Ritorno verso Poreč" },
+          { time: "18:00", text: "Rientro alla Marina di Poreč" }
+        ],
+        importantNotes: ["Dipende dal meteo", "Si prega di comunicare in anticipo la scelta del pasto (vegetariano/pesce/carne) e le allergie", "Portare costume da bagno"],
+        meetingPointLabel: "Marina di Poreč, Molo 3"
+      },
+      ru: {
+        title: "Ровинь Лим-фьорд Врсар",
+        slug: "rovinj-limfjord-vrsar",
+        shortDescription: "Целодневный тур: старый город Ровинь, Лим-фьорд и Врсар – обед и напитки на борту включены.",
+        description: "Расслабленный целодневный тур по самым красивым местам Истрии. Стартуем в 10 утра из Пореча, час плывём в Ровинь на 2-часовую остановку в старом городе. Затем обед на борту (вегетарианский, рыба или мясо) пока плывём через живописный Лим-фьорд к Врсару. В Врсаре у вас 1,5 часа на купание или прогулку по посёлку.",
+        highlights: ["Три ярких момента за один день", "2 часа свободного времени в Ровине", "Панорамный круиз по Лим-фьорду", "Обед на борту (вегетарианский, рыба или мясо)", "Напитки включены", "1,5-часовая остановка в Врсаре для купания"],
+        included: ["Шкипер", "Обед", "Напитки"],
+        notIncluded: ["Входные билеты", "Чаевые"],
+        schedule: [
+          { time: "10:00", text: "Отправление из Марины Пореч" },
+          { time: "11:00", text: "Прибытие в Ровинь – 2 часа свободного времени в старом городе" },
+          { time: "13:00", text: "Отправление из Ровиня, обед на борту (вегетарианский, рыба или мясо)" },
+          { time: "14:30", text: "Прохождение Лим-фьорда" },
+          { time: "15:30", text: "Прибытие в Врсар – 1,5 часа для купания или прогулки" },
+          { time: "17:00", text: "Возвращение в Пореч" },
+          { time: "18:00", text: "Возвращение в Марину Пореч" }
+        ],
+        importantNotes: ["Зависит от погоды", "Просим заранее сообщить выбор блюда (вег/рыба/мясо) и аллергии", "Возьмите купальный костюм"],
+        meetingPointLabel: "Марина Пореч, причал 3"
+      },
+      pl: {
+        title: "Rovinj Limfjord Vrsar",
+        slug: "rovinj-limfjord-vrsar",
+        shortDescription: "Całodniowa wycieczka: stare miasto Rovinj, fiord Lim i Vrsar – obiad i napoje na pokładzie w cenie.",
+        description: "Spokojna całodniowa wycieczka wzdłuż najpiękniejszych miejsc Istrii. Startujemy o 10:00 z Poreča, godzinę płyniemy do Rovinj na 2-godzinną przerwę w starym mieście. Następnie obiad na pokładzie (wegetariański, ryba lub mięso) podczas rejsu przez malowniczy fiord Lim do Vrsaru. We Vrsarze macie 1,5 godziny na kąpiel lub spacer po miasteczku.",
+        highlights: ["Trzy atrakcje w jeden dzień", "2 godziny wolnego czasu w Rovinj", "Panoramiczny rejs przez fiord Lim", "Obiad na pokładzie (wegetariański, ryba lub mięso)", "Napoje w cenie", "1,5-godzinny postój we Vrsarze na kąpiel"],
+        included: ["Skipper", "Obiad", "Napoje"],
+        notIncluded: ["Bilety wstępu", "Napiwki"],
+        schedule: [
+          { time: "10:00", text: "Wypłynięcie z Mariny Poreč" },
+          { time: "11:00", text: "Przybycie do Rovinj – 2 godziny wolnego w starym mieście" },
+          { time: "13:00", text: "Wypłynięcie z Rovinj, obiad na pokładzie (wegetariański, ryba lub mięso)" },
+          { time: "14:30", text: "Przepłynięcie fiordu Lim" },
+          { time: "15:30", text: "Przybycie do Vrsar – 1,5 godziny na kąpiel lub spacer" },
+          { time: "17:00", text: "Powrót do Poreča" },
+          { time: "18:00", text: "Powrót do Mariny Poreč" }
+        ],
+        importantNotes: ["Zależnie od pogody", "Prosimy o wcześniejsze zgłoszenie wyboru dania (weg/ryba/mięso) i alergii", "Zabrać strój kąpielowy"],
+        meetingPointLabel: "Marina Poreč, Nabrzeże 3"
       }
     }
   },
@@ -333,6 +495,48 @@ export const tours: Tour[] = [
           { time: "flexible", text: "Horaires de départ et retour selon convenance" }
         ],
         importantNotes: ["Permis bateau ou skipper réservé requis", "Selon la météo", "Prix définitif après devis"],
+        meetingPointLabel: "Marina Poreč"
+      },
+      it: {
+        title: "Tour privato in motoscafo",
+        slug: "tour-privato-motoscafo",
+        shortDescription: "Mezza giornata o giornata intera in motoscafo privato – prezzo secondo barca e gruppo. Contattaci per un preventivo.",
+        description: "Un'escursione privata in motoscafo su misura – mezza giornata o giornata intera. Puoi pilotare tu (patente nautica richiesta) o con il nostro skipper. Il prezzo dipende dalla dimensione della barca, dal numero di persone e dalla durata. Scrivici per un preventivo personalizzato – rispondiamo rapidamente su WhatsApp.",
+        highlights: ["Barca privata solo per il tuo gruppo", "Mezza giornata o giornata intera", "Auto-skipper (con patente) o con il nostro skipper", "Prezzo personalizzato per barca e gruppo", "Preventivo personale via WhatsApp"],
+        included: ["Barca", "Pacchetto carburante su richiesta"],
+        notIncluded: ["Biglietti d'ingresso", "Cibo e bevande", "Skipper opzionale a costo extra"],
+        schedule: [
+          { time: "flessibile", text: "Orari di partenza e rientro su accordo" }
+        ],
+        importantNotes: ["Patente nautica o skipper prenotato richiesto", "Dipende dal meteo", "Prezzo definitivo dopo il preventivo"],
+        meetingPointLabel: "Marina di Poreč"
+      },
+      ru: {
+        title: "Частная прогулка на катере",
+        slug: "chastnaya-progulka-kater",
+        shortDescription: "Полдня или целый день на частном катере – цена зависит от лодки и группы. Свяжитесь с нами для предложения.",
+        description: "Частная прогулка на катере специально для вас – полдня или целый день. Можно управлять самостоятельно (нужно удостоверение судоводителя) или с нашим шкипером. Цена зависит от размера лодки, количества людей и продолжительности. Напишите нам для индивидуального предложения – мы быстро отвечаем в WhatsApp.",
+        highlights: ["Частная лодка только для вашей группы", "Полдня или целый день", "Самостоятельное управление (нужны права) или с нашим шкипером", "Цена индивидуально по лодке и группе", "Личное предложение через WhatsApp"],
+        included: ["Лодка", "Топливный пакет по запросу"],
+        notIncluded: ["Входные билеты", "Еда и напитки", "Шкипер опционально за доплату"],
+        schedule: [
+          { time: "гибко", text: "Время отправления и возвращения по договорённости" }
+        ],
+        importantNotes: ["Требуются права судоводителя или забронированный шкипер", "Зависит от погоды", "Окончательная цена после предложения"],
+        meetingPointLabel: "Марина Пореч"
+      },
+      pl: {
+        title: "Prywatna wycieczka motorówką",
+        slug: "prywatna-wycieczka-motorowka",
+        shortDescription: "Pół dnia lub cały dzień motorówką prywatnie – cena zależy od łodzi i grupy. Skontaktuj się z nami po wycenę.",
+        description: "Prywatna wycieczka motorówką uszyta na miarę – pół dnia lub cały dzień. Możesz sterować sam (potrzebny patent) lub z naszym skipperem. Cena zależy od wielkości łodzi, liczby osób i długości. Napisz do nas po indywidualną wycenę – szybko odpowiadamy na WhatsApp.",
+        highlights: ["Prywatna łódź tylko dla Twojej grupy", "Pół dnia lub cały dzień", "Własny skipper (z patentem) lub nasz skipper", "Cena indywidualna według łodzi i grupy", "Osobista wycena przez WhatsApp"],
+        included: ["Łódź", "Pakiet paliwowy na życzenie"],
+        notIncluded: ["Bilety wstępu", "Jedzenie i napoje", "Skipper opcjonalnie za dopłatą"],
+        schedule: [
+          { time: "elastyczny", text: "Czasy odpłynięcia i powrotu według uzgodnień" }
+        ],
+        importantNotes: ["Wymagany patent żeglarski lub zarezerwowany skipper", "Zależnie od pogody", "Ostateczna cena po wycenie"],
         meetingPointLabel: "Marina Poreč"
       }
     }

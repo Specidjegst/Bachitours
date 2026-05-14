@@ -14,6 +14,12 @@ const prefillByLocale = {
     `Bok Bachitours, upravo sam poslao/la rezervaciju ${ref} (${tour}, ${date}, ${guests} osoba). Molim potvrdu. Hvala!`,
   fr: (ref: string, tour: string, date: string, guests: number) =>
     `Bonjour Bachitours, je viens d'envoyer la réservation ${ref} (${tour}, ${date}, ${guests} personnes). Merci de confirmer.`,
+  it: (ref: string, tour: string, date: string, guests: number) =>
+    `Ciao Bachitours, ho appena inviato la prenotazione ${ref} (${tour}, ${date}, ${guests} persone). Confermate per favore. Grazie!`,
+  ru: (ref: string, tour: string, date: string, guests: number) =>
+    `Здравствуйте Bachitours, я только что отправил(а) бронирование ${ref} (${tour}, ${date}, ${guests} человек). Подтвердите, пожалуйста. Спасибо!`,
+  pl: (ref: string, tour: string, date: string, guests: number) =>
+    `Cześć Bachitours, właśnie wysłałem(am) rezerwację ${ref} (${tour}, ${date}, ${guests} osób). Proszę o potwierdzenie. Dzięki!`,
 } as const;
 
 export async function POST(request: Request) {
