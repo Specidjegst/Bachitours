@@ -189,7 +189,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limfjord-vrsar",
         shortDescription: "Tagestour: Rovinj-Altstadt, Limfjord und Vrsar – Mittagessen und Getränke an Bord inklusive.",
         description: "Eine entspannte Tagestour entlang der schönsten Plätze Istriens. Wir starten um 10 Uhr in Poreč, fahren in 1 Stunde nach Rovinj für eine 2-stündige Pause in der Altstadt. Anschließend genießen Sie das Mittagessen an Bord (vegetarisch, Fisch oder Fleisch) während wir durch den malerischen Limfjord weiter nach Vrsar fahren. In Vrsar bleiben 1,5 Stunden zum Baden oder Erkunden des Ortes.",
-        highlights: ["Drei Highlights an einem Tag", "2 Stunden freie Zeit in Rovinj", "Mittagessen an Bord (vegetarisch, Fisch oder Fleisch)", "Getränke inklusive", "1,5 Stunden Stop in Vrsar zum Baden"],
+        highlights: ["Drei Highlights an einem Tag", "2 Stunden freie Zeit in Rovinj", "Panorama-Fahrt durch den Limfjord", "Mittagessen an Bord (vegetarisch, Fisch oder Fleisch)", "Getränke inklusive", "1,5 Stunden Stop in Vrsar zum Baden"],
         included: ["Skipper", "Mittagessen", "Getränke"],
         notIncluded: ["Eintrittsgelder", "Trinkgeld"],
         schedule: [
@@ -209,7 +209,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limfjord-vrsar",
         shortDescription: "Day tour: Rovinj old town, Lim fjord and Vrsar – lunch and drinks on board included.",
         description: "A relaxed day tour along Istria's most beautiful spots. We start at 10 AM in Poreč, sail one hour to Rovinj for a 2-hour break in the old town. Afterwards enjoy lunch on board (vegetarian, fish or meat) while we sail through the scenic Lim fjord toward Vrsar. In Vrsar you have 1.5 hours to swim or stroll through the village.",
-        highlights: ["Three highlights in one day", "2 hours free time in Rovinj", "Lunch on board (vegetarian, fish or meat)", "Drinks included", "1.5-hour stop in Vrsar for swimming"],
+        highlights: ["Three highlights in one day", "2 hours free time in Rovinj", "Panorama cruise through the Lim fjord", "Lunch on board (vegetarian, fish or meat)", "Drinks included", "1.5-hour stop in Vrsar for swimming"],
         included: ["Skipper", "Lunch", "Drinks"],
         notIncluded: ["Entrance fees", "Tips"],
         schedule: [
@@ -229,7 +229,7 @@ export const tours: Tour[] = [
         slug: "rovinj-limski-kanal-vrsar",
         shortDescription: "Cjelodnevni izlet: Rovinj, Limski kanal i Vrsar – ručak i pića na brodu uključeni.",
         description: "Opušten cjelodnevni izlet uz najljepša mjesta Istre. Krećemo u 10 sati iz Poreča, plovimo sat vremena u Rovinj na 2-satnu pauzu u starom gradu. Zatim uživate u ručku na brodu (vegetarijanski, riba ili meso) dok plovimo kroz slikoviti Limski kanal prema Vrsaru. U Vrsaru imate 1,5 sat za kupanje ili razgled mjesta.",
-        highlights: ["Tri vrhunca u jednom danu", "2 sata slobodnog vremena u Rovinju", "Ručak na brodu (vegetarijanski, riba ili meso)", "Pića uključena", "1,5 sat stop u Vrsaru za kupanje"],
+        highlights: ["Tri vrhunca u jednom danu", "2 sata slobodnog vremena u Rovinju", "Panoramska plovidba Limskim kanalom", "Ručak na brodu (vegetarijanski, riba ili meso)", "Pića uključena", "1,5 sat stop u Vrsaru za kupanje"],
         included: ["Skiper", "Ručak", "Pića"],
         notIncluded: ["Ulaznice", "Napojnice"],
         schedule: [
@@ -249,7 +249,7 @@ export const tours: Tour[] = [
         slug: "rovinj-fjord-lim-vrsar",
         shortDescription: "Journée: Rovinj, fjord de Lim et Vrsar – déjeuner et boissons à bord inclus.",
         description: "Une journée détendue le long des plus beaux sites d'Istrie. Nous partons à 10h de Poreč, naviguons une heure vers Rovinj pour une pause de 2 heures dans la vieille ville. Puis profitez du déjeuner à bord (végétarien, poisson ou viande) pendant que nous traversons le pittoresque fjord de Lim vers Vrsar. À Vrsar, vous avez 1h30 pour vous baigner ou flâner dans le village.",
-        highlights: ["Trois points forts en un jour", "2 heures de temps libre à Rovinj", "Déjeuner à bord (végétarien, poisson ou viande)", "Boissons incluses", "Arrêt de 1h30 à Vrsar pour la baignade"],
+        highlights: ["Trois points forts en un jour", "2 heures de temps libre à Rovinj", "Traversée panoramique du fjord de Lim", "Déjeuner à bord (végétarien, poisson ou viande)", "Boissons incluses", "Arrêt de 1h30 à Vrsar pour la baignade"],
         included: ["Skipper", "Déjeuner", "Boissons"],
         notIncluded: ["Entrées", "Pourboires"],
         schedule: [
