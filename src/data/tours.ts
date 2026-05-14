@@ -4,86 +4,171 @@ const PRICE = 35;
 
 export const tours: Tour[] = [
   {
-    id: "dolphin-private",
+    id: "dolphin-safari",
     durationHours: 2,
     maxGuests: 10,
-    isPrivate: true,
+    isPrivate: false,
     languages: ["de", "en", "hr", "fr"],
     pricing: { adult: PRICE, childDiscountPct: 50, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
+      { src: "https://i.imgur.com/Czfx5FO.jpg", alt: "Delfine springen aus dem Wasser" },
       { src: "https://images.unsplash.com/photo-1518803194621-27188ba362c9?w=1600&q=80", alt: "Delfin im Meer" },
-      { src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80", alt: "Boot bei Sonnenuntergang" },
-      { src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80", alt: "Adriaküste" },
+      { src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1600&q=80", alt: "Adriaküste vor Poreč" },
     ],
     featured: true,
     i18n: {
       de: {
-        title: "Private Delfin- & Kormoran-Beobachtungstour",
-        slug: "private-delfin-kormoran-tour",
-        shortDescription: "Privat auf dem Boot Delfine und Kormorane vor Poreč erleben.",
-        description: "Eine private Tour exklusiv für Sie und Ihre Liebsten. In Begleitung unseres Skippers fahren wir zu den Lieblingsplätzen der Adria-Delfine. Nebenbei beobachten wir die seltenen Kormoran-Kolonien an der felsigen Küste vor Poreč.",
-        highlights: ["Privatboot nur für Ihre Gruppe", "Beste Zeit für Delfin-Beobachtung", "Erfahrener lokaler Skipper", "Ruhige, kleine Buchten"],
-        included: ["Privater Skipper"],
-        notIncluded: ["Mittagessen", "Hotelabholung"],
+        title: "Delfin Safari",
+        slug: "delfin-safari",
+        shortDescription: "Delfine vor Poreč erleben – kleine Gruppe, lokaler Skipper, Getränke an Bord.",
+        description: "Erleben Sie die Adria-Delfine in ihrem natürlichen Lebensraum. Wir fahren zu den Lieblingsplätzen der Delfine vor der Küste Poreč. Auf dem Weg sehen Sie oft auch Kormoran-Kolonien an der felsigen Küste.",
+        highlights: ["Delfin-Beobachtung zur besten Zeit", "Lokaler erfahrener Skipper", "Getränke an Bord inklusive", "Kleine Gruppe (max. 10)"],
+        included: ["Skipper", "Getränke"],
+        notIncluded: ["Abendessen", "Hotelabholung"],
         schedule: [
           { time: "17:00", text: "Treffen am Pier in der Marina Poreč" },
           { time: "17:15", text: "Abfahrt Richtung Delfin-Gebiet" },
           { time: "18:00", text: "Delfin- und Kormoran-Beobachtung" },
           { time: "19:00", text: "Rückkehr in die Marina Poreč" }
         ],
-        importantNotes: ["Wetterabhängig, Skipper entscheidet", "Sonnencreme & Hut empfohlen", "Festes Schuhwerk hilfreich", "Auch verfügbar 19:00–21:00"],
+        importantNotes: ["Wetterabhängig, Skipper entscheidet", "Sonnencreme & Hut empfohlen", "Festes Schuhwerk hilfreich"],
         meetingPointLabel: "Marina Poreč, Pier 3"
       },
       en: {
-        title: "Private Dolphin & Cormorant Watching Tour",
-        slug: "private-dolphin-cormorant-tour",
-        shortDescription: "Private boat tour to spot dolphins and cormorants off Poreč.",
-        description: "A private tour exclusively for you and your loved ones. Together with our skipper we head out to the favorite spots of Adriatic dolphins, while watching the rare cormorant colonies along the rocky coast.",
-        highlights: ["Private boat for your group", "Best time for dolphin watching", "Experienced local skipper", "Quiet small bays"],
-        included: ["Private skipper"],
-        notIncluded: ["Lunch", "Hotel pickup"],
+        title: "Dolphin Safari",
+        slug: "dolphin-safari",
+        shortDescription: "Watch dolphins off Poreč – small group, local skipper, drinks on board.",
+        description: "Watch Adriatic dolphins in their natural habitat. We head to the dolphins' favorite spots along the Poreč coast. On the way you often also see cormorant colonies on the rocky shore.",
+        highlights: ["Dolphin watching at the best time", "Experienced local skipper", "Drinks on board included", "Small group (max 10)"],
+        included: ["Skipper", "Drinks"],
+        notIncluded: ["Dinner", "Hotel pickup"],
         schedule: [
           { time: "17:00", text: "Meet at the pier in Marina Poreč" },
           { time: "17:15", text: "Departure to dolphin area" },
           { time: "18:00", text: "Dolphin & cormorant watching" },
           { time: "19:00", text: "Return to Marina Poreč" }
         ],
-        importantNotes: ["Weather-dependent, skipper decides", "Sunscreen & hat recommended", "Sturdy shoes helpful", "Also available 19:00–21:00"],
+        importantNotes: ["Weather-dependent, skipper decides", "Sunscreen & hat recommended", "Sturdy shoes helpful"],
         meetingPointLabel: "Marina Poreč, Pier 3"
       },
       hr: {
-        title: "Privatni izlet – promatranje dupina i vranaca",
-        slug: "privatni-izlet-dupini-vranci",
-        shortDescription: "Privatni izlet brodom uz dupine i vrance ispred Poreča.",
-        description: "Privatni izlet samo za vas i vaše najbliže. Sa skiperom plovimo do omiljenih mjesta jadranskih dupina i promatramo rijetke kolonije vranaca uz stjenovitu obalu.",
-        highlights: ["Privatni brod samo za vašu grupu", "Najbolje vrijeme za dupine", "Iskusan lokalni skiper", "Mirne male uvale"],
-        included: ["Privatni skiper"],
-        notIncluded: ["Ručak", "Preuzimanje iz hotela"],
+        title: "Delfin Safari",
+        slug: "delfin-safari",
+        shortDescription: "Promatranje dupina ispred Poreča – mala grupa, lokalni skiper, pića na brodu.",
+        description: "Promatrajte jadranske dupine u njihovom prirodnom okruženju. Plovimo do omiljenih mjesta dupina uz obalu Poreča. Usput često vidite i kolonije vranaca na stjenovitoj obali.",
+        highlights: ["Promatranje dupina u najboljem vremenu", "Iskusan lokalni skiper", "Pića na brodu uključena", "Mala grupa (maks. 10)"],
+        included: ["Skiper", "Pića"],
+        notIncluded: ["Večera", "Preuzimanje iz hotela"],
         schedule: [
           { time: "17:00", text: "Susret na pristaništu u Marini Poreč" },
           { time: "17:15", text: "Polazak prema području dupina" },
           { time: "18:00", text: "Promatranje dupina i vranaca" },
           { time: "19:00", text: "Povratak u Marinu Poreč" }
         ],
-        importantNotes: ["Ovisno o vremenu, skiper odlučuje", "Preporučujemo kremu i šešir", "Dobro je obuti čvrste cipele", "Dostupno i 19:00–21:00"],
+        importantNotes: ["Ovisno o vremenu, skiper odlučuje", "Preporučujemo kremu i šešir", "Dobro je obuti čvrste cipele"],
         meetingPointLabel: "Marina Poreč, gat 3"
       },
       fr: {
-        title: "Tour privé – observation des dauphins et cormorans",
-        slug: "tour-privee-dauphins-cormorans",
-        shortDescription: "Tour privé en bateau pour observer dauphins et cormorans au large de Poreč.",
-        description: "Une excursion privée exclusivement pour vous. Avec notre skipper, nous nous rendons aux endroits préférés des dauphins de l'Adriatique tout en observant les rares colonies de cormorans le long de la côte rocheuse.",
-        highlights: ["Bateau privé pour votre groupe", "Meilleur moment pour les dauphins", "Skipper local expérimenté", "Petites criques tranquilles"],
-        included: ["Skipper privé"],
-        notIncluded: ["Déjeuner", "Prise en charge à l'hôtel"],
+        title: "Safari Dauphins",
+        slug: "safari-dauphins",
+        shortDescription: "Observation des dauphins au large de Poreč – petit groupe, skipper local, boissons à bord.",
+        description: "Observez les dauphins de l'Adriatique dans leur habitat naturel. Nous nous rendons aux endroits préférés des dauphins le long de la côte de Poreč. En chemin, vous voyez souvent aussi des colonies de cormorans sur la côte rocheuse.",
+        highlights: ["Observation des dauphins au meilleur moment", "Skipper local expérimenté", "Boissons à bord incluses", "Petit groupe (max 10)"],
+        included: ["Skipper", "Boissons"],
+        notIncluded: ["Dîner", "Prise en charge à l'hôtel"],
         schedule: [
           { time: "17:00", text: "Rendez-vous au quai de la Marina Poreč" },
           { time: "17:15", text: "Départ vers la zone des dauphins" },
           { time: "18:00", text: "Observation des dauphins et cormorans" },
           { time: "19:00", text: "Retour à la Marina Poreč" }
         ],
-        importantNotes: ["Selon la météo, décision du skipper", "Crème solaire et chapeau recommandés", "Chaussures fermées conseillées", "Également disponible 19h00–21h00"],
+        importantNotes: ["Selon la météo, décision du skipper", "Crème solaire et chapeau recommandés", "Chaussures fermées conseillées"],
+        meetingPointLabel: "Marina Poreč, quai 3"
+      }
+    }
+  },
+  {
+    id: "dolphin-sunset",
+    durationHours: 2,
+    maxGuests: 10,
+    isPrivate: false,
+    languages: ["de", "en", "hr", "fr"],
+    pricing: { adult: PRICE, childDiscountPct: 50, infantFree: true, currency: "EUR" },
+    meetingPoint: { lat: 45.2269, lng: 13.5944 },
+    images: [
+      { src: "https://i.imgur.com/4R2qlQA.jpg", alt: "Sonnenuntergang mit Delfinen vor Poreč" },
+      { src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80", alt: "Boot bei Sonnenuntergang" },
+      { src: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1600&q=80", alt: "Goldene Stunde Adria" },
+    ],
+    featured: true,
+    i18n: {
+      de: {
+        title: "Delfin Sunset",
+        slug: "delfin-sunset",
+        shortDescription: "Delfine im goldenen Abendlicht – die magische Stunde vor Poreč.",
+        description: "Erleben Sie Delfine in der goldenen Stunde vor Poreč. Während die Sonne im Adria-Wasser versinkt, sind die Delfine besonders aktiv – eine unvergessliche Stimmung für Foto und Erlebnis.",
+        highlights: ["Delfine zur goldenen Stunde", "Spektakulärer Sonnenuntergang", "Getränke an Bord inklusive", "Kleine Gruppe (max. 10)"],
+        included: ["Skipper", "Getränke"],
+        notIncluded: ["Abendessen", "Hotelabholung"],
+        schedule: [
+          { time: "19:00", text: "Treffen am Pier in der Marina Poreč" },
+          { time: "19:15", text: "Abfahrt Richtung Delfin-Gebiet" },
+          { time: "20:00", text: "Delfin-Beobachtung & Sonnenuntergang" },
+          { time: "21:00", text: "Rückkehr in die Marina Poreč" }
+        ],
+        importantNotes: ["Wetterabhängig, Skipper entscheidet", "Warme Schicht für den Abend empfohlen", "Kamera nicht vergessen"],
+        meetingPointLabel: "Marina Poreč, Pier 3"
+      },
+      en: {
+        title: "Dolphin Sunset",
+        slug: "dolphin-sunset",
+        shortDescription: "Dolphins in the golden evening light – the magic hour off Poreč.",
+        description: "Experience dolphins during the golden hour off Poreč. As the sun sets into the Adriatic, the dolphins are especially active – an unforgettable mood for both photos and memories.",
+        highlights: ["Dolphins at the golden hour", "Spectacular sunset", "Drinks on board included", "Small group (max 10)"],
+        included: ["Skipper", "Drinks"],
+        notIncluded: ["Dinner", "Hotel pickup"],
+        schedule: [
+          { time: "19:00", text: "Meet at the pier in Marina Poreč" },
+          { time: "19:15", text: "Departure to dolphin area" },
+          { time: "20:00", text: "Dolphin watching & sunset" },
+          { time: "21:00", text: "Return to Marina Poreč" }
+        ],
+        importantNotes: ["Weather-dependent, skipper decides", "Bring a warm layer for the evening", "Don't forget your camera"],
+        meetingPointLabel: "Marina Poreč, Pier 3"
+      },
+      hr: {
+        title: "Delfin Sunset",
+        slug: "delfin-sunset",
+        shortDescription: "Dupini u zlatnoj večernjoj svjetlosti – čarobni sat ispred Poreča.",
+        description: "Doživite dupine u zlatnom satu ispred Poreča. Dok sunce zalazi u Jadran, dupini su posebno aktivni – nezaboravna atmosfera za fotografije i uspomene.",
+        highlights: ["Dupini u zlatnom satu", "Spektakularan zalazak sunca", "Pića na brodu uključena", "Mala grupa (maks. 10)"],
+        included: ["Skiper", "Pića"],
+        notIncluded: ["Večera", "Preuzimanje iz hotela"],
+        schedule: [
+          { time: "19:00", text: "Susret na pristaništu u Marini Poreč" },
+          { time: "19:15", text: "Polazak prema području dupina" },
+          { time: "20:00", text: "Promatranje dupina i zalazak sunca" },
+          { time: "21:00", text: "Povratak u Marinu Poreč" }
+        ],
+        importantNotes: ["Ovisno o vremenu, skiper odlučuje", "Ponijeti topliji sloj za večer", "Ne zaboravite kameru"],
+        meetingPointLabel: "Marina Poreč, gat 3"
+      },
+      fr: {
+        title: "Sunset Dauphins",
+        slug: "sunset-dauphins",
+        shortDescription: "Dauphins dans la lumière dorée du soir – l'heure magique au large de Poreč.",
+        description: "Découvrez les dauphins à l'heure dorée au large de Poreč. Pendant que le soleil se couche dans l'Adriatique, les dauphins sont particulièrement actifs – une ambiance inoubliable pour les photos comme pour les souvenirs.",
+        highlights: ["Dauphins à l'heure dorée", "Coucher de soleil spectaculaire", "Boissons à bord incluses", "Petit groupe (max 10)"],
+        included: ["Skipper", "Boissons"],
+        notIncluded: ["Dîner", "Prise en charge à l'hôtel"],
+        schedule: [
+          { time: "19:00", text: "Rendez-vous au quai de la Marina Poreč" },
+          { time: "19:15", text: "Départ vers la zone des dauphins" },
+          { time: "20:00", text: "Observation des dauphins et coucher de soleil" },
+          { time: "21:00", text: "Retour à la Marina Poreč" }
+        ],
+        importantNotes: ["Selon la météo, décision du skipper", "Prévoir une couche chaude pour le soir", "N'oubliez pas votre appareil photo"],
         meetingPointLabel: "Marina Poreč, quai 3"
       }
     }
