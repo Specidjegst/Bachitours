@@ -178,6 +178,8 @@ export const tours: Tour[] = [
     pricing: { adult: 50, childDiscountPct: 50, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
+      { src: "https://i.imgur.com/9bBQnZ3.jpg", alt: "Rovinj – Altstadt am Meer" },
+      { src: "https://i.imgur.com/gxXWdXz.jpg", alt: "Limfjord – Durchfahrt mit dem Boot" },
       { src: "https://i.imgur.com/c8QQ5cB.jpg", alt: "Vrsar – Hafen und Hügelstadt" },
     ],
     featured: true,
