@@ -265,6 +265,77 @@ export const tours: Tour[] = [
         meetingPointLabel: "Marina Poreč, quai 3"
       }
     }
+  },
+  {
+    id: "speedboat-charter",
+    durationHours: 4,
+    maxGuests: 8,
+    isPrivate: true,
+    languages: ["de", "en", "hr", "fr"],
+    pricing: { adult: 150, childDiscountPct: 0, infantFree: true, currency: "EUR" },
+    meetingPoint: { lat: 45.2269, lng: 13.5944 },
+    images: [
+      { src: "https://i.imgur.com/rngySEF.jpg", alt: "Speedboot für private Tour" },
+    ],
+    featured: true,
+    i18n: {
+      de: {
+        title: "Privat Speedboot Tour",
+        slug: "privat-speedboot-tour",
+        shortDescription: "Halber oder ganzer Tag Speedboot privat – Preis nach Boot und Personenzahl. Kontaktiere uns für eine Offerte.",
+        description: "Eine private Speedboot-Tour ganz nach deinen Wünschen – halber oder ganzer Tag. Du fährst entweder selbst (Bootsführerschein erforderlich) oder mit unserem Skipper. Der Preis variiert je nach Bootsgröße, Personenzahl und Dauer. Schreib uns für eine individuelle Offerte – wir melden uns schnell per WhatsApp zurück.",
+        highlights: ["Privatboot nur für deine Gruppe", "Halber oder ganzer Tag", "Mit eigenem Bootsführerschein oder Skipper", "Preis individuell nach Boot & Personenzahl", "Persönliche Offerte per WhatsApp"],
+        included: ["Boot", "Kraftstoffpaket auf Anfrage"],
+        notIncluded: ["Eintritte", "Verpflegung", "Skipper optional gegen Aufpreis"],
+        schedule: [
+          { time: "flexibel", text: "Start- und Endzeit nach Absprache" }
+        ],
+        importantNotes: ["Bootsführerschein oder gebuchter Skipper erforderlich", "Wetterabhängig", "Verbindlicher Preis erst nach Offerte"],
+        meetingPointLabel: "Marina Poreč"
+      },
+      en: {
+        title: "Private Speedboat Tour",
+        slug: "private-speedboat-tour",
+        shortDescription: "Half or full day private speedboat – price depends on boat and group. Contact us for a quote.",
+        description: "A private speedboat tour tailored to you – half day or full day. You can either skipper yourself (boat license required) or hire our skipper. The price depends on boat size, group size and duration. Send us a message for a personal quote – we reply quickly on WhatsApp.",
+        highlights: ["Private boat just for your group", "Half day or full day", "Self-skipper (license) or with our skipper", "Custom price by boat & group size", "Personal quote via WhatsApp"],
+        included: ["Boat", "Fuel package on request"],
+        notIncluded: ["Entrance fees", "Food & drinks", "Skipper optional, extra fee"],
+        schedule: [
+          { time: "flexible", text: "Start and end time by arrangement" }
+        ],
+        importantNotes: ["Boat license or booked skipper required", "Weather-dependent", "Final price after quote"],
+        meetingPointLabel: "Marina Poreč"
+      },
+      hr: {
+        title: "Privatni izlet glisserom",
+        slug: "privatni-izlet-glisserom",
+        shortDescription: "Pola ili cijeli dan privatni gliser – cijena ovisi o brodu i broju osoba. Pišite za ponudu.",
+        description: "Privatni izlet glisserom po vašim željama – pola ili cijeli dan. Možete sami upravljati brodom (potrebna dozvola) ili s našim skiperom. Cijena ovisi o veličini broda, broju osoba i trajanju. Pošaljite nam poruku za individualnu ponudu – brzo odgovaramo putem WhatsAppa.",
+        highlights: ["Privatni brod samo za vašu grupu", "Pola ili cijeli dan", "Vlastiti skiper (s dozvolom) ili naš skiper", "Cijena prema brodu i broju osoba", "Osobna ponuda putem WhatsAppa"],
+        included: ["Brod", "Paket goriva na upit"],
+        notIncluded: ["Ulaznice", "Hrana i piće", "Skiper opcionalno uz doplatu"],
+        schedule: [
+          { time: "fleksibilno", text: "Vrijeme polaska i povratka po dogovoru" }
+        ],
+        importantNotes: ["Potrebna dozvola za upravljanje ili rezerviran skiper", "Ovisno o vremenu", "Konačna cijena nakon ponude"],
+        meetingPointLabel: "Marina Poreč"
+      },
+      fr: {
+        title: "Tour privé en hors-bord",
+        slug: "tour-prive-hors-bord",
+        shortDescription: "Demi-journée ou journée en hors-bord privé – prix selon le bateau et le groupe. Contactez-nous pour un devis.",
+        description: "Une excursion privée en hors-bord sur mesure – demi-journée ou journée complète. Vous pouvez piloter vous-même (permis bateau requis) ou avec notre skipper. Le prix dépend de la taille du bateau, du nombre de personnes et de la durée. Écrivez-nous pour un devis personnalisé – nous répondons rapidement par WhatsApp.",
+        highlights: ["Bateau privé pour votre groupe", "Demi-journée ou journée complète", "Pilotage perso (permis) ou avec skipper", "Prix selon bateau & groupe", "Devis personnalisé par WhatsApp"],
+        included: ["Bateau", "Forfait carburant sur demande"],
+        notIncluded: ["Entrées", "Restauration", "Skipper en option, supplément"],
+        schedule: [
+          { time: "flexible", text: "Horaires de départ et retour selon convenance" }
+        ],
+        importantNotes: ["Permis bateau ou skipper réservé requis", "Selon la météo", "Prix définitif après devis"],
+        meetingPointLabel: "Marina Poreč"
+      }
+    }
   }
 ];
 
