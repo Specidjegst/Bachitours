@@ -29,13 +29,18 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
             <div className="text-ink">{operatorEmail}</div>
           </div>
         </a>
-        <div className="flex items-center gap-3 rounded-xl2 bg-white p-5 shadow-card">
+        <a
+          href="https://www.google.com/maps/dir/?api=1&destination=Brulo+3%2C+52440+Pore%C4%8D%2C+Croatia"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-3 rounded-xl2 bg-white p-5 shadow-card hover:shadow-cardHover"
+        >
           <MapPin className="text-deep" />
           <div>
             <div className="text-sm font-semibold text-deep">{t("addressLabel")}</div>
             <div className="text-ink">{t("address")}</div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   );

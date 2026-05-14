@@ -37,9 +37,14 @@ export function Footer() {
               <Mail size={16} /> {operatorEmail}
             </a>
             <br />
-            <span className="inline-flex items-center gap-2 text-cream/90">
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=Brulo+3%2C+52440+Pore%C4%8D%2C+Croatia"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 text-cream/90 hover:text-accent"
+            >
               <MapPin size={16} /> {tContact("address")}
-            </span>
+            </a>
           </div>
         </div>
         <div>
