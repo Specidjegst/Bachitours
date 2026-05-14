@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { tours, getAllSlugsForLocale, getTourBySlug } from "@/data/tours";
 import { Gallery } from "@/components/tour/Gallery";
 import { Link } from "@/i18n/routing";
-import { Clock, Users, MapPin, Languages, Check, X, AlertTriangle, ShieldCheck, MessageCircle } from "lucide-react";
+import { Clock, MapPin, Languages, Check, X, AlertTriangle, ShieldCheck, MessageCircle } from "lucide-react";
 import { TourCard } from "@/components/ui/TourCard";
 import { formatPrice } from "@/lib/utils";
 import { operatorWaUrl } from "@/lib/whatsapp";
@@ -94,7 +94,6 @@ export default async function TourDetail({
 
           <div className="mb-8 flex flex-wrap gap-2">
             <span className="chip"><Clock size={14} /> {tour.durationHours}h</span>
-            <span className="chip"><Users size={14} /> max {tour.maxGuests}</span>
             <span className="chip"><MapPin size={14} /> {content.meetingPointLabel}</span>
             <span className="chip"><Languages size={14} /> {tour.languages.map((l) => l.toUpperCase()).join(" · ")}</span>
             {tour.isPrivate && <span className="chip bg-deep text-white">{tCommon("private")}</span>}

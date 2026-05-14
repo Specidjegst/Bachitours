@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
-import { Clock, MapPin, Users } from "lucide-react";
+import { Clock, MapPin } from "lucide-react";
 import type { Tour } from "@/lib/types";
 import { formatPrice } from "@/lib/utils";
 import type { Locale } from "@/i18n/routing";
@@ -41,9 +41,6 @@ export function TourCard({ tour }: { tour: Tour }) {
         <div className="flex flex-wrap gap-3 text-xs text-muted">
           <span className="inline-flex items-center gap-1">
             <Clock size={14} /> {tour.durationHours}h
-          </span>
-          <span className="inline-flex items-center gap-1">
-            <Users size={14} /> max {tour.maxGuests}
           </span>
           <span className="inline-flex items-center gap-1">
             <MapPin size={14} /> Poreč

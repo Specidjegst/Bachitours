@@ -178,9 +178,7 @@ export const tours: Tour[] = [
     pricing: { adult: 50, childDiscountPct: 50, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
-      { src: "https://images.unsplash.com/photo-1571401835393-8c5f35328320?w=1600&q=80", alt: "Rovinj Altstadt" },
-      { src: "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=1600&q=80", alt: "Boot in Rovinj" },
-      { src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1600&q=80", alt: "Mediterranes Essen" },
+      { src: "https://i.imgur.com/c8QQ5cB.jpg", alt: "Vrsar – Hafen und Hügelstadt" },
     ],
     featured: true,
     i18n: {
@@ -348,103 +346,6 @@ export const tours: Tour[] = [
         ],
         importantNotes: ["Selon la météo", "Crème solaire conseillée", "Appareils photo bienvenus", "Également disponible 19h00–21h00"],
         meetingPointLabel: "Marina Poreč, quai 5"
-      }
-    }
-  },
-  {
-    id: "rovinj-lim-vrsar",
-    durationHours: 8,
-    maxGuests: 12,
-    isPrivate: false,
-    languages: ["de", "en", "hr", "fr"],
-    pricing: { adult: 50, childDiscountPct: 50, infantFree: true, currency: "EUR" },
-    meetingPoint: { lat: 45.2269, lng: 13.5944 },
-    images: [
-      { src: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=1600&q=80", alt: "Limfjord" },
-      { src: "https://images.unsplash.com/photo-1571401835393-8c5f35328320?w=1600&q=80", alt: "Rovinj" },
-      { src: "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=1600&q=80", alt: "Vrsar" },
-    ],
-    featured: true,
-    i18n: {
-      de: {
-        title: "Rovinj, Limfjord & Vrsar – Tagestour mit Mittagessen",
-        slug: "rovinj-limfjord-vrsar-mittagessen",
-        shortDescription: "Drei Highlights Istriens an einem Tag inkl. Mittagessen.",
-        description: "Die ultimative Tagestour: malerischer Limfjord, das künstlerische Vrsar und das berühmte Rovinj – mit Mittagessen an Bord, Schwimmpause und Zeit für Fotos.",
-        highlights: ["Limfjord von der Wasserseite", "Vrsar – Hafen und Hügelstadt", "Rovinj – Altstadt zu Fuß", "Essen & Getränke an Bord inklusive", "Ab 20 Pers.: nur 40€/Person (statt 50€)"],
-        included: ["Skipper", "Mittagessen"],
-        notIncluded: ["Eintritte", "Trinkgeld"],
-        schedule: [
-          { time: "09:00", text: "Treffen Marina Poreč" },
-          { time: "09:30", text: "Limfjord" },
-          { time: "11:00", text: "Vrsar – kurzer Stopp" },
-          { time: "13:00", text: "Rovinj – Altstadt & freie Zeit" },
-          { time: "14:30", text: "Mittagessen an Bord" },
-          { time: "16:00", text: "Schwimmstopp" },
-          { time: "17:00", text: "Rückkehr Poreč" }
-        ],
-        importantNotes: ["Wetterabhängig", "Bademode mitnehmen", "Sonnenschutz wichtig"],
-        meetingPointLabel: "Marina Poreč, Pier 3"
-      },
-      en: {
-        title: "Rovinj, Lim Fjord & Vrsar – Day Tour with Lunch",
-        slug: "rovinj-lim-fjord-vrsar-lunch",
-        shortDescription: "Three Istrian highlights in one day incl. lunch.",
-        description: "The ultimate day tour: scenic Lim fjord, artistic Vrsar and famous Rovinj – with lunch on board, swim stop and time for photos.",
-        highlights: ["Lim fjord from the water", "Vrsar – harbor and hilltop", "Rovinj – walking the old town", "Food & drinks on board included", "Groups 20+: only €40/p.p. (instead of €50)"],
-        included: ["Skipper", "Lunch"],
-        notIncluded: ["Entrance fees", "Tips"],
-        schedule: [
-          { time: "09:00", text: "Meet at Marina Poreč" },
-          { time: "09:30", text: "Lim fjord" },
-          { time: "11:00", text: "Vrsar – short stop" },
-          { time: "13:00", text: "Rovinj – old town & free time" },
-          { time: "14:30", text: "Lunch on board" },
-          { time: "16:00", text: "Swimming stop" },
-          { time: "17:00", text: "Return to Poreč" }
-        ],
-        importantNotes: ["Weather-dependent", "Bring swimwear", "Sun protection important"],
-        meetingPointLabel: "Marina Poreč, Pier 3"
-      },
-      hr: {
-        title: "Rovinj, Limski kanal i Vrsar – cjelodnevni izlet s ručkom",
-        slug: "rovinj-limski-kanal-vrsar-rucak",
-        shortDescription: "Tri istarska vrhunca u jednom danu uz ručak.",
-        description: "Konačni cjelodnevni izlet: slikoviti Limski kanal, umjetnički Vrsar i poznati Rovinj – s ručkom na brodu, kupanjem i vremenom za fotografiranje.",
-        highlights: ["Limski kanal s vode", "Vrsar – luka i brežuljak", "Rovinj – stari grad", "Hrana i piće na brodu uključeno", "Grupe 20+: samo 40€/os. (umjesto 50€)"],
-        included: ["Skiper", "Ručak"],
-        notIncluded: ["Ulaznice", "Napojnice"],
-        schedule: [
-          { time: "09:00", text: "Sastanak u Marini Poreč" },
-          { time: "09:30", text: "Limski kanal" },
-          { time: "11:00", text: "Vrsar – kratki stop" },
-          { time: "13:00", text: "Rovinj – stari grad i slobodno vrijeme" },
-          { time: "14:30", text: "Ručak na brodu" },
-          { time: "16:00", text: "Kupanje" },
-          { time: "17:00", text: "Povratak u Poreč" }
-        ],
-        importantNotes: ["Ovisno o vremenu", "Ponijeti kupaći", "Zaštita od sunca"],
-        meetingPointLabel: "Marina Poreč, gat 3"
-      },
-      fr: {
-        title: "Rovinj, Fjord de Lim & Vrsar – Journée avec déjeuner",
-        slug: "rovinj-fjord-lim-vrsar-dejeuner",
-        shortDescription: "Trois points forts d'Istrie en un jour, déjeuner inclus.",
-        description: "L'excursion ultime : pittoresque fjord de Lim, Vrsar artistique et célèbre Rovinj – avec déjeuner à bord, pause baignade et temps pour les photos.",
-        highlights: ["Fjord de Lim depuis la mer", "Vrsar – port et colline", "Rovinj – vieille ville à pied", "Repas & boissons à bord inclus", "Groupes 20+: seulement 40€/p.p. (au lieu de 50€)"],
-        included: ["Skipper", "Déjeuner"],
-        notIncluded: ["Entrées", "Pourboires"],
-        schedule: [
-          { time: "09:00", text: "Rendez-vous Marina Poreč" },
-          { time: "09:30", text: "Fjord de Lim" },
-          { time: "11:00", text: "Vrsar – arrêt court" },
-          { time: "13:00", text: "Rovinj – vieille ville & temps libre" },
-          { time: "14:30", text: "Déjeuner à bord" },
-          { time: "16:00", text: "Pause baignade" },
-          { time: "17:00", text: "Retour à Poreč" }
-        ],
-        importantNotes: ["Selon la météo", "Prévoir maillot", "Protection solaire essentielle"],
-        meetingPointLabel: "Marina Poreč, quai 3"
       }
     }
   }
