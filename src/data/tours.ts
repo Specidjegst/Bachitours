@@ -273,7 +273,7 @@ export const tours: Tour[] = [
   },
   {
     id: "rovinj-food",
-    durationHours: 8,
+    durationHours: 9,
     maxGuests: 12,
     isPrivate: false,
     languages: ["de", "en", "hr", "fr"],
@@ -301,7 +301,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Durchfahrt Limfjord" },
           { time: "15:30", text: "Ankunft Vrsar – 1,5 Stunden zum Baden oder Erkunden" },
           { time: "17:00", text: "Rückfahrt nach Poreč" },
-          { time: "18:00", text: "Rückkehr Marina Poreč" }
+          { time: "19:00", text: "Rückkehr Marina Poreč" }
         ],
         importantNotes: ["Wetterabhängig", "Essenwahl (vegetarisch/Fisch/Fleisch) und Allergien bitte vorab melden", "Bademode mitnehmen"],
         meetingPointLabel: "Marina Poreč, Pier 3"
@@ -321,7 +321,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Sail through the Lim fjord" },
           { time: "15:30", text: "Arrival Vrsar – 1.5 hours to swim or explore" },
           { time: "17:00", text: "Return to Poreč" },
-          { time: "18:00", text: "Back at Marina Poreč" }
+          { time: "19:00", text: "Back at Marina Poreč" }
         ],
         importantNotes: ["Weather-dependent", "Please report meal choice (veggie/fish/meat) and allergies in advance", "Bring swimwear"],
         meetingPointLabel: "Marina Poreč, Pier 3"
@@ -341,7 +341,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Plovidba kroz Limski kanal" },
           { time: "15:30", text: "Dolazak u Vrsar – 1,5 sat za kupanje ili razgled" },
           { time: "17:00", text: "Povratak prema Poreču" },
-          { time: "18:00", text: "Povratak u Marinu Poreč" }
+          { time: "19:00", text: "Povratak u Marinu Poreč" }
         ],
         importantNotes: ["Ovisno o vremenu", "Molimo unaprijed prijaviti izbor jela (veg/riba/meso) i alergije", "Ponijeti kupaći kostim"],
         meetingPointLabel: "Marina Poreč, gat 3"
@@ -361,7 +361,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Traversée du fjord de Lim" },
           { time: "15:30", text: "Arrivée à Vrsar – 1h30 pour se baigner ou se balader" },
           { time: "17:00", text: "Retour vers Poreč" },
-          { time: "18:00", text: "Retour à la Marina Poreč" }
+          { time: "19:00", text: "Retour à la Marina Poreč" }
         ],
         importantNotes: ["Selon la météo", "Merci de signaler à l'avance le choix de plat (végé/poisson/viande) et les allergies", "Prévoir maillot de bain"],
         meetingPointLabel: "Marina Poreč, quai 3"
@@ -381,7 +381,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Attraversamento del fiordo di Lim" },
           { time: "15:30", text: "Arrivo a Vrsar – 1,5 ore per fare il bagno o esplorare" },
           { time: "17:00", text: "Ritorno verso Poreč" },
-          { time: "18:00", text: "Rientro alla Marina di Poreč" }
+          { time: "19:00", text: "Rientro alla Marina di Poreč" }
         ],
         importantNotes: ["Dipende dal meteo", "Si prega di comunicare in anticipo la scelta del pasto (vegetariano/pesce/carne) e le allergie", "Portare costume da bagno"],
         meetingPointLabel: "Marina di Poreč, Molo 3"
@@ -401,7 +401,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Прохождение Лим-фьорда" },
           { time: "15:30", text: "Прибытие в Врсар – 1,5 часа для купания или прогулки" },
           { time: "17:00", text: "Возвращение в Пореч" },
-          { time: "18:00", text: "Возвращение в Марину Пореч" }
+          { time: "19:00", text: "Возвращение в Марину Пореч" }
         ],
         importantNotes: ["Зависит от погоды", "Просим заранее сообщить выбор блюда (вег/рыба/мясо) и аллергии", "Возьмите купальный костюм"],
         meetingPointLabel: "Марина Пореч, причал 3"
@@ -421,7 +421,7 @@ export const tours: Tour[] = [
           { time: "14:30", text: "Przepłynięcie fiordu Lim" },
           { time: "15:30", text: "Przybycie do Vrsar – 1,5 godziny na kąpiel lub spacer" },
           { time: "17:00", text: "Powrót do Poreča" },
-          { time: "18:00", text: "Powrót do Mariny Poreč" }
+          { time: "19:00", text: "Powrót do Mariny Poreč" }
         ],
         importantNotes: ["Zależnie od pogody", "Prosimy o wcześniejsze zgłoszenie wyboru dania (weg/ryba/mięso) i alergii", "Zabrać strój kąpielowy"],
         meetingPointLabel: "Marina Poreč, Nabrzeże 3"

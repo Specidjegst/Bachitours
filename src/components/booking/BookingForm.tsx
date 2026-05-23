@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import { useRouter } from "@/i18n/routing";
 import { useForm, Controller } from "react-hook-form";
@@ -24,6 +24,7 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
     handleSubmit,
     control,
     watch,
+    setValue,
     formState: { errors },
     trigger,
   } = useForm<BookingInput>({
@@ -54,6 +55,16 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
     () => calcTotal(tour.pricing.adult, adults, kids, tour.pricing.childDiscountPct),
     [tour, adults, kids]
   );
+
+  const schedule = tour.i18n[locale].schedule;
+  const startTime = schedule[0]?.time ?? "";
+  const endTime = schedule[schedule.length - 1]?.time ?? "";
+  const hasFixedTime = schedule.length > 0 && /^\d/.test(startTime);
+  const fixedTimeRange = hasFixedTime ? `${startTime} – ${endTime}` : "";
+
+  useEffect(() => {
+    setValue("time", hasFixedTime ? fixedTimeRange : "");
+  }, [tourId, hasFixedTime, fixedTimeRange, setValue]);
 
   async function onSubmit(values: BookingInput) {
     setSubmitting(true);
@@ -129,7 +140,16 @@ export function BookingForm({ initialTour }: { initialTour?: string }) {
             </div>
             <div>
               <label className="label">{t("time")}</label>
-              <input type="time" className="input" {...register("time")} />
+              {hasFixedTime ? (
+                <input
+                  type="text"
+                  readOnly
+                  value={fixedTimeRange}
+                  className="input cursor-not-allowed bg-cream/60"
+                />
+              ) : (
+                <input type="time" className="input" {...register("time")} />
+              )}
             </div>
           </div>
 
