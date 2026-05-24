@@ -10,8 +10,13 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
   const [bookings, setBookings] = useState(initial);
   const [busyRef, setBusyRef] = useState<string | null>(null);
   const [note, setNote] = useState<string | null>(null);
+  const [filter, setFilter] = useState<"all" | "unpaid" | "paid">("all");
 
   const unpaid = bookings.filter((b) => !b.paid).length;
+  const paid = bookings.length - unpaid;
+  const shown = bookings.filter((b) =>
+    filter === "all" ? true : filter === "unpaid" ? !b.paid : b.paid
+  );
 
   async function markPaid(ref: string) {
     if (!confirm(`Buchung ${ref} als BEZAHLT markieren? Der Kunde bekommt automatisch das Ticket per E-Mail.`)) return;
@@ -61,8 +66,28 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
           <div className="mb-4 rounded-xl border border-line bg-white px-4 py-3 text-sm text-deep">{note}</div>
         )}
 
-        {bookings.length === 0 ? (
-          <p className="rounded-xl2 bg-white p-8 text-center text-muted shadow-card">Noch keine Buchungen.</p>
+        <div className="mb-4 flex flex-wrap gap-2">
+          {([
+            ["all", `Alle (${bookings.length})`],
+            ["unpaid", `Offen (${unpaid})`],
+            ["paid", `Bezahlt (${paid})`],
+          ] as const).map(([key, label]) => (
+            <button
+              key={key}
+              onClick={() => setFilter(key)}
+              className={`rounded-full px-4 py-2 text-sm font-medium transition-colors ${
+                filter === key ? "bg-deep text-white" : "border border-line bg-white text-deep hover:bg-white/70"
+              }`}
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+
+        {shown.length === 0 ? (
+          <p className="rounded-xl2 bg-white p-8 text-center text-muted shadow-card">
+            {bookings.length === 0 ? "Noch keine Buchungen." : "Keine Buchungen in dieser Ansicht."}
+          </p>
         ) : (
           <div className="overflow-x-auto rounded-xl2 bg-white shadow-card">
             <table className="w-full min-w-[800px] text-left text-sm">
@@ -81,7 +106,7 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
                 </tr>
               </thead>
               <tbody>
-                {bookings.map((b) => (
+                {shown.map((b) => (
                   <tr key={b.ref} className="border-b border-line/60 align-top">
                     <td className="px-4 py-3 font-mono text-xs">{b.ref}</td>
                     <td className="px-4 py-3 whitespace-nowrap text-xs text-muted">{formatDate(b.created_at)}</td>

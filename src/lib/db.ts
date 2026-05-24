@@ -116,7 +116,7 @@ export async function saveBooking(b: NewBooking): Promise<void> {
 export async function listBookings(): Promise<BookingRecord[]> {
   await ensureSchema();
   const { rows } = await getPool().query<BookingRecord>(
-    `SELECT * FROM bookings ORDER BY created_at DESC LIMIT 500`
+    `SELECT * FROM bookings ORDER BY paid ASC, date ASC, created_at DESC LIMIT 500`
   );
   return rows;
 }
