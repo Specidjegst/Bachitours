@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import { bookingSchema } from "@/lib/schema";
-import { generateBookingRef } from "@/lib/utils";
+import { generateBookingRef, calcTotal } from "@/lib/utils";
 import { sendBookingEmails } from "@/lib/email";
+import { saveBooking } from "@/lib/db";
 import { tours } from "@/data/tours";
 import { operatorWaUrl } from "@/lib/whatsapp";
 
@@ -112,6 +113,34 @@ export async function POST(request: Request) {
 
     const ref = generateBookingRef();
     const tourTitle = tour.i18n[values.locale].title;
+    const totalEstimate = calcTotal(
+      tour.pricing.adult,
+      values.adults,
+      values.kids,
+      tour.pricing.childDiscountPct
+    );
+
+    try {
+      await saveBooking({
+        ref,
+        tourId: values.tourId,
+        tourTitle,
+        date: values.date,
+        time: values.time || "",
+        adults: values.adults,
+        kids: values.kids,
+        infants: values.infants,
+        firstName: values.firstName,
+        lastName: values.lastName,
+        email: values.email,
+        phone: values.phone,
+        locale: values.locale,
+        message: values.message || "",
+        totalEstimate,
+      });
+    } catch (e) {
+      console.error("[booking] db save error", e);
+    }
 
     try {
       await sendBookingEmails(values, ref);
