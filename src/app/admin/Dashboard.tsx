@@ -10,12 +10,16 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
   const [bookings, setBookings] = useState(initial);
   const [busyRef, setBusyRef] = useState<string | null>(null);
   const [note, setNote] = useState<string | null>(null);
-  const [filter, setFilter] = useState<"all" | "unpaid" | "paid">("all");
+  const [filter, setFilter] = useState<"all" | "unpaid" | "paid" | "cancelled">("all");
 
-  const unpaid = bookings.filter((b) => !b.paid).length;
-  const paid = bookings.length - unpaid;
+  const unpaid = bookings.filter((b) => !b.paid && !b.cancelled).length;
+  const paid = bookings.filter((b) => b.paid).length;
+  const cancelled = bookings.filter((b) => b.cancelled).length;
   const shown = bookings.filter((b) =>
-    filter === "all" ? true : filter === "unpaid" ? !b.paid : b.paid
+    filter === "all" ? true
+    : filter === "unpaid" ? !b.paid && !b.cancelled
+    : filter === "paid" ? b.paid
+    : b.cancelled
   );
 
   async function markPaid(ref: string) {
@@ -34,6 +38,32 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
           prev.map((b) => (b.ref === ref ? { ...b, paid: true, paid_at: new Date().toISOString() } : b))
         );
         setNote(data.ticketSent ? `Ticket für ${ref} wurde per E-Mail verschickt.` : `${ref} als bezahlt markiert, aber Ticket-E-Mail fehlgeschlagen (Logs prüfen).`);
+      } else {
+        setNote(`Fehler bei ${ref}: ${data.error || "unbekannt"}`);
+      }
+    } catch {
+      setNote(`Netzwerkfehler bei ${ref}.`);
+    } finally {
+      setBusyRef(null);
+    }
+  }
+
+  async function cancelBooking(ref: string) {
+    if (!confirm(`Buchung ${ref} stornieren? Das kann nicht rückgängig gemacht werden.`)) return;
+    setBusyRef(ref);
+    setNote(null);
+    try {
+      const res = await fetch("/api/admin/cancel", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ ref }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        setBookings((prev) =>
+          prev.map((b) => (b.ref === ref ? { ...b, cancelled: true, cancelled_at: new Date().toISOString() } : b))
+        );
+        setNote(`Buchung ${ref} wurde storniert.`);
       } else {
         setNote(`Fehler bei ${ref}: ${data.error || "unbekannt"}`);
       }
@@ -71,6 +101,7 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
             ["all", `Alle (${bookings.length})`],
             ["unpaid", `Offen (${unpaid})`],
             ["paid", `Bezahlt (${paid})`],
+            ["cancelled", `Storniert (${cancelled})`],
           ] as const).map(([key, label]) => (
             <button
               key={key}
@@ -120,21 +151,32 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
                     <td className="px-4 py-3 whitespace-nowrap text-xs">{b.adults}+{b.kids}+{b.infants}</td>
                     <td className="px-4 py-3 whitespace-nowrap">{b.total_estimate > 0 ? `${b.total_estimate} €` : "—"}</td>
                     <td className="px-4 py-3">
-                      {b.paid ? (
+                      {b.cancelled ? (
+                        <span className="rounded-full bg-red-100 px-2 py-1 text-xs font-semibold text-red-600">STORNIERT</span>
+                      ) : b.paid ? (
                         <span className="rounded-full bg-success/15 px-2 py-1 text-xs font-semibold text-success">BEZAHLT</span>
                       ) : (
                         <span className="rounded-full bg-sun/15 px-2 py-1 text-xs font-semibold text-sun">offen</span>
                       )}
                     </td>
                     <td className="px-4 py-3">
-                      {!b.paid && (
-                        <button
-                          onClick={() => markPaid(b.ref)}
-                          disabled={busyRef === b.ref}
-                          className="whitespace-nowrap rounded-full bg-success px-3 py-1.5 text-xs font-semibold text-white hover:brightness-105 disabled:opacity-60"
-                        >
-                          {busyRef === b.ref ? "..." : "Bezahlt → Ticket"}
-                        </button>
+                      {!b.paid && !b.cancelled && (
+                        <div className="flex flex-col gap-1.5">
+                          <button
+                            onClick={() => markPaid(b.ref)}
+                            disabled={busyRef === b.ref}
+                            className="whitespace-nowrap rounded-full bg-success px-3 py-1.5 text-xs font-semibold text-white hover:brightness-105 disabled:opacity-60"
+                          >
+                            {busyRef === b.ref ? "..." : "Bezahlt → Ticket"}
+                          </button>
+                          <button
+                            onClick={() => cancelBooking(b.ref)}
+                            disabled={busyRef === b.ref}
+                            className="whitespace-nowrap rounded-full border border-red-300 px-3 py-1.5 text-xs font-semibold text-red-600 hover:bg-red-50 disabled:opacity-60"
+                          >
+                            Stornieren
+                          </button>
+                        </div>
                       )}
                     </td>
                   </tr>

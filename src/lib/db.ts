@@ -47,7 +47,9 @@ async function ensureSchema(): Promise<void> {
           paid BOOLEAN NOT NULL DEFAULT FALSE,
           paid_at TIMESTAMPTZ,
           created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
-        )`
+        );
+        ALTER TABLE bookings ADD COLUMN IF NOT EXISTS cancelled BOOLEAN NOT NULL DEFAULT FALSE;
+        ALTER TABLE bookings ADD COLUMN IF NOT EXISTS cancelled_at TIMESTAMPTZ;`
       )
       .then(() => undefined)
       .catch((e) => {
@@ -77,6 +79,8 @@ export type BookingRecord = {
   total_estimate: number;
   paid: boolean;
   paid_at: string | null;
+  cancelled: boolean;
+  cancelled_at: string | null;
   created_at: string;
 };
 
@@ -116,9 +120,19 @@ export async function saveBooking(b: NewBooking): Promise<void> {
 export async function listBookings(): Promise<BookingRecord[]> {
   await ensureSchema();
   const { rows } = await getPool().query<BookingRecord>(
-    `SELECT * FROM bookings ORDER BY paid ASC, date ASC, created_at DESC LIMIT 500`
+    `SELECT * FROM bookings ORDER BY cancelled ASC, paid ASC, date ASC, created_at DESC LIMIT 500`
   );
   return rows;
+}
+
+export async function cancelBooking(ref: string): Promise<BookingRecord | null> {
+  await ensureSchema();
+  const { rows } = await getPool().query<BookingRecord>(
+    `UPDATE bookings SET cancelled = TRUE, cancelled_at = NOW()
+     WHERE ref = $1 AND paid = FALSE RETURNING *`,
+    [ref]
+  );
+  return rows[0] ?? null;
 }
 
 export async function getBookingByRef(ref: string): Promise<BookingRecord | null> {
