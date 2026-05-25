@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import type { BookingRecord } from "@/lib/db";
 
 function formatDate(iso: string) {
@@ -11,6 +11,27 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
   const [busyRef, setBusyRef] = useState<string | null>(null);
   const [note, setNote] = useState<string | null>(null);
   const [filter, setFilter] = useState<"all" | "unpaid" | "paid" | "cancelled">("all");
+  const [refreshing, setRefreshing] = useState(false);
+
+  const refresh = useCallback(async () => {
+    setRefreshing(true);
+    try {
+      const res = await fetch("/api/admin/bookings", { cache: "no-store" });
+      if (res.ok) {
+        const data = await res.json();
+        if (Array.isArray(data.bookings)) setBookings(data.bookings);
+      }
+    } catch {
+      // ignore network blips, next poll will retry
+    } finally {
+      setRefreshing(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    const id = setInterval(refresh, 30000);
+    return () => clearInterval(id);
+  }, [refresh]);
 
   const unpaid = bookings.filter((b) => !b.paid && !b.cancelled).length;
   const paid = bookings.filter((b) => b.paid).length;
@@ -87,9 +108,18 @@ export function Dashboard({ initial }: { initial: BookingRecord[] }) {
             <h1 className="text-2xl font-bold text-deep">Buchungen</h1>
             <p className="text-sm text-muted">{bookings.length} gesamt · {unpaid} offen</p>
           </div>
-          <button onClick={logout} className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-deep hover:bg-white/70">
-            Abmelden
-          </button>
+          <div className="flex items-center gap-2">
+            <button
+              onClick={refresh}
+              disabled={refreshing}
+              className="rounded-full bg-deep px-4 py-2 text-sm font-medium text-white hover:bg-primary disabled:opacity-60"
+            >
+              {refreshing ? "Lädt…" : "Aktualisieren"}
+            </button>
+            <button onClick={logout} className="rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-deep hover:bg-white/70">
+              Abmelden
+            </button>
+          </div>
         </div>
 
         {note && (
