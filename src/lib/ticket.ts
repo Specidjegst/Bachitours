@@ -70,8 +70,8 @@ export async function generateTicketPdf(b: BookingRecord): Promise<Uint8Array> {
   const doc = await PDFDocument.create();
   doc.registerFontkit(fontkit);
   const fontDir = path.join(process.cwd(), "public", "fonts");
-  const regular = await doc.embedFont(readFileSync(path.join(fontDir, "NotoSans-Regular.ttf")), { subset: true });
-  const bold = await doc.embedFont(readFileSync(path.join(fontDir, "NotoSans-Bold.ttf")), { subset: true });
+  const regular = await doc.embedFont(readFileSync(path.join(fontDir, "NotoSans-Regular.ttf")));
+  const bold = await doc.embedFont(readFileSync(path.join(fontDir, "NotoSans-Bold.ttf")));
 
   const W = 595;
   const H = 842;
