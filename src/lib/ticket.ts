@@ -1,4 +1,4 @@
-import { PDFDocument, rgb, degrees, PDFPage, PDFFont } from "pdf-lib";
+import { PDFDocument, rgb, PDFPage, PDFFont } from "pdf-lib";
 import fontkit from "@pdf-lib/fontkit";
 import { readFileSync } from "fs";
 import path from "path";
@@ -135,12 +135,17 @@ export async function generateTicketPdf(b: BookingRecord): Promise<Uint8Array> {
   page.drawText(t.ref.toUpperCase(), { x: M + 24, y: y - 30, size: 9, font: bold, color: ACCENT });
   page.drawText(b.ref, { x: M + 24, y: y - 60, size: 26, font: bold, color: WHITE });
 
-  const stampW = bold.widthOfTextAtSize(t.paid, 14) + 32;
-  const stampH = 40;
-  const sx = W - M - 28 - stampW;
-  const sy = y - heroH / 2 - stampH / 2 + 2;
-  page.drawRectangle({ x: sx, y: sy, width: stampW, height: stampH, borderColor: ACCENT, borderWidth: 2, color: SUCCESS, rotate: degrees(-7) });
-  page.drawText(t.paid, { x: sx + 19, y: sy + 13, size: 14, font: bold, color: WHITE, rotate: degrees(-7) });
+  const labelW = bold.widthOfTextAtSize(t.paid, 13);
+  const padX = 18;
+  const checkW = 14;
+  const gap2 = 8;
+  const pillW = padX * 2 + checkW + gap2 + labelW;
+  const pillH = 36;
+  const pillCenterY = y - heroH / 2;
+  const px = W - M - 26 - pillW;
+  roundedRect(page, px, pillCenterY + pillH / 2, pillW, pillH, pillH / 2, { color: SUCCESS });
+  page.drawSvgPath("M 0 7 L 4.5 11 L 12 0", { x: px + padX, y: pillCenterY + 5.5, borderColor: WHITE, borderWidth: 2.4 });
+  page.drawText(t.paid, { x: px + padX + checkW + gap2, y: pillCenterY - 4.5, size: 13, font: bold, color: WHITE });
 
   y -= heroH + 34;
 
