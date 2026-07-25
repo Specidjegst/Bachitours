@@ -143,7 +143,7 @@ export const tours: Tour[] = [
     maxGuests: 10,
     isPrivate: false,
     languages: ["de", "en", "hr", "fr"],
-    pricing: { adult: PRICE, childDiscountPct: 50, infantFree: true, currency: "EUR" },
+    pricing: { adult: 35, childDiscountPct: 50, infantFree: true, currency: "EUR" },
     meetingPoint: { lat: 45.2269, lng: 13.5944 },
     images: [
       { src: "https://i.imgur.com/4R2qlQA.jpg", alt: "Sonnenuntergang mit Delfinen vor Poreč" },
