@@ -21,7 +21,7 @@ export const tours: Tour[] = [
         slug: "delfin-safari",
         shortDescription: "Delfine vor Poreč erleben – kleine Gruppe, lokaler Skipper, Getränke an Bord.",
         description: "Erleben Sie die Adria-Delfine in ihrem natürlichen Lebensraum. Wir fahren zu den Lieblingsplätzen der Delfine vor der Küste Poreč. Auf dem Weg sehen Sie oft auch Kormoran-Kolonien an der felsigen Küste.",
-        highlights: ["Delfin-Beobachtung zur besten Zeit", "Lokaler erfahrener Skipper", "Getränke an Bord inklusive", "Kleine Gruppe (max. 10)"],
+        highlights: ["Delfin-Beobachtung zur besten Zeit", "Lokaler erfahrener Skipper", "Getränke an Bord inklusive", "Bis 10 Pers.: Speedboot · ab 11 Pers.: größeres Schiff"],
         included: ["Skipper", "Getränke"],
         notIncluded: ["Abendessen", "Hotelabholung"],
         schedule: [
@@ -38,7 +38,7 @@ export const tours: Tour[] = [
         slug: "dolphin-safari",
         shortDescription: "Watch dolphins off Poreč – small group, local skipper, drinks on board.",
         description: "Watch Adriatic dolphins in their natural habitat. We head to the dolphins' favorite spots along the Poreč coast. On the way you often also see cormorant colonies on the rocky shore.",
-        highlights: ["Dolphin watching at the best time", "Experienced local skipper", "Drinks on board included", "Small group (max 10)"],
+        highlights: ["Dolphin watching at the best time", "Experienced local skipper", "Drinks on board included", "Up to 10 guests: speedboat · 11+ guests: bigger boat"],
         included: ["Skipper", "Drinks"],
         notIncluded: ["Dinner", "Hotel pickup"],
         schedule: [
@@ -55,7 +55,7 @@ export const tours: Tour[] = [
         slug: "delfin-safari",
         shortDescription: "Promatranje dupina ispred Poreča – mala grupa, lokalni skiper, pića na brodu.",
         description: "Promatrajte jadranske dupine u njihovom prirodnom okruženju. Plovimo do omiljenih mjesta dupina uz obalu Poreča. Usput često vidite i kolonije vranaca na stjenovitoj obali.",
-        highlights: ["Promatranje dupina u najboljem vremenu", "Iskusan lokalni skiper", "Pića na brodu uključena", "Mala grupa (maks. 10)"],
+        highlights: ["Promatranje dupina u najboljem vremenu", "Iskusan lokalni skiper", "Pića na brodu uključena", "Do 10 osoba: gliser · 11+ osoba: veći brod"],
         included: ["Skiper", "Pića"],
         notIncluded: ["Večera", "Preuzimanje iz hotela"],
         schedule: [
@@ -72,7 +72,7 @@ export const tours: Tour[] = [
         slug: "safari-dauphins",
         shortDescription: "Observation des dauphins au large de Poreč – petit groupe, skipper local, boissons à bord.",
         description: "Observez les dauphins de l'Adriatique dans leur habitat naturel. Nous nous rendons aux endroits préférés des dauphins le long de la côte de Poreč. En chemin, vous voyez souvent aussi des colonies de cormorans sur la côte rocheuse.",
-        highlights: ["Observation des dauphins au meilleur moment", "Skipper local expérimenté", "Boissons à bord incluses", "Petit groupe (max 10)"],
+        highlights: ["Observation des dauphins au meilleur moment", "Skipper local expérimenté", "Boissons à bord incluses", "Jusqu'à 10 pers. : hors-bord · 11+ : bateau plus grand"],
         included: ["Skipper", "Boissons"],
         notIncluded: ["Dîner", "Prise en charge à l'hôtel"],
         schedule: [
@@ -89,7 +89,7 @@ export const tours: Tour[] = [
         slug: "safari-delfini",
         shortDescription: "Avvistamento delfini al largo di Poreč – piccolo gruppo, skipper locale, bevande a bordo.",
         description: "Osserva i delfini dell'Adriatico nel loro habitat naturale. Andiamo nei luoghi preferiti dei delfini lungo la costa di Poreč. Lungo il percorso vedrai spesso anche colonie di cormorani sulla costa rocciosa.",
-        highlights: ["Avvistamento delfini al momento migliore", "Skipper locale esperto", "Bevande a bordo incluse", "Piccolo gruppo (max 10)"],
+        highlights: ["Avvistamento delfini al momento migliore", "Skipper locale esperto", "Bevande a bordo incluse", "Fino a 10 persone: motoscafo · 11+: barca più grande"],
         included: ["Skipper", "Bevande"],
         notIncluded: ["Cena", "Trasferimento dall'hotel"],
         schedule: [
@@ -106,7 +106,7 @@ export const tours: Tour[] = [
         slug: "delfin-safari",
         shortDescription: "Наблюдение за дельфинами у Пореча – маленькая группа, местный шкипер, напитки на борту.",
         description: "Наблюдайте за дельфинами Адриатики в их естественной среде. Мы отправляемся в любимые места дельфинов вдоль побережья Пореча. По пути вы часто увидите также колонии бакланов на скалистом берегу.",
-        highlights: ["Наблюдение за дельфинами в лучшее время", "Опытный местный шкипер", "Напитки на борту включены", "Маленькая группа (макс. 10)"],
+        highlights: ["Наблюдение за дельфинами в лучшее время", "Опытный местный шкипер", "Напитки на борту включены", "До 10 человек: катер · от 11: судно побольше"],
         included: ["Шкипер", "Напитки"],
         notIncluded: ["Ужин", "Трансфер из отеля"],
         schedule: [
@@ -123,7 +123,7 @@ export const tours: Tour[] = [
         slug: "safari-z-delfinami",
         shortDescription: "Obserwacja delfinów u wybrzeży Poreča – mała grupa, lokalny skipper, napoje na pokładzie.",
         description: "Obserwuj adriatyckie delfiny w ich naturalnym środowisku. Płyniemy w ulubione miejsca delfinów wzdłuż wybrzeża Poreča. Po drodze często zobaczysz też kolonie kormoranów na skalistym wybrzeżu.",
-        highlights: ["Obserwacja delfinów w najlepszym czasie", "Doświadczony lokalny skipper", "Napoje na pokładzie w cenie", "Mała grupa (maks. 10)"],
+        highlights: ["Obserwacja delfinów w najlepszym czasie", "Doświadczony lokalny skipper", "Napoje na pokładzie w cenie", "Do 10 osób: motorówka · od 11 osób: większa łódź"],
         included: ["Skipper", "Napoje"],
         notIncluded: ["Kolacja", "Odbiór z hotelu"],
         schedule: [
@@ -155,7 +155,7 @@ export const tours: Tour[] = [
         slug: "delfin-sunset",
         shortDescription: "Delfine im goldenen Abendlicht – die magische Stunde vor Poreč.",
         description: "Erleben Sie Delfine in der goldenen Stunde vor Poreč. Während die Sonne im Adria-Wasser versinkt, sind die Delfine besonders aktiv – eine unvergessliche Stimmung für Foto und Erlebnis.",
-        highlights: ["Delfine zur goldenen Stunde", "Spektakulärer Sonnenuntergang", "Getränke an Bord inklusive", "Kleine Gruppe (max. 10)"],
+        highlights: ["Delfine zur goldenen Stunde", "Spektakulärer Sonnenuntergang", "Getränke an Bord inklusive", "Bis 10 Pers.: Speedboot · ab 11 Pers.: größeres Schiff"],
         included: ["Skipper", "Getränke"],
         notIncluded: ["Abendessen", "Hotelabholung"],
         schedule: [
@@ -172,7 +172,7 @@ export const tours: Tour[] = [
         slug: "dolphin-sunset",
         shortDescription: "Dolphins in the golden evening light – the magic hour off Poreč.",
         description: "Experience dolphins during the golden hour off Poreč. As the sun sets into the Adriatic, the dolphins are especially active – an unforgettable mood for both photos and memories.",
-        highlights: ["Dolphins at the golden hour", "Spectacular sunset", "Drinks on board included", "Small group (max 10)"],
+        highlights: ["Dolphins at the golden hour", "Spectacular sunset", "Drinks on board included", "Up to 10 guests: speedboat · 11+ guests: bigger boat"],
         included: ["Skipper", "Drinks"],
         notIncluded: ["Dinner", "Hotel pickup"],
         schedule: [
@@ -189,7 +189,7 @@ export const tours: Tour[] = [
         slug: "delfin-sunset",
         shortDescription: "Dupini u zlatnoj večernjoj svjetlosti – čarobni sat ispred Poreča.",
         description: "Doživite dupine u zlatnom satu ispred Poreča. Dok sunce zalazi u Jadran, dupini su posebno aktivni – nezaboravna atmosfera za fotografije i uspomene.",
-        highlights: ["Dupini u zlatnom satu", "Spektakularan zalazak sunca", "Pića na brodu uključena", "Mala grupa (maks. 10)"],
+        highlights: ["Dupini u zlatnom satu", "Spektakularan zalazak sunca", "Pića na brodu uključena", "Do 10 osoba: gliser · 11+ osoba: veći brod"],
         included: ["Skiper", "Pića"],
         notIncluded: ["Večera", "Preuzimanje iz hotela"],
         schedule: [
@@ -206,7 +206,7 @@ export const tours: Tour[] = [
         slug: "sunset-dauphins",
         shortDescription: "Dauphins dans la lumière dorée du soir – l'heure magique au large de Poreč.",
         description: "Découvrez les dauphins à l'heure dorée au large de Poreč. Pendant que le soleil se couche dans l'Adriatique, les dauphins sont particulièrement actifs – une ambiance inoubliable pour les photos comme pour les souvenirs.",
-        highlights: ["Dauphins à l'heure dorée", "Coucher de soleil spectaculaire", "Boissons à bord incluses", "Petit groupe (max 10)"],
+        highlights: ["Dauphins à l'heure dorée", "Coucher de soleil spectaculaire", "Boissons à bord incluses", "Jusqu'à 10 pers. : hors-bord · 11+ : bateau plus grand"],
         included: ["Skipper", "Boissons"],
         notIncluded: ["Dîner", "Prise en charge à l'hôtel"],
         schedule: [
@@ -223,7 +223,7 @@ export const tours: Tour[] = [
         slug: "sunset-delfini",
         shortDescription: "Delfini nella luce dorata della sera – l'ora magica al largo di Poreč.",
         description: "Vivi i delfini nell'ora dorata al largo di Poreč. Mentre il sole tramonta nell'Adriatico, i delfini sono particolarmente attivi – un'atmosfera indimenticabile per foto e ricordi.",
-        highlights: ["Delfini nell'ora dorata", "Tramonto spettacolare", "Bevande a bordo incluse", "Piccolo gruppo (max 10)"],
+        highlights: ["Delfini nell'ora dorata", "Tramonto spettacolare", "Bevande a bordo incluse", "Fino a 10 persone: motoscafo · 11+: barca più grande"],
         included: ["Skipper", "Bevande"],
         notIncluded: ["Cena", "Trasferimento dall'hotel"],
         schedule: [
@@ -240,7 +240,7 @@ export const tours: Tour[] = [
         slug: "delfin-sunset",
         shortDescription: "Дельфины в золотом вечернем свете – волшебный час у Пореча.",
         description: "Откройте для себя дельфинов в золотой час у Пореча. Пока солнце садится в Адриатику, дельфины особенно активны – незабываемая атмосфера для фото и воспоминаний.",
-        highlights: ["Дельфины в золотой час", "Захватывающий закат", "Напитки на борту включены", "Маленькая группа (макс. 10)"],
+        highlights: ["Дельфины в золотой час", "Захватывающий закат", "Напитки на борту включены", "До 10 человек: катер · от 11: судно побольше"],
         included: ["Шкипер", "Напитки"],
         notIncluded: ["Ужин", "Трансфер из отеля"],
         schedule: [
@@ -257,7 +257,7 @@ export const tours: Tour[] = [
         slug: "sunset-z-delfinami",
         shortDescription: "Delfiny w złotym wieczornym świetle – magiczna godzina u wybrzeży Poreča.",
         description: "Doświadcz delfinów w złotej godzinie u wybrzeży Poreča. Gdy słońce zachodzi w Adriatyku, delfiny są szczególnie aktywne – niezapomniana atmosfera na zdjęcia i wspomnienia.",
-        highlights: ["Delfiny w złotej godzinie", "Spektakularny zachód słońca", "Napoje na pokładzie w cenie", "Mała grupa (maks. 10)"],
+        highlights: ["Delfiny w złotej godzinie", "Spektakularny zachód słońca", "Napoje na pokładzie w cenie", "Do 10 osób: motorówka · od 11 osób: większa łódź"],
         included: ["Skipper", "Napoje"],
         notIncluded: ["Kolacja", "Odbiór z hotelu"],
         schedule: [
